@@ -571,9 +571,14 @@ export class LanguageGenerator {
     }
 
     async saveLanguageData(languageName, filePath) {
-        const language = this.languageDatabase.get(languageName);
+        let language = this.languageDatabase.get(languageName);
+        
+        // If not in memory, try to load from filesystem
         if (!language) {
-            throw new Error(`Language "${languageName}" not found`);
+            language = await this.loadFullLanguageData(languageName);
+            if (!language) {
+                throw new Error(`Language "${languageName}" not found`);
+            }
         }
 
         const exportData = {

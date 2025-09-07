@@ -1,0 +1,775 @@
+{
+  "config": {
+    "name": "Tamato2",
+    "style": "consonant_shift",
+    "vocabulary": [],
+    "phoneticRules": {},
+    "etymologicalDepth": "high",
+    "customPrompt": "this should concern the essence of tomato's at heart",
+    "appliedGuidance": {
+      "phonetics": [],
+      "morphology": [],
+      "semantics": [],
+      "culture": []
+    },
+    "asciiPronunciation": true
+  },
+  "vocabulary": {
+    "butter": {
+      "english": "butter",
+      "sigment": "pudder",
+      "pronunciation": "/pʌddɛr/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "butter"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCCVC",
+        "syllableCount": 2,
+        "complexity": 0.8,
+        "rhythm": "closed_syllable"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "bread": {
+      "english": "bread",
+      "sigment": "preat",
+      "pronunciation": "/prɛæt/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "bread"
+      },
+      "phoneticStructure": {
+        "pattern": "CCVVC",
+        "syllableCount": 1,
+        "complexity": 0.75,
+        "rhythm": "vowel_centered"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "turmoil": {
+      "english": "turmoil",
+      "sigment": "durmoil",
+      "pronunciation": "/dʌrmɔɪl/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "turmoil"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCCVVC",
+        "syllableCount": 2,
+        "complexity": 1,
+        "rhythm": "dactylic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "taste": {
+      "english": "taste",
+      "sigment": "dazde",
+      "pronunciation": "/dæzdɛ/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "taste"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCCV",
+        "syllableCount": 2,
+        "complexity": 0.65,
+        "rhythm": "iambic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "bud": {
+      "english": "bud",
+      "sigment": "put",
+      "pronunciation": "/pʌt/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "bud"
+      },
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "foot": {
+      "english": "foot",
+      "sigment": "vood",
+      "pronunciation": "/vɔɔd/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "foot"
+      },
+      "phoneticStructure": {
+        "pattern": "CVVC",
+        "syllableCount": 1,
+        "complexity": 0.5,
+        "rhythm": "vowel_centered"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "video": {
+      "english": "video",
+      "sigment": "fiteo",
+      "pronunciation": "/fɪtɛɔ/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "video"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCVV",
+        "syllableCount": 2,
+        "complexity": 0.75,
+        "rhythm": "trochaic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "able": {
+      "english": "able",
+      "sigment": "aple",
+      "pronunciation": "/æplɛ/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "able"
+      },
+      "phoneticStructure": {
+        "pattern": "VCCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "iambic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "being": {
+      "english": "being",
+      "sigment": "peink",
+      "pronunciation": "/pɛɪnk/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "being"
+      },
+      "phoneticStructure": {
+        "pattern": "CVVCC",
+        "syllableCount": 1,
+        "complexity": 0.75,
+        "rhythm": "vowel_centered"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "Being can be a noun (e.g./\"the state of being\")/an adjective (e.g./\"being human\")/a verb (e.g./\"to be\")/or a pronoun (e.g./\"it is being\").",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "justice": {
+      "english": "justice",
+      "sigment": "yuzdice",
+      "pronunciation": "/jʌzdɪkɛ/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "justice"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCCVCV",
+        "syllableCount": 3,
+        "complexity": 1,
+        "rhythm": "trochaic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "tomorrow": {
+      "english": "tomorrow",
+      "sigment": "domorrov",
+      "pronunciation": "/dɔmɔrrɔv/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "tomorrow"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCVCCVC",
+        "syllableCount": 3,
+        "complexity": 0.9,
+        "rhythm": "dactylic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "fun": {
+      "english": "fun",
+      "sigment": "vun",
+      "pronunciation": "/vʌn/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "fun"
+      },
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "funny": {
+      "english": "funny",
+      "sigment": "vunny",
+      "pronunciation": "/vʌnnj/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "funny"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCCC",
+        "syllableCount": 1,
+        "complexity": 0.65,
+        "rhythm": "vowel_centered"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "abled": {
+      "english": "abled",
+      "sigment": "aplet",
+      "pronunciation": "/æplɛt/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "abled"
+      },
+      "phoneticStructure": {
+        "pattern": "VCCVC",
+        "syllableCount": 2,
+        "complexity": 0.75,
+        "rhythm": "trochaic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "miserable": {
+      "english": "miserable",
+      "sigment": "mizeraple",
+      "pronunciation": "/mɪzɛræplɛ/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "miserable"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCVCVCCV",
+        "syllableCount": 4,
+        "complexity": 1,
+        "rhythm": "anapestic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "misery": {
+      "english": "misery",
+      "sigment": "mizery",
+      "pronunciation": "/mɪzɛrj/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "misery"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCVCC",
+        "syllableCount": 2,
+        "complexity": 0.9000000000000001,
+        "rhythm": "dactylic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "bar": {
+      "english": "bar",
+      "sigment": "par",
+      "pronunciation": "/pær/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "bar"
+      },
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "cold": {
+      "english": "cold",
+      "sigment": "colt",
+      "pronunciation": "/kɔlt/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "cold"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "serial": {
+      "english": "serial",
+      "sigment": "zerial",
+      "pronunciation": "/zɛrɪæl/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "serial"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCVVC",
+        "syllableCount": 2,
+        "complexity": 0.9000000000000001,
+        "rhythm": "anapestic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "far": {
+      "english": "far",
+      "sigment": "var",
+      "pronunciation": "/vær/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "far"
+      },
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "mountain": {
+      "english": "mountain",
+      "sigment": "moundain",
+      "pronunciation": "/mɔʌndæɪn/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "mountain"
+      },
+      "phoneticStructure": {
+        "pattern": "CVVCCVVC",
+        "syllableCount": 2,
+        "complexity": 1,
+        "rhythm": "trochaic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "fur": {
+      "english": "fur",
+      "sigment": "vur",
+      "pronunciation": "/vʌr/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "fur"
+      },
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "smells": {
+      "english": "smells",
+      "sigment": "zmellz",
+      "pronunciation": "/zmɛllz/",
+      "definitions": {
+        "primary": []
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "smells"
+      },
+      "phoneticStructure": {
+        "pattern": "CCVCCC",
+        "syllableCount": 1,
+        "complexity": 0.7000000000000001,
+        "rhythm": "vowel_centered"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "indifferent": {
+      "english": "indifferent",
+      "sigment": "intivverend",
+      "pronunciation": "intivverend",
+      "definitions": {
+        "primary": [
+          "Definition of indifferent"
+        ]
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "indifferent"
+      },
+      "phoneticStructure": {
+        "pattern": "VCCVCCVCVCC",
+        "syllableCount": 4,
+        "complexity": 1,
+        "rhythm": "dactylic"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    },
+    "like": {
+      "english": "like",
+      "sigment": "lige",
+      "pronunciation": "lige",
+      "definitions": {
+        "primary": [
+          "Definition of like"
+        ]
+      },
+      "etymology": {
+        "morphemes": [],
+        "origin": "reconstructed",
+        "root": "like"
+      },
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      },
+      "transformationRules": [],
+      "partOfSpeech": "unknown",
+      "frequency": "unknown",
+      "created": "2025-09-07T21:26:33.864Z"
+    }
+  },
+  "phoneticSystem": {
+    "vowelInventory": [
+      "e",
+      "o",
+      "a",
+      "i",
+      "u"
+    ],
+    "consonantInventory": [
+      "d",
+      "h",
+      "p",
+      "v",
+      "n",
+      "t",
+      "f",
+      "r",
+      "z",
+      "y",
+      "m",
+      "l",
+      "b",
+      "k",
+      "c",
+      "g"
+    ],
+    "phoneticPatterns": {
+      "CCV": 4,
+      "CV": 11,
+      "VC": 14,
+      "VCC": 6,
+      "V": 2,
+      "CCVC": 13,
+      "CVCV": 14,
+      "CVC": 22,
+      "CVCC": 13,
+      "CVV": 1,
+      "CC": 2,
+      "VCV": 2,
+      "CVVCC": 4,
+      "CCVCV": 3,
+      "CCVVC": 2,
+      "VVC": 3,
+      "VCVVC": 2,
+      "CCVCC": 2,
+      "CVVCCV": 1,
+      "VCCV": 2,
+      "CVVC": 4,
+      "VCCVC": 2,
+      "VCCC": 1,
+      "VCVC": 2,
+      "CVCCC": 2,
+      "CVCVVCV": 1,
+      "CVCVC": 1,
+      "CCCVVCC": 1,
+      "CVCVCV": 1,
+      "CVCCVC": 2,
+      "VCVVCC": 1,
+      "CCCV": 1,
+      "CCC": 1,
+      "VCVCC": 1,
+      "CVCCVVC": 1,
+      "CCVVCC": 1
+    },
+    "syllableStructures": {
+      "1": 110,
+      "2": 34,
+      "3": 2
+    },
+    "stressPatterns": []
+  },
+  "metadata": {
+    "created": "2025-09-07T21:26:33.864Z",
+    "version": "1.0.9",
+    "generator": "Sigment Language Constructor",
+    "config": {
+      "name": "Tamato2",
+      "style": "consonant_shift",
+      "vocabulary": [],
+      "phoneticRules": {},
+      "etymologicalDepth": "high",
+      "customPrompt": "this should concern the essence of tomato's at heart",
+      "appliedGuidance": {
+        "phonetics": [],
+        "morphology": [],
+        "semantics": [],
+        "culture": []
+      },
+      "asciiPronunciation": true
+    },
+    "phoneticSystem": {
+      "vowelInventory": [
+        "e",
+        "o",
+        "a",
+        "i",
+        "u"
+      ],
+      "consonantInventory": [
+        "d",
+        "h",
+        "p",
+        "v",
+        "n",
+        "t",
+        "f",
+        "r",
+        "z",
+        "y",
+        "m",
+        "l",
+        "b",
+        "k",
+        "c",
+        "g"
+      ],
+      "phoneticPatterns": {
+        "CCV": 4,
+        "CV": 11,
+        "VC": 14,
+        "VCC": 6,
+        "V": 2,
+        "CCVC": 13,
+        "CVCV": 14,
+        "CVC": 22,
+        "CVCC": 13,
+        "CVV": 1,
+        "CC": 2,
+        "VCV": 2,
+        "CVVCC": 4,
+        "CCVCV": 3,
+        "CCVVC": 2,
+        "VVC": 3,
+        "VCVVC": 2,
+        "CCVCC": 2,
+        "CVVCCV": 1,
+        "VCCV": 2,
+        "CVVC": 4,
+        "VCCVC": 2,
+        "VCCC": 1,
+        "VCVC": 2,
+        "CVCCC": 2,
+        "CVCVVCV": 1,
+        "CVCVC": 1,
+        "CCCVVCC": 1,
+        "CVCVCV": 1,
+        "CVCCVC": 2,
+        "VCVVCC": 1,
+        "CCCV": 1,
+        "CCC": 1,
+        "VCVCC": 1,
+        "CVCCVVC": 1,
+        "CCVVCC": 1
+      },
+      "syllableStructures": {
+        "1": 110,
+        "2": 34,
+        "3": 2
+      },
+      "stressPatterns": []
+    },
+    "vocabularySize": 25,
+    "generationStats": {
+      "wordsProcessed": 2,
+      "languagesCreated": 0,
+      "startTime": null,
+      "errors": []
+    },
+    "lastModified": "2025-09-07T22:56:39.831Z"
+  },
+  "stats": {
+    "wordsProcessed": 0,
+    "languagesCreated": 0,
+    "startTime": null,
+    "errors": [],
+    "elapsedTime": 0
+  }
+}

@@ -1,6 +1,6 @@
 {
   "created": "2025-09-07T21:26:33.864Z",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "generator": "Sigment Language Constructor",
   "config": {
     "name": "Tamato2",
@@ -88,12 +88,12 @@
     },
     "stressPatterns": []
   },
-  "vocabularySize": 0,
+  "vocabularySize": 26,
   "generationStats": {
-    "wordsProcessed": 0,
+    "wordsProcessed": 1,
     "languagesCreated": 0,
     "startTime": null,
     "errors": []
   },
-  "lastModified": "2025-09-07T22:09:57.262Z"
+  "lastModified": "2025-09-07T22:58:11.356Z"
 }

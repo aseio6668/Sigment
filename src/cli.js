@@ -6,6 +6,25 @@ import { LanguageGenerator } from './language-generator.js';
 import fs from 'fs/promises';
 import path from 'path';
 
+// Navigation helper for menus
+class InteractiveMenu {
+    static async listPrompt(options) {
+        // Add 'Back' option to choices if not already present
+        const choices = [...options.choices];
+        if (!choices.includes('Back') && !choices.some(c => c.value === 'back')) {
+            choices.push(new inquirer.Separator());
+            choices.push({ name: '← Back', value: 'back' });
+        }
+
+        const result = await inquirer.prompt([{
+            ...options,
+            choices: choices
+        }]);
+
+        return result;
+    }
+}
+
 const program = new Command();
 
 program
@@ -123,60 +142,57 @@ program
     });
 
 async function runInteractiveMode() {
-    console.log('\n🍅 Sigment Language Constructor - Interactive Mode\n');
+    console.log('\n🍅 Sigment Language Constructor - Interactive Mode');
+    console.log('💡 Tip: Select ← Back to navigate between menus\n');
 
-    const mainAction = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'action',
-            message: 'What would you like to do?',
-            choices: [
-                'Generate a new language',
-                'Add words to existing language',
-                'Translate words',
-                'View existing languages',
-                'Import/Export languages',
-                'Archive/Restore languages',
-                'Exit'
-            ]
+    let running = true;
+    
+    while (running) {
+        const mainAction = await inquirer.prompt([
+            {
+                type: 'list',
+                name: 'action',
+                message: 'What would you like to do?',
+                choices: [
+                    'Generate a new language',
+                    'Add words to existing language',
+                    'Translate words',
+                    'View existing languages',
+                    'Import/Export languages',
+                    'Archive/Restore languages',
+                    'Reconstruct dictionary',
+                    'Exit'
+                ]
+            }
+        ]);
+
+        switch (mainAction.action) {
+            case 'Generate a new language':
+                await interactiveGeneration();
+                break;
+            case 'Add words to existing language':
+                await interactiveAddWords();
+                break;
+            case 'Translate words':
+                await interactiveTranslation();
+                break;
+            case 'View existing languages':
+                await interactiveLanguageViewer();
+                break;
+            case 'Import/Export languages':
+                await interactiveImportExport();
+                break;
+            case 'Archive/Restore languages':
+                await interactiveArchiveRestore();
+                break;
+            case 'Reconstruct dictionary':
+                await interactiveReconstruct();
+                break;
+            case 'Exit':
+                console.log('\nGoodbye!');
+                running = false;
+                break;
         }
-    ]);
-
-    switch (mainAction.action) {
-        case 'Generate a new language':
-            await interactiveGeneration();
-            break;
-        case 'Add words to existing language':
-            await interactiveAddWords();
-            break;
-        case 'Translate words':
-            await interactiveTranslation();
-            break;
-        case 'View existing languages':
-            await interactiveLanguageViewer();
-            break;
-        case 'Import/Export languages':
-            await interactiveImportExport();
-            break;
-        case 'Archive/Restore languages':
-            await interactiveArchiveRestore();
-            break;
-        case 'Exit':
-            console.log('Goodbye!');
-            process.exit(0);
-    }
-
-    const continuePrompt = await inquirer.prompt([
-        {
-            type: 'confirm',
-            name: 'continue',
-            message: 'Would you like to do something else?',
-            default: true
-        }
-    ]);
-
-    if (continuePrompt.continue) {
-        await runInteractiveMode();
     }
 }
 
@@ -407,14 +423,17 @@ async function interactiveLanguageViewer() {
 }
 
 async function interactiveImportExport() {
-    const action = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'action',
-            message: 'Import or Export?',
-            choices: ['Export language', 'Import language']
-        }
-    ]);
+    const action = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'action',
+        message: 'Import or Export?',
+        choices: ['Export language', 'Import language']
+    });
+
+    // Handle back navigation
+    if (action.action === 'back') {
+        return;
+    }
 
     if (action.action === 'Export language') {
         const generator = new LanguageGenerator();
@@ -894,18 +913,21 @@ function displaySampleWords(language) {
 async function interactiveArchiveRestore() {
     console.log('\n🗂️  Archive/Restore Languages\n');
 
-    const action = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'action',
-            message: 'What would you like to do?',
-            choices: [
-                'Archive a language',
-                'Restore archived language',
-                'View archived languages'
-            ]
-        }
-    ]);
+    const action = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'action',
+        message: 'What would you like to do?',
+        choices: [
+            'Archive a language',
+            'Restore archived language',
+            'View archived languages'
+        ]
+    });
+
+    // Handle back navigation
+    if (action.action === 'back') {
+        return;
+    }
 
     switch (action.action) {
         case 'Archive a language':
@@ -1034,6 +1056,96 @@ async function viewArchivedLanguages() {
             console.log(`   Version: ${arch.metadata.version}`);
         }
         console.log();
+    }
+}
+
+async function interactiveReconstruct() {
+    console.log('\n🔧 Reconstruct Dictionary\n');
+    
+    const generator = new LanguageGenerator();
+    const languages = await generator.getAvailableLanguages();
+
+    if (languages.length === 0) {
+        console.log('No languages found to reconstruct.');
+        return;
+    }
+
+    const selection = await inquirer.prompt([
+        {
+            type: 'list',
+            name: 'language',
+            message: 'Select language to reconstruct:',
+            choices: languages
+        }
+    ]);
+
+    console.log(`\n🔄 Analyzing ${selection.language} for reconstruction...\n`);
+
+    try {
+        // Load the language
+        const language = await generator.loadFullLanguageData(selection.language);
+        if (!language) {
+            console.log(`❌ Language "${selection.language}" not found.`);
+            return;
+        }
+
+        // Check if reconstruction is recommended
+        const recommendation = await generator.shouldReconstructDictionary(language);
+        
+        if (!recommendation.shouldReconstruct) {
+            console.log(`✅ Dictionary for "${selection.language}" is already well-optimized!`);
+            console.log(`Current phonetic consistency: ${recommendation.currentConsistency.toFixed(1)}%`);
+            console.log('No reconstruction needed at this time.');
+            return;
+        }
+
+        console.log('🔍 Reconstruction Analysis:\n');
+        console.log(`Current phonetic consistency: ${recommendation.currentConsistency.toFixed(1)}%`);
+        console.log('Reconstruction recommended because:');
+        for (const reason of recommendation.reasons) {
+            console.log(`  • ${reason}`);
+        }
+
+        const confirmPrompt = await inquirer.prompt([
+            {
+                type: 'confirm',
+                name: 'proceed',
+                message: 'Proceed with dictionary reconstruction?',
+                default: true
+            }
+        ]);
+
+        if (!confirmPrompt.proceed) {
+            console.log('Reconstruction cancelled.');
+            return;
+        }
+
+        console.log('\n🔄 Reconstructing dictionary...\n');
+        const reconstructResult = await generator.reconstructDictionary(language, {
+            beforeConsistency: recommendation.currentConsistency
+        });
+
+        console.log('\n✅ Dictionary reconstruction complete!\n');
+        console.log(`Words reconstructed: ${reconstructResult.reconstructedWords}`);
+        console.log(`Words changed: ${reconstructResult.changedWords}`);
+        console.log(`Consistency improvement: ${reconstructResult.consistencyImprovement.before.toFixed(1)}% → ${reconstructResult.consistencyImprovement.after.toFixed(1)}% (+${reconstructResult.consistencyImprovement.improvement.toFixed(1)}%)`);
+
+        if (reconstructResult.changes.length > 0) {
+            console.log('\n📝 Sample word changes:');
+            for (const change of reconstructResult.changes.slice(0, 10)) {
+                console.log(`  ${change.english}: ${change.old} → ${change.new}`);
+            }
+            if (reconstructResult.changes.length > 10) {
+                console.log(`  ... and ${reconstructResult.changes.length - 10} more changes`);
+            }
+        }
+
+        // Update dictionary files
+        await generator.generateDictionaries(language);
+        console.log('\n📚 Dictionary files updated successfully!');
+        
+    } catch (error) {
+        console.error('❌ Failed to reconstruct dictionary:', error.message);
     }
 }
 
