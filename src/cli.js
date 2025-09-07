@@ -287,7 +287,7 @@ async function interactiveGeneration() {
 
 async function interactiveTranslation() {
     const generator = new LanguageGenerator();
-    const languages = generator.getAvailableLanguages();
+    const languages = await generator.getAvailableLanguages();
 
     if (languages.length === 0) {
         console.log('\n❌ No languages available. Generate a language first.\n');
@@ -332,7 +332,7 @@ async function interactiveTranslation() {
 
 async function interactiveLanguageViewer() {
     const generator = new LanguageGenerator();
-    const languages = generator.getAvailableLanguages();
+    const languages = await generator.getAvailableLanguages();
 
     if (languages.length === 0) {
         console.log('\n❌ No languages available.\n');
@@ -363,7 +363,7 @@ async function interactiveImportExport() {
 
     if (action.action === 'Export language') {
         const generator = new LanguageGenerator();
-        const languages = generator.getAvailableLanguages();
+        const languages = await generator.getAvailableLanguages();
 
         if (languages.length === 0) {
             console.log('\n❌ No languages available to export.\n');

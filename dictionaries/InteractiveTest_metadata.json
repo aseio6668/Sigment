@@ -1,0 +1,54 @@
+{
+  "created": "2025-09-07T20:40:38.340Z",
+  "version": "1.0.0",
+  "generator": "Sigment Language Constructor",
+  "config": {
+    "name": "InteractiveTest",
+    "style": "vowel_harmony",
+    "vocabulary": [
+      "interactive",
+      "test",
+      "success",
+      "persistent"
+    ],
+    "phoneticRules": {},
+    "etymologicalDepth": "basic",
+    "customPrompt": ""
+  },
+  "phoneticSystem": {
+    "vowelInventory": [
+      "i",
+      "e",
+      "u"
+    ],
+    "consonantInventory": [
+      "n",
+      "t",
+      "r",
+      "c",
+      "v",
+      "s",
+      "p"
+    ],
+    "phoneticPatterns": {
+      "VCCVCVCCVCV": 1,
+      "CVCC": 1,
+      "CVCCVC": 1,
+      "CVCCVCCVCC": 1
+    },
+    "syllableStructures": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "5": 1
+    },
+    "stressPatterns": []
+  },
+  "vocabularySize": 4,
+  "generationStats": {
+    "wordsProcessed": 4,
+    "languagesCreated": 0,
+    "startTime": 1757277638340,
+    "errors": []
+  }
+}

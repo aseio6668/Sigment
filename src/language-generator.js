@@ -614,11 +614,54 @@ export class LanguageGenerator {
         };
     }
 
-    getAvailableLanguages() {
-        return Array.from(this.languageDatabase.keys());
+    async getAvailableLanguages() {
+        const filesystemLanguages = await this.loadLanguagesFromFilesystem();
+        const memoryLanguages = Array.from(this.languageDatabase.keys());
+        
+        const allLanguages = [...new Set([...filesystemLanguages, ...memoryLanguages])];
+        return allLanguages;
     }
 
-    getLanguage(name) {
-        return this.languageDatabase.get(name);
+    async loadLanguagesFromFilesystem() {
+        try {
+            const outputDir = path.resolve(this.options.outputPath);
+            const files = await fs.readdir(outputDir);
+            const metadataFiles = files.filter(f => f.endsWith('_metadata.json'));
+            
+            return metadataFiles.map(file => {
+                const languageName = file.replace('_metadata.json', '');
+                return languageName;
+            });
+        } catch (error) {
+            console.warn('Failed to load languages from filesystem:', error.message);
+            return [];
+        }
+    }
+
+    async getLanguage(name) {
+        // First check if language is in memory
+        if (this.languageDatabase.has(name)) {
+            return this.languageDatabase.get(name);
+        }
+        
+        // Try to load from filesystem
+        try {
+            const metadataPath = path.resolve(this.options.outputPath, `${name}_metadata.json`);
+            const metadataExists = await fs.access(metadataPath).then(() => true).catch(() => false);
+            
+            if (metadataExists) {
+                // Load the basic metadata for display
+                const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf-8'));
+                return {
+                    config: metadata.config || { name, style: 'unknown' },
+                    metadata: metadata,
+                    vocabularySize: metadata.vocabularySize || 0
+                };
+            }
+        } catch (error) {
+            console.warn(`Failed to load language "${name}":`, error.message);
+        }
+        
+        return null;
     }
 }

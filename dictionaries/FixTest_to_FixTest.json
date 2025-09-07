@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "type": "Sigment to Sigment Dictionary",
+    "language": "FixTest",
+    "entries": 3,
+    "created": "2025-09-07T20:39:06.372Z"
+  },
+  "dictionary": {
+    "phix": {
+      "definitions": [
+        "Definition of phix"
+      ],
+      "pronunciation": "/phɪks/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "test",
+        "worcing"
+      ]
+    },
+    "test": {
+      "definitions": [
+        "Definition of test"
+      ],
+      "pronunciation": "/tɛst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "phix",
+        "worcing"
+      ]
+    },
+    "worcing": {
+      "definitions": [
+        "Definition of worcing"
+      ],
+      "pronunciation": "/wɔrkɪng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "phix",
+        "test"
+      ]
+    }
+  }
+}

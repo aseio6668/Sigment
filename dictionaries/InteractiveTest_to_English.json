@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "type": "Sigment to English Dictionary",
+    "language": "InteractiveTest",
+    "entries": 4,
+    "created": "2025-09-07T20:40:38.342Z"
+  },
+  "dictionary": {
+    "interective": {
+      "english": "interactive",
+      "definitions": [
+        "Definition of interactive"
+      ],
+      "pronunciation": "/ɪntɛrɛktɪvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "test": {
+      "english": "test",
+      "definitions": [
+        "Definition of test"
+      ],
+      "pronunciation": "/tɛst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "succus": {
+      "english": "success",
+      "definitions": [
+        "Definition of success"
+      ],
+      "pronunciation": "/sʌkkʌs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "persistent": {
+      "english": "persistent",
+      "definitions": [
+        "Definition of persistent"
+      ],
+      "pronunciation": "/pɛrsɪstɛnt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    }
+  }
+}
