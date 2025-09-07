@@ -1,89 +1,89 @@
 {
   "metadata": {
     "type": "Sigment to English Dictionary",
-    "language": "Demo_consonant_shift",
+    "language": "AddWordsTest",
     "entries": 7,
-    "created": "2025-09-07T20:23:49.658Z"
+    "created": "2025-09-07T20:59:12.255Z"
   },
   "dictionary": {
-    "hello": {
-      "english": "hello",
+    "test": {
+      "english": "test",
       "definitions": [
-        "Definition of hello"
+        "Definition of test"
       ],
-      "pronunciation": "/hɛllɔ/",
+      "pronunciation": "/tɛst/",
       "partOfSpeech": "unknown",
       "etymology": {
-        "origin": "unknown",
+        "origin": "reconstructed",
         "development": ""
       }
     },
-    "vorlt": {
-      "english": "world",
+    "ad": {
+      "english": "add",
       "definitions": [
-        "Definition of world"
+        "Definition of add"
       ],
-      "pronunciation": "/vɔrlt/",
+      "pronunciation": "/æd/",
       "partOfSpeech": "unknown",
       "etymology": {
-        "origin": "unknown",
+        "origin": "reconstructed",
         "development": ""
       }
     },
-    "combuder": {
-      "english": "computer",
+    "words": {
+      "english": "words",
       "definitions": [
-        "Definition of computer"
+        "Definition of words"
       ],
-      "pronunciation": "/kɔmbʌdɛr/",
+      "pronunciation": "/wɔrds/",
       "partOfSpeech": "unknown",
       "etymology": {
-        "origin": "unknown",
+        "origin": "reconstructed",
         "development": ""
       }
     },
-    "lankuake": {
-      "english": "language",
+    "amazing": {
+      "english": "amazing",
       "definitions": [
-        "Definition of language"
+        "Definition of amazing"
       ],
-      "pronunciation": "/lænkʌækɛ/",
+      "pronunciation": "/æmæzɪng/",
       "partOfSpeech": "unknown",
       "etymology": {
-        "origin": "unknown",
+        "origin": "reconstructed",
         "development": ""
       }
     },
-    "peaudivul": {
-      "english": "beautiful",
-      "definitions": [
-        "Definition of beautiful"
-      ],
-      "pronunciation": "/pɛæʌdɪvʌl/",
-      "partOfSpeech": "unknown",
-      "etymology": {
-        "origin": "unknown",
-        "development": ""
-      }
-    },
-    "vandazdic": {
+    "phantastik": {
       "english": "fantastic",
       "definitions": [
         "Definition of fantastic"
       ],
-      "pronunciation": "/vændæzdɪk/",
+      "pronunciation": "/phæntæstɪk/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",
         "development": ""
       }
     },
-    "mornink": {
-      "english": "morning",
+    "brilliant": {
+      "english": "brilliant",
       "definitions": [
-        "Definition of morning"
+        "Definition of brilliant"
       ],
-      "pronunciation": "/mɔrnɪnk/",
+      "pronunciation": "/brɪllɪænt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "wonderphul": {
+      "english": "wonderful",
+      "definitions": [
+        "Definition of wonderful"
+      ],
+      "pronunciation": "/wɔndɛrphʌl/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",

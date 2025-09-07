@@ -1,0 +1,97 @@
+{
+  "created": "2025-09-07T22:12:33.467Z",
+  "version": "1.0.1",
+  "generator": "Sigment Language Constructor",
+  "config": {
+    "name": "ReconstructTest",
+    "style": "default",
+    "vocabulary": [
+      "hello",
+      "world",
+      "computer",
+      "amazing",
+      "fantastic",
+      "incredible",
+      "wonderful",
+      "spectacular",
+      "technology",
+      "digital",
+      "internet",
+      "phone",
+      "chair",
+      "table",
+      "house",
+      "car",
+      "tree",
+      "book",
+      "music",
+      "dance"
+    ],
+    "phoneticRules": {},
+    "etymologicalDepth": "medium",
+    "customPrompt": "",
+    "asciiPronunciation": false
+  },
+  "phoneticSystem": {
+    "vowelInventory": [
+      "e",
+      "o",
+      "u",
+      "a",
+      "i"
+    ],
+    "consonantInventory": [
+      "h",
+      "l",
+      "w",
+      "r",
+      "d",
+      "k",
+      "m",
+      "p",
+      "t",
+      "z",
+      "n",
+      "g",
+      "s",
+      "b",
+      "y",
+      "c"
+    ],
+    "phoneticPatterns": {
+      "CVCCV": 3,
+      "CVCCC": 1,
+      "CVCCVCVC": 1,
+      "VCVCVCC": 1,
+      "CCVCCVCCVC": 1,
+      "VCCCVCVCCV": 1,
+      "CVCCVCCCVC": 1,
+      "CCVCCVCVCVC": 1,
+      "CVCCCVCVCC": 1,
+      "CVCVCVC": 1,
+      "VCCVCCVC": 1,
+      "CCVCV": 1,
+      "CCVVC": 1,
+      "CVVCV": 1,
+      "CVC": 1,
+      "CCV": 1,
+      "CVVC": 1,
+      "CVCVC": 1
+    },
+    "syllableStructures": {
+      "1": 5,
+      "2": 6,
+      "3": 7,
+      "4": 2
+    },
+    "stressPatterns": []
+  },
+  "vocabularySize": 50,
+  "generationStats": {
+    "wordsProcessed": 30,
+    "languagesCreated": 0,
+    "startTime": null,
+    "errors": []
+  },
+  "lastModified": "2025-09-07T22:12:42.141Z"
+}

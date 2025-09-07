@@ -38,13 +38,16 @@ export class PhoneticMapper {
         };
     }
 
-    mapWordToSigment(englishWord, etymologyAnalysis, languageStyle = 'default') {
+    mapWordToSigment(englishWord, etymologyAnalysis, languageStyle = 'default', options = {}) {
         const sigmentWord = this.transformWord(englishWord, etymologyAnalysis, languageStyle);
+        const useAsciiPronunciation = options.asciiPronunciation || false;
         
         return {
             english: englishWord,
             sigment: sigmentWord,
-            pronunciation: this.generatePronunciation(sigmentWord),
+            pronunciation: useAsciiPronunciation ? 
+                this.generateAsciiPronunciation(sigmentWord) : 
+                this.generatePronunciation(sigmentWord),
             phoneticStructure: this.analyzePhoneticStructure(sigmentWord),
             transformationRules: this.getAppliedRules(englishWord, sigmentWord),
             etymologicalBasis: this.deriveEtymologicalLogic(etymologyAnalysis)
@@ -255,6 +258,18 @@ export class PhoneticMapper {
         return pronunciation;
     }
 
+    generateAsciiPronunciation(sigmentWord) {
+        let pronunciation = '';
+        
+        for (let i = 0; i < sigmentWord.length; i++) {
+            const char = sigmentWord[i];
+            const asciiPhoneme = this.getAsciiPhoneme(char, sigmentWord, i);
+            pronunciation += asciiPhoneme;
+        }
+        
+        return pronunciation;
+    }
+
     getPhoneme(char, word, position) {
         const phoneticMap = {
             'a': 'æ', 'e': 'ɛ', 'i': 'ɪ', 'o': 'ɔ', 'u': 'ʌ',
@@ -265,6 +280,56 @@ export class PhoneticMapper {
         };
         
         return phoneticMap[char.toLowerCase()] || char;
+    }
+
+    getAsciiPhoneme(char, word, position) {
+        const lowerChar = char.toLowerCase();
+        const nextChar = word[position + 1]?.toLowerCase() || '';
+        const prevChar = word[position - 1]?.toLowerCase() || '';
+        
+        // Handle common two-letter combinations first
+        const twoChar = lowerChar + nextChar;
+        const asciiCombinations = {
+            'th': 'th',    // "th" as in "the" 
+            'ch': 'ch',    // "ch" as in "chair"
+            'sh': 'sh',    // "sh" as in "shoe"
+            'ph': 'f',     // "ph" as in "phone" -> "f"
+            'gh': 'g',     // "gh" as in "ghost" -> "g" 
+            'ck': 'k',     // "ck" as in "back" -> "k"
+            'ng': 'ng',    // "ng" as in "ring"
+            'qu': 'kw'     // "qu" as in "queen" -> "kw"
+        };
+        
+        if (asciiCombinations[twoChar]) {
+            // Mark next character to skip
+            this._skipNext = true;
+            return asciiCombinations[twoChar];
+        }
+        
+        // Skip if previous combination marked this character
+        if (this._skipNext) {
+            this._skipNext = false;
+            return '';
+        }
+        
+        // Single character ASCII phonetic mapping
+        const asciiPhoneticMap = {
+            // Vowels - using common keyboard representations
+            'a': 'a',      // "cat" -> "a" 
+            'e': 'e',      // "bed" -> "e"
+            'i': 'i',      // "bit" -> "i"
+            'o': 'o',      // "pot" -> "o" 
+            'u': 'u',      // "but" -> "u"
+            'y': 'y',      // "yes" -> "y"
+            
+            // Consonants - mostly stay the same
+            'b': 'b', 'c': 'k', 'd': 'd', 'f': 'f', 'g': 'g',
+            'h': 'h', 'j': 'j', 'k': 'k', 'l': 'l', 'm': 'm',
+            'n': 'n', 'p': 'p', 'r': 'r', 's': 's',
+            't': 't', 'v': 'v', 'w': 'w', 'x': 'ks', 'z': 'z'
+        };
+        
+        return asciiPhoneticMap[lowerChar] || lowerChar;
     }
 
     analyzePhoneticStructure(word) {

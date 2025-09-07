@@ -1,14 +1,14 @@
 {
-  "created": "2025-09-07T20:39:06.369Z",
-  "version": "1.0.0",
+  "created": "2025-09-07T20:55:04.204Z",
+  "version": "1.0.2",
   "generator": "Sigment Language Constructor",
   "config": {
-    "name": "FixTest",
+    "name": "AddWordsTest",
     "style": "default",
     "vocabulary": [
-      "fix",
       "test",
-      "working"
+      "add",
+      "words"
     ],
     "phoneticRules": {},
     "etymologicalDepth": "medium",
@@ -16,38 +16,33 @@
   },
   "phoneticSystem": {
     "vowelInventory": [
-      "i",
       "e",
+      "a",
       "o"
     ],
     "consonantInventory": [
-      "p",
-      "h",
-      "x",
       "t",
       "s",
+      "d",
       "w",
-      "r",
-      "c",
-      "n",
-      "g"
+      "r"
     ],
     "phoneticPatterns": {
-      "CCVC": 1,
       "CVCC": 1,
-      "CVCCVCC": 1
+      "VC": 1,
+      "CVCCC": 1
     },
     "syllableStructures": {
-      "1": 2,
-      "2": 1
+      "1": 3
     },
     "stressPatterns": []
   },
-  "vocabularySize": 3,
+  "vocabularySize": 7,
   "generationStats": {
     "wordsProcessed": 3,
     "languagesCreated": 0,
-    "startTime": 1757277546369,
+    "startTime": null,
     "errors": []
-  }
+  },
+  "lastModified": "2025-09-07T20:59:12.253Z"
 }

@@ -1,0 +1,610 @@
+{
+  "metadata": {
+    "type": "Sigment to English Dictionary",
+    "language": "ReconstructTest",
+    "entries": 50,
+    "created": "2025-09-07T22:12:42.143Z"
+  },
+  "dictionary": {
+    "hello": {
+      "english": "hello",
+      "definitions": [
+        "Definition of hello"
+      ],
+      "pronunciation": "/hɛllɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "world": {
+      "english": "world",
+      "definitions": [
+        "Definition of world"
+      ],
+      "pronunciation": "/wɔrld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "komputer": {
+      "english": "computer",
+      "definitions": [
+        "Definition of computer"
+      ],
+      "pronunciation": "/kɔmpʌtɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "amazing": {
+      "english": "amazing",
+      "definitions": [
+        "Definition of amazing"
+      ],
+      "pronunciation": "/æmæzɪng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "phantastik": {
+      "english": "fantastic",
+      "definitions": [
+        "Definition of fantastic"
+      ],
+      "pronunciation": "/phæntæstɪk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "inkredible": {
+      "english": "incredible",
+      "definitions": [
+        "Definition of incredible"
+      ],
+      "pronunciation": "/ɪnkrɛdɪblɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "wonderphul": {
+      "english": "wonderful",
+      "definitions": [
+        "Definition of wonderful"
+      ],
+      "pronunciation": "/wɔndɛrphʌl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "spektakular": {
+      "english": "spectacular",
+      "definitions": [
+        "Definition of spectacular"
+      ],
+      "pronunciation": "/spɛktækʌlær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "tekhnology": {
+      "english": "technology",
+      "definitions": [
+        "Definition of technology"
+      ],
+      "pronunciation": "/tɛkhnɔlɔgj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "digital": {
+      "english": "digital",
+      "definitions": [
+        "Definition of digital"
+      ],
+      "pronunciation": "/dɪgɪtæl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "internet": {
+      "english": "internet",
+      "definitions": [
+        "Definition of internet"
+      ],
+      "pronunciation": "/ɪntɛrnɛt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "phone": {
+      "english": "phone",
+      "definitions": [
+        "Definition of phone"
+      ],
+      "pronunciation": "/phɔnɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "khair": {
+      "english": "chair",
+      "definitions": [
+        "Definition of chair"
+      ],
+      "pronunciation": "/khæɪr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "table": {
+      "english": "table",
+      "definitions": [
+        "Definition of table"
+      ],
+      "pronunciation": "/tæblɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "house": {
+      "english": "house",
+      "definitions": [
+        "Definition of house"
+      ],
+      "pronunciation": "/hɔʌsɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "kar": {
+      "english": "car",
+      "definitions": [
+        "Definition of car"
+      ],
+      "pronunciation": "/kær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "tre": {
+      "english": "tree",
+      "definitions": [
+        "Definition of tree"
+      ],
+      "pronunciation": "/trɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "booc": {
+      "english": "book",
+      "definitions": [
+        "Definition of book"
+      ],
+      "pronunciation": "/bɔɔk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "musik": {
+      "english": "music",
+      "definitions": [
+        "Definition of music"
+      ],
+      "pronunciation": "/mʌsɪk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "danke": {
+      "english": "dance",
+      "definitions": [
+        "Definition of dance"
+      ],
+      "pronunciation": "/dænkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "skienke": {
+      "english": "science",
+      "definitions": [
+        "Definition of science"
+      ],
+      "pronunciation": "/skɪɛnkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "researkh": {
+      "english": "research",
+      "definitions": [
+        "Definition of research"
+      ],
+      "pronunciation": "/rɛsɛærkh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "development": {
+      "english": "development",
+      "definitions": [
+        "Definition of development"
+      ],
+      "pronunciation": "/dɛvɛlɔpmɛnt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "innovation": {
+      "english": "innovation",
+      "definitions": [
+        "Definition of innovation"
+      ],
+      "pronunciation": "/ɪnnɔvætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "kreativity": {
+      "english": "creativity",
+      "definitions": [
+        "Definition of creativity"
+      ],
+      "pronunciation": "/krɛætɪvɪtj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "inspiration": {
+      "english": "inspiration",
+      "definitions": [
+        "Definition of inspiration"
+      ],
+      "pronunciation": "/ɪnspɪrætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "motivation": {
+      "english": "motivation",
+      "definitions": [
+        "Definition of motivation"
+      ],
+      "pronunciation": "/mɔtɪvætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "dedikation": {
+      "english": "dedication",
+      "definitions": [
+        "Definition of dedication"
+      ],
+      "pronunciation": "/dɛdɪkætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "perseveranke": {
+      "english": "perseverance",
+      "definitions": [
+        "Definition of perseverance"
+      ],
+      "pronunciation": "/pɛrsɛvɛrænkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "akhievement": {
+      "english": "achievement",
+      "definitions": [
+        "Definition of achievement"
+      ],
+      "pronunciation": "/ækhɪɛvɛmɛnt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "sukkes": {
+      "english": "success",
+      "definitions": [
+        "Definition of success"
+      ],
+      "pronunciation": "/sʌkkɛs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "progres": {
+      "english": "progress",
+      "definitions": [
+        "Definition of progress"
+      ],
+      "pronunciation": "/prɔgrɛs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "evolution": {
+      "english": "evolution",
+      "definitions": [
+        "Definition of evolution"
+      ],
+      "pronunciation": "/ɛvɔlʌtɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "transphormation": {
+      "english": "transformation",
+      "definitions": [
+        "Definition of transformation"
+      ],
+      "pronunciation": "/trænsphɔrmætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "revolution": {
+      "english": "revolution",
+      "definitions": [
+        "Definition of revolution"
+      ],
+      "pronunciation": "/rɛvɔlʌtɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "kollaboration": {
+      "english": "collaboration",
+      "definitions": [
+        "Definition of collaboration"
+      ],
+      "pronunciation": "/kɔllæbɔrætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "kommunikation": {
+      "english": "communication",
+      "definitions": [
+        "Definition of communication"
+      ],
+      "pronunciation": "/kɔmmʌnɪkætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "edukation": {
+      "english": "education",
+      "definitions": [
+        "Definition of education"
+      ],
+      "pronunciation": "/ɛdʌkætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "cnowledge": {
+      "english": "knowledge",
+      "definitions": [
+        "Definition of knowledge"
+      ],
+      "pronunciation": "/knɔwlɛdgɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "wisdom": {
+      "english": "wisdom",
+      "definitions": [
+        "Definition of wisdom"
+      ],
+      "pronunciation": "/wɪsdɔm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "understanding": {
+      "english": "understanding",
+      "definitions": [
+        "Definition of understanding"
+      ],
+      "pronunciation": "/ʌndɛrstændɪng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "intelligenke": {
+      "english": "intelligence",
+      "definitions": [
+        "Definition of intelligence"
+      ],
+      "pronunciation": "/ɪntɛllɪgɛnkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "konskiousnes": {
+      "english": "consciousness",
+      "definitions": [
+        "Definition of consciousness"
+      ],
+      "pronunciation": "/kɔnskɪɔʌsnɛs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "awarenes": {
+      "english": "awareness",
+      "definitions": [
+        "Definition of awareness"
+      ],
+      "pronunciation": "/æwærɛnɛs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "mindphulnes": {
+      "english": "mindfulness",
+      "definitions": [
+        "Definition of mindfulness"
+      ],
+      "pronunciation": "/mɪndphʌlnɛs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "meditation": {
+      "english": "meditation",
+      "definitions": [
+        "Definition of meditation"
+      ],
+      "pronunciation": "/mɛdɪtætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "rephlektion": {
+      "english": "reflection",
+      "definitions": [
+        "Definition of reflection"
+      ],
+      "pronunciation": "/rɛphlɛktɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "kontemplation": {
+      "english": "contemplation",
+      "definitions": [
+        "Definition of contemplation"
+      ],
+      "pronunciation": "/kɔntɛmplætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "observation": {
+      "english": "observation",
+      "definitions": [
+        "Definition of observation"
+      ],
+      "pronunciation": "/ɔbsɛrvætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "exploration": {
+      "english": "exploration",
+      "definitions": [
+        "Definition of exploration"
+      ],
+      "pronunciation": "/ɛksplɔrætɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    }
+  }
+}

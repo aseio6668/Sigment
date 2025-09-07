@@ -1,14 +1,14 @@
 {
   "metadata": {
     "type": "English to Sigment Dictionary",
-    "language": "CleanTest",
-    "entries": 4,
-    "created": "2025-09-07T20:23:38.713Z"
+    "language": "TestASCII",
+    "entries": 5,
+    "created": "2025-09-07T21:57:01.016Z"
   },
   "dictionary": {
     "hello": {
       "sigment": "hello",
-      "pronunciation": "/hɛllɔ/",
+      "pronunciation": "hello",
       "definitions": [
         "Definition of hello"
       ],
@@ -17,12 +17,12 @@
         "pattern": "CVCCV",
         "syllableCount": 2,
         "complexity": 0.65,
-        "rhythm": "dactylic"
+        "rhythm": "anapestic"
       }
     },
     "world": {
-      "sigment": "vorlt",
-      "pronunciation": "/vɔrlt/",
+      "sigment": "world",
+      "pronunciation": "world",
       "definitions": [
         "Definition of world"
       ],
@@ -34,32 +34,46 @@
         "rhythm": "vowel_centered"
       }
     },
-    "test": {
-      "sigment": "dezd",
-      "pronunciation": "/dɛzd/",
+    "the": {
+      "sigment": "the",
+      "pronunciation": "the",
       "definitions": [
-        "Definition of test"
+        "Definition of the"
       ],
       "partOfSpeech": "unknown",
       "phoneticStructure": {
-        "pattern": "CVCC",
+        "pattern": "CCV",
         "syllableCount": 1,
-        "complexity": 0.5,
+        "complexity": 0.6500000000000001,
         "rhythm": "vowel_centered"
       }
     },
-    "works": {
-      "sigment": "vorgz",
-      "pronunciation": "/vɔrgz/",
+    "do": {
+      "sigment": "do",
+      "pronunciation": "do",
       "definitions": [
-        "Definition of works"
+        "Definition of do"
       ],
       "partOfSpeech": "unknown",
       "phoneticStructure": {
-        "pattern": "CVCCC",
+        "pattern": "CV",
         "syllableCount": 1,
-        "complexity": 0.75,
-        "rhythm": "vowel_centered"
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "to": {
+      "sigment": "to",
+      "pronunciation": "to",
+      "definitions": [
+        "Definition of to"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
       }
     }
   }

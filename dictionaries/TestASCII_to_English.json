@@ -1,9 +1,9 @@
 {
   "metadata": {
     "type": "Sigment to English Dictionary",
-    "language": "CleanTest",
-    "entries": 4,
-    "created": "2025-09-07T20:23:38.713Z"
+    "language": "TestASCII",
+    "entries": 5,
+    "created": "2025-09-07T21:57:01.015Z"
   },
   "dictionary": {
     "hello": {
@@ -11,43 +11,55 @@
       "definitions": [
         "Definition of hello"
       ],
-      "pronunciation": "/hɛllɔ/",
+      "pronunciation": "hello",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",
         "development": ""
       }
     },
-    "vorlt": {
+    "world": {
       "english": "world",
       "definitions": [
         "Definition of world"
       ],
-      "pronunciation": "/vɔrlt/",
+      "pronunciation": "world",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",
         "development": ""
       }
     },
-    "dezd": {
-      "english": "test",
+    "the": {
+      "english": "the",
       "definitions": [
-        "Definition of test"
+        "Definition of the"
       ],
-      "pronunciation": "/dɛzd/",
+      "pronunciation": "the",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",
         "development": ""
       }
     },
-    "vorgz": {
-      "english": "works",
+    "do": {
+      "english": "do",
       "definitions": [
-        "Definition of works"
+        "Definition of do"
       ],
-      "pronunciation": "/vɔrgz/",
+      "pronunciation": "do",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "to": {
+      "english": "to",
+      "definitions": [
+        "Definition of to"
+      ],
+      "pronunciation": "to",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",

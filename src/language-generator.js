@@ -26,7 +26,7 @@ export class LanguageGenerator {
             errors: []
         };
 
-        this.initialize();
+        this.initializationPromise = this.initialize();
     }
 
     async initialize() {
@@ -48,6 +48,9 @@ export class LanguageGenerator {
     }
 
     async generateLanguage(config) {
+        // Ensure initialization is complete
+        await this.initializationPromise;
+        
         this.generationStats.startTime = Date.now();
         
         const languageConfig = {
@@ -233,7 +236,8 @@ export class LanguageGenerator {
             const sigmentMapping = this.phoneticMapper.mapWordToSigment(
                 englishWord,
                 etymology,
-                language.config.style
+                language.config.style,
+                { asciiPronunciation: language.config.asciiPronunciation || false }
             );
 
             let definitions = { primary: [`Definition of ${englishWord}`] };
@@ -460,8 +464,8 @@ export class LanguageGenerator {
         }
         
         if (etymology1.root && etymology2.root && 
-            etymology1.root.includes(etymology2.root) || 
-            etymology2.root.includes(etymology1.root)) {
+            (etymology1.root.includes(etymology2.root) || 
+            etymology2.root.includes(etymology1.root))) {
             return true;
         }
 
@@ -520,7 +524,7 @@ export class LanguageGenerator {
             if (posMap[suffix]) return posMap[suffix];
         }
 
-        if (definitions.partOfSpeech && definitions.partOfSpeech.length > 0) {
+        if (definitions.partOfSpeech && Array.isArray(definitions.partOfSpeech) && definitions.partOfSpeech.length > 0) {
             return definitions.partOfSpeech.join('/');
         }
 
@@ -663,5 +667,481 @@ export class LanguageGenerator {
         }
         
         return null;
+    }
+
+    async addWordsToLanguage(languageName, newWords, options = {}) {
+        try {
+            // Ensure initialization is complete
+            await this.initializationPromise;
+            
+            console.log(`Adding ${newWords.length} words to language: ${languageName}`);
+            
+            // Load the existing language
+            const existingLanguage = await this.loadFullLanguageData(languageName);
+            if (!existingLanguage) {
+                throw new Error(`Language "${languageName}" not found`);
+            }
+
+            // Override ASCII pronunciation setting if specified
+            if (options.asciiPronunciation !== undefined) {
+                existingLanguage.config.asciiPronunciation = options.asciiPronunciation;
+            }
+
+            // Process new words
+            let addedCount = 0;
+            for (const word of newWords) {
+                const cleanWord = word.trim();
+                if (cleanWord && !existingLanguage.vocabulary.has(cleanWord)) {
+                    await this.processWord(existingLanguage, cleanWord);
+                    addedCount++;
+                } else if (existingLanguage.vocabulary.has(cleanWord)) {
+                    console.warn(`Word "${cleanWord}" already exists in ${languageName}, skipping`);
+                }
+            }
+
+            if (addedCount === 0) {
+                console.log('No new words to add');
+                return {
+                    language: existingLanguage,
+                    addedCount: 0,
+                    skippedCount: newWords.length,
+                    dictionaries: this.getDictionaryPaths(languageName)
+                };
+            }
+
+            // Update metadata
+            existingLanguage.metadata.lastModified = new Date().toISOString();
+            existingLanguage.metadata.version = this.incrementVersion(existingLanguage.metadata.version);
+
+            // Regenerate dictionaries with new words
+            await this.generateDictionaries(existingLanguage);
+
+            console.log(`✅ Added ${addedCount} new words to ${languageName}`);
+            
+            // Analyze if dictionary reconstruction would be beneficial
+            const reconstructionAnalysis = await this.shouldReconstructDictionary(existingLanguage, addedCount);
+            
+            return {
+                language: existingLanguage,
+                addedCount,
+                skippedCount: newWords.length - addedCount,
+                dictionaries: this.getDictionaryPaths(languageName),
+                reconstructionRecommendation: reconstructionAnalysis
+            };
+
+        } catch (error) {
+            console.error(`Failed to add words to language "${languageName}":`, error.message);
+            throw error;
+        }
+    }
+
+    async loadFullLanguageData(languageName) {
+        // First check if it's already in memory with full data
+        if (this.languageDatabase.has(languageName)) {
+            const existing = this.languageDatabase.get(languageName);
+            if (existing.vocabulary && existing.vocabulary.size > 0) {
+                return existing;
+            }
+        }
+
+        // Load from filesystem
+        try {
+            const outputDir = path.resolve(this.options.outputPath);
+            const metadataPath = path.join(outputDir, `${languageName}_metadata.json`);
+            const englishToSigmentPath = path.join(outputDir, `English_to_${languageName}.json`);
+            
+            // Check if files exist
+            await fs.access(metadataPath);
+            await fs.access(englishToSigmentPath);
+
+            // Load metadata
+            const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf-8'));
+            
+            // Load existing vocabulary from English_to_Sigment dictionary
+            const englishDict = JSON.parse(await fs.readFile(englishToSigmentPath, 'utf-8'));
+            
+            // Reconstruct language object
+            const language = {
+                config: metadata.config,
+                vocabulary: new Map(),
+                phoneticSystem: this.deserializePhoneticSystem(metadata.phoneticSystem || {}),
+                etymologicalMaps: new Map(),
+                metadata
+            };
+
+            // Reconstruct vocabulary from dictionary
+            for (const [englishWord, entry] of Object.entries(englishDict.dictionary || {})) {
+                const vocabularyEntry = {
+                    english: englishWord,
+                    sigment: entry.sigment,
+                    pronunciation: entry.pronunciation,
+                    definitions: { primary: entry.definitions || [] },
+                    etymology: { morphemes: [], origin: 'reconstructed', root: englishWord },
+                    phoneticStructure: entry.phoneticStructure || {},
+                    transformationRules: [],
+                    partOfSpeech: entry.partOfSpeech || 'unknown',
+                    frequency: 'unknown',
+                    created: metadata.created || new Date().toISOString()
+                };
+
+                language.vocabulary.set(englishWord, vocabularyEntry);
+                language.etymologicalMaps.set(entry.sigment, vocabularyEntry);
+            }
+
+            // Store in memory
+            this.languageDatabase.set(languageName, language);
+            
+            console.log(`Loaded ${language.vocabulary.size} existing words from ${languageName}`);
+            return language;
+
+        } catch (error) {
+            console.error(`Failed to load language data for "${languageName}":`, error.message);
+            return null;
+        }
+    }
+
+    incrementVersion(currentVersion) {
+        if (!currentVersion || currentVersion === '1.0.0') {
+            return '1.0.1';
+        }
+        
+        const parts = currentVersion.split('.');
+        const patch = parseInt(parts[2] || 0) + 1;
+        return `${parts[0]}.${parts[1]}.${patch}`;
+    }
+
+    async archiveLanguage(languageName) {
+        try {
+            const languages = await this.getAvailableLanguages();
+            if (!languages.includes(languageName)) {
+                throw new Error(`Language "${languageName}" does not exist`);
+            }
+
+            const archiveDir = path.join(this.options.outputPath, 'archived');
+            await fs.mkdir(archiveDir, { recursive: true });
+
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+            const archiveSubDir = path.join(archiveDir, `${languageName}_${timestamp}`);
+            await fs.mkdir(archiveSubDir, { recursive: true });
+
+            const filesToArchive = [
+                `${languageName}_to_English.json`,
+                `${languageName}_to_${languageName}.json`,
+                `English_to_${languageName}.json`,
+                `${languageName}_metadata.json`
+            ];
+
+            let archivedFiles = 0;
+            for (const fileName of filesToArchive) {
+                const sourcePath = path.join(this.options.outputPath, fileName);
+                const destPath = path.join(archiveSubDir, fileName);
+                
+                try {
+                    await fs.access(sourcePath);
+                    await fs.copyFile(sourcePath, destPath);
+                    await fs.unlink(sourcePath);
+                    archivedFiles++;
+                } catch (error) {
+                    console.warn(`Could not archive ${fileName}: ${error.message}`);
+                }
+            }
+
+            if (this.languageDatabase.has(languageName)) {
+                this.languageDatabase.delete(languageName);
+            }
+
+            return {
+                success: true,
+                archivedFiles,
+                archivePath: archiveSubDir,
+                timestamp
+            };
+
+        } catch (error) {
+            console.error(`Failed to archive language "${languageName}":`, error.message);
+            throw error;
+        }
+    }
+
+    async getArchivedLanguages() {
+        try {
+            const archiveDir = path.join(this.options.outputPath, 'archived');
+            
+            try {
+                await fs.access(archiveDir);
+            } catch {
+                return [];
+            }
+
+            const entries = await fs.readdir(archiveDir, { withFileTypes: true });
+            const archived = [];
+
+            for (const entry of entries) {
+                if (entry.isDirectory()) {
+                    const parts = entry.name.split('_');
+                    if (parts.length >= 2) {
+                        const timestamp = parts.slice(-1)[0];
+                        const languageName = parts.slice(0, -1).join('_');
+                        
+                        const metadataPath = path.join(archiveDir, entry.name, `${languageName}_metadata.json`);
+                        let metadata = null;
+                        
+                        try {
+                            const metadataContent = await fs.readFile(metadataPath, 'utf-8');
+                            metadata = JSON.parse(metadataContent);
+                        } catch {
+                            metadata = { name: languageName };
+                        }
+
+                        archived.push({
+                            name: languageName,
+                            archiveName: entry.name,
+                            timestamp,
+                            archivedDate: new Date(timestamp.replace(/(\d{4})-(\d{2})-(\d{2})T(\d{2})-(\d{2})-(\d{2})-(\d+)Z/, '$1-$2-$3T$4:$5:$6.$7Z')),
+                            metadata
+                        });
+                    }
+                }
+            }
+
+            return archived.sort((a, b) => b.archivedDate - a.archivedDate);
+
+        } catch (error) {
+            console.warn('Failed to get archived languages:', error.message);
+            return [];
+        }
+    }
+
+    async restoreLanguage(archiveName) {
+        try {
+            const archiveDir = path.join(this.options.outputPath, 'archived');
+            const archivePath = path.join(archiveDir, archiveName);
+
+            await fs.access(archivePath);
+
+            const parts = archiveName.split('_');
+            const languageName = parts.slice(0, -1).join('_');
+
+            const existingLanguages = await this.getAvailableLanguages();
+            if (existingLanguages.includes(languageName)) {
+                throw new Error(`Language "${languageName}" already exists. Archive it first or choose a different name.`);
+            }
+
+            const entries = await fs.readdir(archivePath);
+            const jsonFiles = entries.filter(file => file.endsWith('.json'));
+
+            let restoredFiles = 0;
+            for (const fileName of jsonFiles) {
+                const sourcePath = path.join(archivePath, fileName);
+                const destPath = path.join(this.options.outputPath, fileName);
+                
+                await fs.copyFile(sourcePath, destPath);
+                restoredFiles++;
+            }
+
+            return {
+                success: true,
+                languageName,
+                restoredFiles,
+                archiveName
+            };
+
+        } catch (error) {
+            console.error(`Failed to restore language from "${archiveName}":`, error.message);
+            throw error;
+        }
+    }
+
+    async analyzePhoneticPatterns(language) {
+        const patterns = {
+            vowelTransformations: new Map(),
+            consonantShifts: new Map(),
+            morphemeRules: new Map(),
+            lengthPatterns: new Map(),
+            consistencyScore: 0
+        };
+
+        const vocabularyEntries = Array.from(language.vocabulary.entries());
+        
+        for (const [english, entry] of vocabularyEntries) {
+            // Analyze vowel transformations
+            for (let i = 0; i < english.length; i++) {
+                const englishChar = english[i].toLowerCase();
+                const sigmentChar = entry.sigment[i]?.toLowerCase() || '';
+                
+                if ('aeiou'.includes(englishChar)) {
+                    const key = englishChar;
+                    if (!patterns.vowelTransformations.has(key)) {
+                        patterns.vowelTransformations.set(key, new Map());
+                    }
+                    const transforms = patterns.vowelTransformations.get(key);
+                    transforms.set(sigmentChar, (transforms.get(sigmentChar) || 0) + 1);
+                }
+                
+                if ('bcdfghjklmnpqrstvwxyz'.includes(englishChar)) {
+                    const key = englishChar;
+                    if (!patterns.consonantShifts.has(key)) {
+                        patterns.consonantShifts.set(key, new Map());
+                    }
+                    const transforms = patterns.consonantShifts.get(key);
+                    transforms.set(sigmentChar, (transforms.get(sigmentChar) || 0) + 1);
+                }
+            }
+
+            // Analyze word length patterns
+            const lengthKey = english.length;
+            if (!patterns.lengthPatterns.has(lengthKey)) {
+                patterns.lengthPatterns.set(lengthKey, []);
+            }
+            patterns.lengthPatterns.get(lengthKey).push({
+                english,
+                sigment: entry.sigment,
+                ratio: entry.sigment.length / english.length
+            });
+        }
+
+        // Calculate consistency score
+        patterns.consistencyScore = this.calculateConsistencyScore(patterns, vocabularyEntries.length);
+        
+        return patterns;
+    }
+
+    calculateConsistencyScore(patterns, totalWords) {
+        let totalScore = 0;
+        let factors = 0;
+
+        // Vowel consistency
+        for (const [vowel, transforms] of patterns.vowelTransformations) {
+            const transformCount = Array.from(transforms.values());
+            const maxCount = Math.max(...transformCount);
+            const totalCount = transformCount.reduce((a, b) => a + b, 0);
+            totalScore += (maxCount / totalCount) * 100;
+            factors++;
+        }
+
+        // Consonant consistency  
+        for (const [consonant, transforms] of patterns.consonantShifts) {
+            const transformCount = Array.from(transforms.values());
+            const maxCount = Math.max(...transformCount);
+            const totalCount = transformCount.reduce((a, b) => a + b, 0);
+            totalScore += (maxCount / totalCount) * 100;
+            factors++;
+        }
+
+        return factors > 0 ? totalScore / factors : 0;
+    }
+
+    async shouldReconstructDictionary(language, newWordCount = 0) {
+        const currentPatterns = await this.analyzePhoneticPatterns(language);
+        
+        // Reconstruction triggers
+        const triggers = {
+            lowConsistency: currentPatterns.consistencyScore < 70,
+            significantAddition: newWordCount > language.vocabulary.size * 0.1,
+            vocabularySizeThreshold: language.vocabulary.size > 50,
+            patternConflicts: this.detectPatternConflicts(currentPatterns)
+        };
+
+        const recommendation = {
+            shouldReconstruct: Object.values(triggers).some(Boolean),
+            reasons: [],
+            currentConsistency: currentPatterns.consistencyScore,
+            triggers
+        };
+
+        if (triggers.lowConsistency) {
+            recommendation.reasons.push(`Low phonetic consistency (${currentPatterns.consistencyScore.toFixed(1)}%)`);
+        }
+        if (triggers.significantAddition) {
+            recommendation.reasons.push(`Significant vocabulary expansion (+${newWordCount} words)`);
+        }
+        if (triggers.vocabularySizeThreshold) {
+            recommendation.reasons.push(`Large vocabulary size (${language.vocabulary.size} words)`);
+        }
+        if (triggers.patternConflicts) {
+            recommendation.reasons.push('Conflicting transformation patterns detected');
+        }
+
+        return recommendation;
+    }
+
+    detectPatternConflicts(patterns) {
+        let conflicts = 0;
+        
+        for (const [char, transforms] of patterns.vowelTransformations) {
+            if (transforms.size > 3) conflicts++; // Too many different transformations
+        }
+        
+        for (const [char, transforms] of patterns.consonantShifts) {
+            if (transforms.size > 2) conflicts++; // Too many different transformations
+        }
+        
+        return conflicts > 3;
+    }
+
+    async reconstructDictionary(language, options = {}) {
+        // Ensure initialization is complete
+        await this.initializationPromise;
+        
+        console.log(`\n🔄 Reconstructing dictionary for ${language.config.name}...`);
+        
+        // Backup current vocabulary
+        const originalVocabulary = new Map(language.vocabulary);
+        
+        // Create temporary language copy for safe reconstruction
+        const tempLanguage = {
+            ...language,
+            vocabulary: new Map() // Start with empty vocabulary for reconstruction
+        };
+        
+        // Re-analyze patterns with full vocabulary for better rules
+        const improvedPhoneticMapper = new PhoneticMapper();
+        const vocabularyList = Array.from(originalVocabulary.keys());
+        
+        // Process all words with improved consistency
+        let reconstructed = 0;
+        const changes = [];
+        
+        for (const englishWord of vocabularyList) {
+            const originalEntry = originalVocabulary.get(englishWord);
+            
+            // Reprocess with temporary language state and better analysis
+            await this.processWord(tempLanguage, englishWord);
+            const newEntry = tempLanguage.vocabulary.get(englishWord);
+            
+            if (newEntry && originalEntry.sigment !== newEntry.sigment) {
+                changes.push({
+                    english: englishWord,
+                    old: originalEntry.sigment,
+                    new: newEntry.sigment,
+                    pronunciation: {
+                        old: originalEntry.pronunciation,
+                        new: newEntry.pronunciation
+                    }
+                });
+            }
+            reconstructed++;
+        }
+
+        // Calculate new consistency score
+        const newPatterns = await this.analyzePhoneticPatterns(tempLanguage);
+        
+        // Only replace original vocabulary if reconstruction was successful
+        if (reconstructed > 0) {
+            language.vocabulary = tempLanguage.vocabulary;
+        }
+        
+        return {
+            success: true,
+            reconstructedWords: reconstructed,
+            changedWords: changes.length,
+            changes: changes.slice(0, 20), // Show first 20 changes
+            totalChanges: changes.length,
+            consistencyImprovement: {
+                before: options.beforeConsistency || 0,
+                after: newPatterns.consistencyScore,
+                improvement: newPatterns.consistencyScore - (options.beforeConsistency || 0)
+            }
+        };
     }
 }

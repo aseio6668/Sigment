@@ -1,14 +1,14 @@
 {
-  "created": "2025-09-07T20:33:04.080Z",
-  "version": "1.0.0",
+  "created": "2025-09-07T20:55:04.204Z",
+  "version": "1.0.2",
   "generator": "Sigment Language Constructor",
   "config": {
-    "name": "TestPersist",
+    "name": "AddWordsTest",
     "style": "default",
     "vocabulary": [
       "test",
-      "persist",
-      "issue"
+      "add",
+      "words"
     ],
     "phoneticRules": {},
     "etymologicalDepth": "medium",
@@ -17,31 +17,32 @@
   "phoneticSystem": {
     "vowelInventory": [
       "e",
-      "i",
-      "u"
+      "a",
+      "o"
     ],
     "consonantInventory": [
       "t",
       "s",
-      "p",
+      "d",
+      "w",
       "r"
     ],
     "phoneticPatterns": {
       "CVCC": 1,
-      "CVCCVCC": 1,
-      "VCCVV": 1
+      "VC": 1,
+      "CVCCC": 1
     },
     "syllableStructures": {
-      "1": 1,
-      "2": 2
+      "1": 3
     },
     "stressPatterns": []
   },
-  "vocabularySize": 3,
+  "vocabularySize": 7,
   "generationStats": {
     "wordsProcessed": 3,
     "languagesCreated": 0,
-    "startTime": 1757277184080,
+    "startTime": null,
     "errors": []
-  }
+  },
+  "lastModified": "2025-09-07T20:59:12.253Z"
 }

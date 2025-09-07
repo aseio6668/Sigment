@@ -1,19 +1,21 @@
 {
-  "created": "2025-09-07T20:23:38.710Z",
+  "created": "2025-09-07T21:57:01.013Z",
   "version": "1.0.0",
   "generator": "Sigment Language Constructor",
   "config": {
-    "name": "CleanTest",
-    "style": "consonant_shift",
+    "name": "TestASCII",
+    "style": "default",
     "vocabulary": [
       "hello",
       "world",
-      "test",
-      "works"
+      "the",
+      "do",
+      "to"
     ],
     "phoneticRules": {},
     "etymologicalDepth": "medium",
-    "customPrompt": ""
+    "customPrompt": "",
+    "asciiPronunciation": true
   },
   "phoneticSystem": {
     "vowelInventory": [
@@ -23,29 +25,28 @@
     "consonantInventory": [
       "h",
       "l",
-      "v",
+      "w",
       "r",
-      "t",
       "d",
-      "z",
-      "g"
+      "t"
     ],
     "phoneticPatterns": {
       "CVCCV": 1,
-      "CVCCC": 2,
-      "CVCC": 1
+      "CVCCC": 1,
+      "CCV": 1,
+      "CV": 2
     },
     "syllableStructures": {
-      "1": 3,
+      "1": 4,
       "2": 1
     },
     "stressPatterns": []
   },
-  "vocabularySize": 4,
+  "vocabularySize": 5,
   "generationStats": {
-    "wordsProcessed": 4,
+    "wordsProcessed": 5,
     "languagesCreated": 0,
-    "startTime": 1757276618710,
+    "startTime": 1757282221013,
     "errors": []
   }
 }
