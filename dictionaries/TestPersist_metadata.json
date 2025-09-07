@@ -1,0 +1,47 @@
+{
+  "created": "2025-09-07T20:33:04.080Z",
+  "version": "1.0.0",
+  "generator": "Sigment Language Constructor",
+  "config": {
+    "name": "TestPersist",
+    "style": "default",
+    "vocabulary": [
+      "test",
+      "persist",
+      "issue"
+    ],
+    "phoneticRules": {},
+    "etymologicalDepth": "medium",
+    "customPrompt": ""
+  },
+  "phoneticSystem": {
+    "vowelInventory": [
+      "e",
+      "i",
+      "u"
+    ],
+    "consonantInventory": [
+      "t",
+      "s",
+      "p",
+      "r"
+    ],
+    "phoneticPatterns": {
+      "CVCC": 1,
+      "CVCCVCC": 1,
+      "VCCVV": 1
+    },
+    "syllableStructures": {
+      "1": 1,
+      "2": 2
+    },
+    "stressPatterns": []
+  },
+  "vocabularySize": 3,
+  "generationStats": {
+    "wordsProcessed": 3,
+    "languagesCreated": 0,
+    "startTime": 1757277184080,
+    "errors": []
+  }
+}

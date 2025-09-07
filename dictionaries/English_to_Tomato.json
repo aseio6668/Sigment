@@ -1,0 +1,2054 @@
+{
+  "metadata": {
+    "type": "English to Sigment Dictionary",
+    "language": "Tomato",
+    "entries": 146,
+    "created": "2025-09-07T20:30:54.114Z"
+  },
+  "dictionary": {
+    "the": {
+      "sigment": "the",
+      "pronunciation": "/thɛ/",
+      "definitions": [
+        "Definition of the"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCV",
+        "syllableCount": 1,
+        "complexity": 0.6500000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "be": {
+      "sigment": "be",
+      "pronunciation": "/bɛ/",
+      "definitions": [
+        "Definition of be"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "to": {
+      "sigment": "to",
+      "pronunciation": "/tɔ/",
+      "definitions": [
+        "Definition of to"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "of": {
+      "sigment": "oph",
+      "pronunciation": "/ɔph/",
+      "definitions": [
+        "Definition of of"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCC",
+        "syllableCount": 1,
+        "complexity": 0.6500000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "and": {
+      "sigment": "and",
+      "pronunciation": "/ænd/",
+      "definitions": [
+        "Definition of and"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "a": {
+      "sigment": "a",
+      "pronunciation": "/æ/",
+      "definitions": [
+        "Definition of a"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "V",
+        "syllableCount": 1,
+        "complexity": 0.15000000000000002,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "in": {
+      "sigment": "in",
+      "pronunciation": "/ɪn/",
+      "definitions": [
+        "Definition of in"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "that": {
+      "sigment": "that",
+      "pronunciation": "/thæt/",
+      "definitions": [
+        "Definition of that"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.7000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "have": {
+      "sigment": "have",
+      "pronunciation": "/hævɛ/",
+      "definitions": [
+        "Definition of have"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "i": {
+      "sigment": "i",
+      "pronunciation": "/ɪ/",
+      "definitions": [
+        "Definition of i"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "V",
+        "syllableCount": 1,
+        "complexity": 0.15000000000000002,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "it": {
+      "sigment": "it",
+      "pronunciation": "/ɪt/",
+      "definitions": [
+        "Definition of it"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "for": {
+      "sigment": "phor",
+      "pronunciation": "/phɔr/",
+      "definitions": [
+        "Definition of for"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "not": {
+      "sigment": "not",
+      "pronunciation": "/nɔt/",
+      "definitions": [
+        "Definition of not"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "on": {
+      "sigment": "on",
+      "pronunciation": "/ɔn/",
+      "definitions": [
+        "Definition of on"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "with": {
+      "sigment": "with",
+      "pronunciation": "/wɪth/",
+      "definitions": [
+        "Definition of with"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "he": {
+      "sigment": "he",
+      "pronunciation": "/hɛ/",
+      "definitions": [
+        "Definition of he"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "as": {
+      "sigment": "as",
+      "pronunciation": "/æs/",
+      "definitions": [
+        "Definition of as"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "you": {
+      "sigment": "you",
+      "pronunciation": "/jɔʌ/",
+      "definitions": [
+        "Definition of you"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVV",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "do": {
+      "sigment": "do",
+      "pronunciation": "/dɔ/",
+      "definitions": [
+        "Definition of do"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "at": {
+      "sigment": "at",
+      "pronunciation": "/æt/",
+      "definitions": [
+        "Definition of at"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "this": {
+      "sigment": "this",
+      "pronunciation": "/thɪs/",
+      "definitions": [
+        "Definition of this"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "but": {
+      "sigment": "but",
+      "pronunciation": "/bʌt/",
+      "definitions": [
+        "Definition of but"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "his": {
+      "sigment": "his",
+      "pronunciation": "/hɪs/",
+      "definitions": [
+        "Definition of his"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "by": {
+      "sigment": "by",
+      "pronunciation": "/bj/",
+      "definitions": [
+        "Definition of by"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "iambic"
+      }
+    },
+    "from": {
+      "sigment": "phrom",
+      "pronunciation": "/phrɔm/",
+      "definitions": [
+        "Definition of from"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCCVC",
+        "syllableCount": 1,
+        "complexity": 0.95,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "they": {
+      "sigment": "they",
+      "pronunciation": "/thɛj/",
+      "definitions": [
+        "Definition of they"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "we": {
+      "sigment": "we",
+      "pronunciation": "/wɛ/",
+      "definitions": [
+        "Definition of we"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "say": {
+      "sigment": "say",
+      "pronunciation": "/sæj/",
+      "definitions": [
+        "Definition of say"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "her": {
+      "sigment": "her",
+      "pronunciation": "/hɛr/",
+      "definitions": [
+        "Definition of her"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "she": {
+      "sigment": "she",
+      "pronunciation": "/shɛ/",
+      "definitions": [
+        "Definition of she"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCV",
+        "syllableCount": 1,
+        "complexity": 0.6500000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "or": {
+      "sigment": "or",
+      "pronunciation": "/ɔr/",
+      "definitions": [
+        "Definition of or"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "an": {
+      "sigment": "an",
+      "pronunciation": "/æn/",
+      "definitions": [
+        "Definition of an"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "will": {
+      "sigment": "wil",
+      "pronunciation": "/wɪl/",
+      "definitions": [
+        "Definition of will"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "my": {
+      "sigment": "my",
+      "pronunciation": "/mj/",
+      "definitions": [
+        "Definition of my"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "dactylic"
+      }
+    },
+    "one": {
+      "sigment": "one",
+      "pronunciation": "/ɔnɛ/",
+      "definitions": [
+        "Definition of one"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCV",
+        "syllableCount": 2,
+        "complexity": 0.45000000000000007,
+        "rhythm": "dactylic"
+      }
+    },
+    "all": {
+      "sigment": "al",
+      "pronunciation": "/æl/",
+      "definitions": [
+        "Definition of all"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "would": {
+      "sigment": "would",
+      "pronunciation": "/wɔʌld/",
+      "definitions": [
+        "Definition of would"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVVCC",
+        "syllableCount": 1,
+        "complexity": 0.75,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "there": {
+      "sigment": "there",
+      "pronunciation": "/thɛrɛ/",
+      "definitions": [
+        "Definition of there"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVCV",
+        "syllableCount": 2,
+        "complexity": 0.8500000000000001,
+        "rhythm": "dactylic"
+      }
+    },
+    "their": {
+      "sigment": "their",
+      "pronunciation": "/thɛɪr/",
+      "definitions": [
+        "Definition of their"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVVC",
+        "syllableCount": 1,
+        "complexity": 0.95,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "what": {
+      "sigment": "what",
+      "pronunciation": "/whæt/",
+      "definitions": [
+        "Definition of what"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "so": {
+      "sigment": "so",
+      "pronunciation": "/sɔ/",
+      "definitions": [
+        "Definition of so"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "up": {
+      "sigment": "up",
+      "pronunciation": "/ʌp/",
+      "definitions": [
+        "Definition of up"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "out": {
+      "sigment": "out",
+      "pronunciation": "/ɔʌt/",
+      "definitions": [
+        "Definition of out"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "if": {
+      "sigment": "iph",
+      "pronunciation": "/ɪph/",
+      "definitions": [
+        "Definition of if"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCC",
+        "syllableCount": 1,
+        "complexity": 0.6500000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "about": {
+      "sigment": "about",
+      "pronunciation": "/æbɔʌt/",
+      "definitions": [
+        "Definition of about"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCVVC",
+        "syllableCount": 2,
+        "complexity": 0.75,
+        "rhythm": "trochaic"
+      }
+    },
+    "who": {
+      "sigment": "who",
+      "pronunciation": "/whɔ/",
+      "definitions": [
+        "Definition of who"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCV",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "get": {
+      "sigment": "get",
+      "pronunciation": "/gɛt/",
+      "definitions": [
+        "Definition of get"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "which": {
+      "sigment": "whikh",
+      "pronunciation": "/whɪkh/",
+      "definitions": [
+        "Definition of which"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVCC",
+        "syllableCount": 1,
+        "complexity": 0.65,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "go": {
+      "sigment": "go",
+      "pronunciation": "/gɔ/",
+      "definitions": [
+        "Definition of go"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "me": {
+      "sigment": "me",
+      "pronunciation": "/mɛ/",
+      "definitions": [
+        "Definition of me"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "when": {
+      "sigment": "when",
+      "pronunciation": "/whɛn/",
+      "definitions": [
+        "Definition of when"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "make": {
+      "sigment": "mace",
+      "pronunciation": "/mækɛ/",
+      "definitions": [
+        "Definition of make"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "can": {
+      "sigment": "kan",
+      "pronunciation": "/kæn/",
+      "definitions": [
+        "Definition of can"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "like": {
+      "sigment": "lice",
+      "pronunciation": "/lɪkɛ/",
+      "definitions": [
+        "Definition of like"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "time": {
+      "sigment": "time",
+      "pronunciation": "/tɪmɛ/",
+      "definitions": [
+        "Definition of time"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "no": {
+      "sigment": "no",
+      "pronunciation": "/nɔ/",
+      "definitions": [
+        "Definition of no"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "just": {
+      "sigment": "just",
+      "pronunciation": "/ʤʌst/",
+      "definitions": [
+        "Definition of just"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "him": {
+      "sigment": "him",
+      "pronunciation": "/hɪm/",
+      "definitions": [
+        "Definition of him"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "know": {
+      "sigment": "cnow",
+      "pronunciation": "/knɔw/",
+      "definitions": [
+        "Definition of know"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "take": {
+      "sigment": "tace",
+      "pronunciation": "/tækɛ/",
+      "definitions": [
+        "Definition of take"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "people": {
+      "sigment": "people",
+      "pronunciation": "/pɛɔplɛ/",
+      "definitions": [
+        "Definition of people"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVVCCV",
+        "syllableCount": 2,
+        "complexity": 0.7000000000000001,
+        "rhythm": "anapestic"
+      }
+    },
+    "into": {
+      "sigment": "into",
+      "pronunciation": "/ɪntɔ/",
+      "definitions": [
+        "Definition of into"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "trochaic"
+      }
+    },
+    "year": {
+      "sigment": "year",
+      "pronunciation": "/jɛær/",
+      "definitions": [
+        "Definition of year"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVVC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "your": {
+      "sigment": "your",
+      "pronunciation": "/jɔʌr/",
+      "definitions": [
+        "Definition of your"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVVC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "good": {
+      "sigment": "good",
+      "pronunciation": "/gɔɔd/",
+      "definitions": [
+        "Definition of good"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVVC",
+        "syllableCount": 1,
+        "complexity": 0.5,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "some": {
+      "sigment": "some",
+      "pronunciation": "/sɔmɛ/",
+      "definitions": [
+        "Definition of some"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "could": {
+      "sigment": "kould",
+      "pronunciation": "/kɔʌld/",
+      "definitions": [
+        "Definition of could"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVVCC",
+        "syllableCount": 1,
+        "complexity": 0.75,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "them": {
+      "sigment": "them",
+      "pronunciation": "/thɛm/",
+      "definitions": [
+        "Definition of them"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "see": {
+      "sigment": "se",
+      "pronunciation": "/sɛ/",
+      "definitions": [
+        "Definition of see"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "other": {
+      "sigment": "other",
+      "pronunciation": "/ɔthɛr/",
+      "definitions": [
+        "Definition of other"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCCVC",
+        "syllableCount": 2,
+        "complexity": 0.95,
+        "rhythm": "anapestic"
+      }
+    },
+    "than": {
+      "sigment": "than",
+      "pronunciation": "/thæn/",
+      "definitions": [
+        "Definition of than"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "then": {
+      "sigment": "then",
+      "pronunciation": "/thɛn/",
+      "definitions": [
+        "Definition of then"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "now": {
+      "sigment": "now",
+      "pronunciation": "/nɔw/",
+      "definitions": [
+        "Definition of now"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "look": {
+      "sigment": "looc",
+      "pronunciation": "/lɔɔk/",
+      "definitions": [
+        "Definition of look"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVVC",
+        "syllableCount": 1,
+        "complexity": 0.5,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "only": {
+      "sigment": "only",
+      "pronunciation": "/ɔnlj/",
+      "definitions": [
+        "Definition of only"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "come": {
+      "sigment": "kome",
+      "pronunciation": "/kɔmɛ/",
+      "definitions": [
+        "Definition of come"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "its": {
+      "sigment": "its",
+      "pronunciation": "/ɪts/",
+      "definitions": [
+        "Definition of its"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "over": {
+      "sigment": "over",
+      "pronunciation": "/ɔvɛr/",
+      "definitions": [
+        "Definition of over"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCVC",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "anapestic"
+      }
+    },
+    "think": {
+      "sigment": "thinc",
+      "pronunciation": "/thɪnk/",
+      "definitions": [
+        "Definition of think"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVCC",
+        "syllableCount": 1,
+        "complexity": 0.95,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "also": {
+      "sigment": "also",
+      "pronunciation": "/ælsɔ/",
+      "definitions": [
+        "Definition of also"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "trochaic"
+      }
+    },
+    "back": {
+      "sigment": "bakc",
+      "pronunciation": "/bækk/",
+      "definitions": [
+        "Definition of back"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "after": {
+      "sigment": "aphter",
+      "pronunciation": "/æphtɛr/",
+      "definitions": [
+        "Definition of after"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCCCVC",
+        "syllableCount": 2,
+        "complexity": 1,
+        "rhythm": "anapestic"
+      }
+    },
+    "use": {
+      "sigment": "use",
+      "pronunciation": "/ʌsɛ/",
+      "definitions": [
+        "Definition of use"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCV",
+        "syllableCount": 2,
+        "complexity": 0.45000000000000007,
+        "rhythm": "dactylic"
+      }
+    },
+    "two": {
+      "sigment": "two",
+      "pronunciation": "/twɔ/",
+      "definitions": [
+        "Definition of two"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCV",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "how": {
+      "sigment": "how",
+      "pronunciation": "/hɔw/",
+      "definitions": [
+        "Definition of how"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "our": {
+      "sigment": "our",
+      "pronunciation": "/ɔʌr/",
+      "definitions": [
+        "Definition of our"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "work": {
+      "sigment": "worc",
+      "pronunciation": "/wɔrk/",
+      "definitions": [
+        "Definition of work"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "first": {
+      "sigment": "phirst",
+      "pronunciation": "/phɪrst/",
+      "definitions": [
+        "Definition of first"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVCCC",
+        "syllableCount": 1,
+        "complexity": 1,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "well": {
+      "sigment": "wel",
+      "pronunciation": "/wɛl/",
+      "definitions": [
+        "Definition of well"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "way": {
+      "sigment": "way",
+      "pronunciation": "/wæj/",
+      "definitions": [
+        "Definition of way"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "even": {
+      "sigment": "even",
+      "pronunciation": "/ɛvɛn/",
+      "definitions": [
+        "Definition of even"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCVC",
+        "syllableCount": 2,
+        "complexity": 0.5,
+        "rhythm": "anapestic"
+      }
+    },
+    "new": {
+      "sigment": "new",
+      "pronunciation": "/nɛw/",
+      "definitions": [
+        "Definition of new"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "want": {
+      "sigment": "want",
+      "pronunciation": "/wænt/",
+      "definitions": [
+        "Definition of want"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "because": {
+      "sigment": "bekause",
+      "pronunciation": "/bɛkæʌsɛ/",
+      "definitions": [
+        "Definition of because"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCVVCV",
+        "syllableCount": 3,
+        "complexity": 0.9500000000000002,
+        "rhythm": "anapestic"
+      }
+    },
+    "any": {
+      "sigment": "any",
+      "pronunciation": "/ænj/",
+      "definitions": [
+        "Definition of any"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "these": {
+      "sigment": "these",
+      "pronunciation": "/thɛsɛ/",
+      "definitions": [
+        "Definition of these"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVCV",
+        "syllableCount": 2,
+        "complexity": 0.8500000000000001,
+        "rhythm": "dactylic"
+      }
+    },
+    "give": {
+      "sigment": "give",
+      "pronunciation": "/gɪvɛ/",
+      "definitions": [
+        "Definition of give"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "day": {
+      "sigment": "day",
+      "pronunciation": "/dæj/",
+      "definitions": [
+        "Definition of day"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "most": {
+      "sigment": "most",
+      "pronunciation": "/mɔst/",
+      "definitions": [
+        "Definition of most"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "us": {
+      "sigment": "us",
+      "pronunciation": "/ʌs/",
+      "definitions": [
+        "Definition of us"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "is": {
+      "sigment": "is",
+      "pronunciation": "/ɪs/",
+      "definitions": [
+        "Definition of is"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VC",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "water": {
+      "sigment": "water",
+      "pronunciation": "/wætɛr/",
+      "definitions": [
+        "Definition of water"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCVC",
+        "syllableCount": 2,
+        "complexity": 0.75,
+        "rhythm": "trochaic"
+      }
+    },
+    "long": {
+      "sigment": "long",
+      "pronunciation": "/lɔng/",
+      "definitions": [
+        "Definition of long"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "very": {
+      "sigment": "very",
+      "pronunciation": "/vɛrj/",
+      "definitions": [
+        "Definition of very"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "word": {
+      "sigment": "word",
+      "pronunciation": "/wɔrd/",
+      "definitions": [
+        "Definition of word"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "great": {
+      "sigment": "great",
+      "pronunciation": "/grɛæt/",
+      "definitions": [
+        "Definition of great"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVVC",
+        "syllableCount": 1,
+        "complexity": 0.75,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "where": {
+      "sigment": "where",
+      "pronunciation": "/whɛrɛ/",
+      "definitions": [
+        "Definition of where"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVCV",
+        "syllableCount": 2,
+        "complexity": 0.65,
+        "rhythm": "anapestic"
+      }
+    },
+    "through": {
+      "sigment": "through",
+      "pronunciation": "/thrɔʌgh/",
+      "definitions": [
+        "Definition of through"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCCVVCC",
+        "syllableCount": 1,
+        "complexity": 1,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "much": {
+      "sigment": "mukh",
+      "pronunciation": "/mʌkh/",
+      "definitions": [
+        "Definition of much"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "before": {
+      "sigment": "bephore",
+      "pronunciation": "/bɛphɔrɛ/",
+      "definitions": [
+        "Definition of before"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCVCV",
+        "syllableCount": 3,
+        "complexity": 1,
+        "rhythm": "anapestic"
+      }
+    },
+    "line": {
+      "sigment": "line",
+      "pronunciation": "/lɪnɛ/",
+      "definitions": [
+        "Definition of line"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "right": {
+      "sigment": "right",
+      "pronunciation": "/rɪght/",
+      "definitions": [
+        "Definition of right"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCC",
+        "syllableCount": 1,
+        "complexity": 0.95,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "too": {
+      "sigment": "to",
+      "pronunciation": "/tɔ/",
+      "definitions": [
+        "Definition of too"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CV",
+        "syllableCount": 1,
+        "complexity": 0.30000000000000004,
+        "rhythm": "alternating"
+      }
+    },
+    "means": {
+      "sigment": "means",
+      "pronunciation": "/mɛæns/",
+      "definitions": [
+        "Definition of means"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVVCC",
+        "syllableCount": 1,
+        "complexity": 0.75,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "old": {
+      "sigment": "old",
+      "pronunciation": "/ɔld/",
+      "definitions": [
+        "Definition of old"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "same": {
+      "sigment": "same",
+      "pronunciation": "/sæmɛ/",
+      "definitions": [
+        "Definition of same"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "tell": {
+      "sigment": "tel",
+      "pronunciation": "/tɛl/",
+      "definitions": [
+        "Definition of tell"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "boy": {
+      "sigment": "boy",
+      "pronunciation": "/bɔj/",
+      "definitions": [
+        "Definition of boy"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "follow": {
+      "sigment": "phollow",
+      "pronunciation": "/phɔllɔw/",
+      "definitions": [
+        "Definition of follow"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVCCVC",
+        "syllableCount": 2,
+        "complexity": 1,
+        "rhythm": "trochaic"
+      }
+    },
+    "came": {
+      "sigment": "kame",
+      "pronunciation": "/kæmɛ/",
+      "definitions": [
+        "Definition of came"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "show": {
+      "sigment": "show",
+      "pronunciation": "/shɔw/",
+      "definitions": [
+        "Definition of show"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "around": {
+      "sigment": "around",
+      "pronunciation": "/ærɔʌnd/",
+      "definitions": [
+        "Definition of around"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCVVCC",
+        "syllableCount": 2,
+        "complexity": 0.9000000000000001,
+        "rhythm": "dactylic"
+      }
+    },
+    "form": {
+      "sigment": "phorm",
+      "pronunciation": "/phɔrm/",
+      "definitions": [
+        "Definition of form"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVCC",
+        "syllableCount": 1,
+        "complexity": 0.95,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "three": {
+      "sigment": "thre",
+      "pronunciation": "/thrɛ/",
+      "definitions": [
+        "Definition of three"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCCV",
+        "syllableCount": 1,
+        "complexity": 0.8,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "small": {
+      "sigment": "smal",
+      "pronunciation": "/smæl/",
+      "definitions": [
+        "Definition of small"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "set": {
+      "sigment": "set",
+      "pronunciation": "/sɛt/",
+      "definitions": [
+        "Definition of set"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "put": {
+      "sigment": "put",
+      "pronunciation": "/pʌt/",
+      "definitions": [
+        "Definition of put"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "end": {
+      "sigment": "end",
+      "pronunciation": "/ɛnd/",
+      "definitions": [
+        "Definition of end"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "why": {
+      "sigment": "why",
+      "pronunciation": "/whj/",
+      "definitions": [
+        "Definition of why"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "trochaic"
+      }
+    },
+    "again": {
+      "sigment": "again",
+      "pronunciation": "/ægæɪn/",
+      "definitions": [
+        "Definition of again"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCVVC",
+        "syllableCount": 2,
+        "complexity": 0.65,
+        "rhythm": "trochaic"
+      }
+    },
+    "turn": {
+      "sigment": "turn",
+      "pronunciation": "/tʌrn/",
+      "definitions": [
+        "Definition of turn"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "here": {
+      "sigment": "here",
+      "pronunciation": "/hɛrɛ/",
+      "definitions": [
+        "Definition of here"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.5,
+        "rhythm": "alternating"
+      }
+    },
+    "off": {
+      "sigment": "ophph",
+      "pronunciation": "/ɔphph/",
+      "definitions": [
+        "Definition of off"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCCCC",
+        "syllableCount": 1,
+        "complexity": 0.75,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "went": {
+      "sigment": "went",
+      "pronunciation": "/wɛnt/",
+      "definitions": [
+        "Definition of went"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "number": {
+      "sigment": "number",
+      "pronunciation": "/nʌmbɛr/",
+      "definitions": [
+        "Definition of number"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCVC",
+        "syllableCount": 2,
+        "complexity": 0.9000000000000001,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "men": {
+      "sigment": "men",
+      "pronunciation": "/mɛn/",
+      "definitions": [
+        "Definition of men"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "every": {
+      "sigment": "every",
+      "pronunciation": "/ɛvɛrj/",
+      "definitions": [
+        "Definition of every"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCVCC",
+        "syllableCount": 2,
+        "complexity": 0.65,
+        "rhythm": "anapestic"
+      }
+    },
+    "found": {
+      "sigment": "phound",
+      "pronunciation": "/phɔʌnd/",
+      "definitions": [
+        "Definition of found"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVVCC",
+        "syllableCount": 1,
+        "complexity": 1,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "still": {
+      "sigment": "stil",
+      "pronunciation": "/stɪl/",
+      "definitions": [
+        "Definition of still"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVC",
+        "syllableCount": 1,
+        "complexity": 0.6000000000000001,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "between": {
+      "sigment": "between",
+      "pronunciation": "/bɛtwɛɛn/",
+      "definitions": [
+        "Definition of between"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCVVC",
+        "syllableCount": 2,
+        "complexity": 0.8500000000000001,
+        "rhythm": "iambic"
+      }
+    },
+    "name": {
+      "sigment": "name",
+      "pronunciation": "/næmɛ/",
+      "definitions": [
+        "Definition of name"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "should": {
+      "sigment": "should",
+      "pronunciation": "/shɔʌld/",
+      "definitions": [
+        "Definition of should"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVVCC",
+        "syllableCount": 1,
+        "complexity": 1,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "home": {
+      "sigment": "home",
+      "pronunciation": "/hɔmɛ/",
+      "definitions": [
+        "Definition of home"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCV",
+        "syllableCount": 2,
+        "complexity": 0.6000000000000001,
+        "rhythm": "alternating"
+      }
+    },
+    "big": {
+      "sigment": "big",
+      "pronunciation": "/bɪg/",
+      "definitions": [
+        "Definition of big"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "closed_syllable"
+      }
+    },
+    "air": {
+      "sigment": "air",
+      "pronunciation": "/æɪr/",
+      "definitions": [
+        "Definition of air"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VVC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "own": {
+      "sigment": "own",
+      "pronunciation": "/ɔwn/",
+      "definitions": [
+        "Definition of own"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCC",
+        "syllableCount": 1,
+        "complexity": 0.45000000000000007,
+        "rhythm": "vowel_centered"
+      }
+    }
+  }
+}

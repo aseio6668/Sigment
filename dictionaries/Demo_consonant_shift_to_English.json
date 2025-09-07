@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "type": "Sigment to English Dictionary",
+    "language": "Demo_consonant_shift",
+    "entries": 7,
+    "created": "2025-09-07T20:23:49.658Z"
+  },
+  "dictionary": {
+    "hello": {
+      "english": "hello",
+      "definitions": [
+        "Definition of hello"
+      ],
+      "pronunciation": "/hɛllɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "vorlt": {
+      "english": "world",
+      "definitions": [
+        "Definition of world"
+      ],
+      "pronunciation": "/vɔrlt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "combuder": {
+      "english": "computer",
+      "definitions": [
+        "Definition of computer"
+      ],
+      "pronunciation": "/kɔmbʌdɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "lankuake": {
+      "english": "language",
+      "definitions": [
+        "Definition of language"
+      ],
+      "pronunciation": "/lænkʌækɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "peaudivul": {
+      "english": "beautiful",
+      "definitions": [
+        "Definition of beautiful"
+      ],
+      "pronunciation": "/pɛæʌdɪvʌl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "vandazdic": {
+      "english": "fantastic",
+      "definitions": [
+        "Definition of fantastic"
+      ],
+      "pronunciation": "/vændæzdɪk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "mornink": {
+      "english": "morning",
+      "definitions": [
+        "Definition of morning"
+      ],
+      "pronunciation": "/mɔrnɪnk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    }
+  }
+}

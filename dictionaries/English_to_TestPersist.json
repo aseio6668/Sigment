@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "type": "English to Sigment Dictionary",
+    "language": "TestPersist",
+    "entries": 3,
+    "created": "2025-09-07T20:33:04.084Z"
+  },
+  "dictionary": {
+    "test": {
+      "sigment": "test",
+      "pronunciation": "/tɛst/",
+      "definitions": [
+        "Definition of test"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCC",
+        "syllableCount": 1,
+        "complexity": 0.5,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "persist": {
+      "sigment": "persist",
+      "pronunciation": "/pɛrsɪst/",
+      "definitions": [
+        "Definition of persist"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCVCC",
+        "syllableCount": 2,
+        "complexity": 0.9500000000000002,
+        "rhythm": "iambic"
+      }
+    },
+    "issue": {
+      "sigment": "issue",
+      "pronunciation": "/ɪssʌɛ/",
+      "definitions": [
+        "Definition of issue"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "VCCVV",
+        "syllableCount": 2,
+        "complexity": 0.65,
+        "rhythm": "dactylic"
+      }
+    }
+  }
+}

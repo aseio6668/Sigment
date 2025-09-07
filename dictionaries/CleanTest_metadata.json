@@ -1,0 +1,51 @@
+{
+  "created": "2025-09-07T20:23:38.710Z",
+  "version": "1.0.0",
+  "generator": "Sigment Language Constructor",
+  "config": {
+    "name": "CleanTest",
+    "style": "consonant_shift",
+    "vocabulary": [
+      "hello",
+      "world",
+      "test",
+      "works"
+    ],
+    "phoneticRules": {},
+    "etymologicalDepth": "medium",
+    "customPrompt": ""
+  },
+  "phoneticSystem": {
+    "vowelInventory": [
+      "e",
+      "o"
+    ],
+    "consonantInventory": [
+      "h",
+      "l",
+      "v",
+      "r",
+      "t",
+      "d",
+      "z",
+      "g"
+    ],
+    "phoneticPatterns": {
+      "CVCCV": 1,
+      "CVCCC": 2,
+      "CVCC": 1
+    },
+    "syllableStructures": {
+      "1": 3,
+      "2": 1
+    },
+    "stressPatterns": []
+  },
+  "vocabularySize": 4,
+  "generationStats": {
+    "wordsProcessed": 4,
+    "languagesCreated": 0,
+    "startTime": 1757276618710,
+    "errors": []
+  }
+}

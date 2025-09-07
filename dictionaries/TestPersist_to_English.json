@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "type": "Sigment to English Dictionary",
+    "language": "TestPersist",
+    "entries": 3,
+    "created": "2025-09-07T20:33:04.084Z"
+  },
+  "dictionary": {
+    "test": {
+      "english": "test",
+      "definitions": [
+        "Definition of test"
+      ],
+      "pronunciation": "/tɛst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "persist": {
+      "english": "persist",
+      "definitions": [
+        "Definition of persist"
+      ],
+      "pronunciation": "/pɛrsɪst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "issue": {
+      "english": "issue",
+      "definitions": [
+        "Definition of issue"
+      ],
+      "pronunciation": "/ɪssʌɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    }
+  }
+}

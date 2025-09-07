@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "type": "English to Sigment Dictionary",
+    "language": "Demo_default",
+    "entries": 7,
+    "created": "2025-09-07T20:23:49.655Z"
+  },
+  "dictionary": {
+    "hello": {
+      "sigment": "hello",
+      "pronunciation": "/hɛllɔ/",
+      "definitions": [
+        "Definition of hello"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCV",
+        "syllableCount": 2,
+        "complexity": 0.65,
+        "rhythm": "anapestic"
+      }
+    },
+    "world": {
+      "sigment": "world",
+      "pronunciation": "/wɔrld/",
+      "definitions": [
+        "Definition of world"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCC",
+        "syllableCount": 1,
+        "complexity": 0.75,
+        "rhythm": "vowel_centered"
+      }
+    },
+    "computer": {
+      "sigment": "komputer",
+      "pronunciation": "/kɔmpʌtɛr/",
+      "definitions": [
+        "Definition of computer"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCVCVC",
+        "syllableCount": 3,
+        "complexity": 1,
+        "rhythm": "trochaic"
+      }
+    },
+    "language": {
+      "sigment": "language",
+      "pronunciation": "/længʌægɛ/",
+      "definitions": [
+        "Definition of language"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCVVCV",
+        "syllableCount": 3,
+        "complexity": 1,
+        "rhythm": "anapestic"
+      }
+    },
+    "beautiful": {
+      "sigment": "beautiphul",
+      "pronunciation": "/bɛæʌtɪphʌl/",
+      "definitions": [
+        "Definition of beautiful"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVVVCVCCVC",
+        "syllableCount": 3,
+        "complexity": 1,
+        "rhythm": "dactylic"
+      }
+    },
+    "fantastic": {
+      "sigment": "phantastik",
+      "pronunciation": "/phæntæstɪk/",
+      "definitions": [
+        "Definition of fantastic"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CCVCCVCCVC",
+        "syllableCount": 3,
+        "complexity": 1,
+        "rhythm": "iambic"
+      }
+    },
+    "morning": {
+      "sigment": "morning",
+      "pronunciation": "/mɔrnɪng/",
+      "definitions": [
+        "Definition of morning"
+      ],
+      "partOfSpeech": "unknown",
+      "phoneticStructure": {
+        "pattern": "CVCCVCC",
+        "syllableCount": 2,
+        "complexity": 1,
+        "rhythm": "iambic"
+      }
+    }
+  }
+}

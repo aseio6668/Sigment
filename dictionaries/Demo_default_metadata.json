@@ -1,0 +1,67 @@
+{
+  "created": "2025-09-07T20:23:49.653Z",
+  "version": "1.0.0",
+  "generator": "Sigment Language Constructor",
+  "config": {
+    "name": "Demo_default",
+    "style": "default",
+    "vocabulary": [
+      "hello",
+      "world",
+      "computer",
+      "language",
+      "beautiful",
+      "fantastic",
+      "morning"
+    ],
+    "phoneticRules": {},
+    "etymologicalDepth": "basic",
+    "customPrompt": ""
+  },
+  "phoneticSystem": {
+    "vowelInventory": [
+      "e",
+      "o",
+      "u",
+      "a",
+      "i"
+    ],
+    "consonantInventory": [
+      "h",
+      "l",
+      "w",
+      "r",
+      "d",
+      "k",
+      "m",
+      "p",
+      "t",
+      "n",
+      "g",
+      "b",
+      "s"
+    ],
+    "phoneticPatterns": {
+      "CVCCV": 1,
+      "CVCCC": 1,
+      "CVCCVCVC": 1,
+      "CVCCVVCV": 1,
+      "CVVVCVCCVC": 1,
+      "CCVCCVCCVC": 1,
+      "CVCCVCC": 1
+    },
+    "syllableStructures": {
+      "1": 1,
+      "2": 2,
+      "3": 4
+    },
+    "stressPatterns": []
+  },
+  "vocabularySize": 7,
+  "generationStats": {
+    "wordsProcessed": 7,
+    "languagesCreated": 0,
+    "startTime": 1757276629653,
+    "errors": []
+  }
+}

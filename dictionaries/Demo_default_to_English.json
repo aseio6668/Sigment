@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "type": "Sigment to English Dictionary",
+    "language": "Demo_default",
+    "entries": 7,
+    "created": "2025-09-07T20:23:49.655Z"
+  },
+  "dictionary": {
+    "hello": {
+      "english": "hello",
+      "definitions": [
+        "Definition of hello"
+      ],
+      "pronunciation": "/hɛllɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "world": {
+      "english": "world",
+      "definitions": [
+        "Definition of world"
+      ],
+      "pronunciation": "/wɔrld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "komputer": {
+      "english": "computer",
+      "definitions": [
+        "Definition of computer"
+      ],
+      "pronunciation": "/kɔmpʌtɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "language": {
+      "english": "language",
+      "definitions": [
+        "Definition of language"
+      ],
+      "pronunciation": "/længʌægɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "beautiphul": {
+      "english": "beautiful",
+      "definitions": [
+        "Definition of beautiful"
+      ],
+      "pronunciation": "/bɛæʌtɪphʌl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "phantastik": {
+      "english": "fantastic",
+      "definitions": [
+        "Definition of fantastic"
+      ],
+      "pronunciation": "/phæntæstɪk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "morning": {
+      "english": "morning",
+      "definitions": [
+        "Definition of morning"
+      ],
+      "pronunciation": "/mɔrnɪng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    }
+  }
+}

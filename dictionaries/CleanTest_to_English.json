@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "type": "Sigment to English Dictionary",
+    "language": "CleanTest",
+    "entries": 4,
+    "created": "2025-09-07T20:23:38.713Z"
+  },
+  "dictionary": {
+    "hello": {
+      "english": "hello",
+      "definitions": [
+        "Definition of hello"
+      ],
+      "pronunciation": "/hɛllɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "vorlt": {
+      "english": "world",
+      "definitions": [
+        "Definition of world"
+      ],
+      "pronunciation": "/vɔrlt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "dezd": {
+      "english": "test",
+      "definitions": [
+        "Definition of test"
+      ],
+      "pronunciation": "/dɛzd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "vorgz": {
+      "english": "works",
+      "definitions": [
+        "Definition of works"
+      ],
+      "pronunciation": "/vɔrgz/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,2040 @@
+{
+  "metadata": {
+    "type": "Sigment to Sigment Dictionary",
+    "language": "Tomato",
+    "entries": 145,
+    "created": "2025-09-07T20:30:54.113Z"
+  },
+  "dictionary": {
+    "the": {
+      "definitions": [
+        "Definition oph the"
+      ],
+      "pronunciation": "/thɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "be",
+        "to",
+        "oph",
+        "and",
+        "a"
+      ]
+    },
+    "be": {
+      "definitions": [
+        "Definition oph be"
+      ],
+      "pronunciation": "/bɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "to",
+        "oph",
+        "and",
+        "a"
+      ]
+    },
+    "to": {
+      "definitions": [
+        "Definition oph to"
+      ],
+      "pronunciation": "/tɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "oph": {
+      "definitions": [
+        "Definition oph oph"
+      ],
+      "pronunciation": "/ɔph/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "and",
+        "a"
+      ]
+    },
+    "and": {
+      "definitions": [
+        "Definition oph and"
+      ],
+      "pronunciation": "/ænd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "a"
+      ]
+    },
+    "a": {
+      "definitions": [
+        "Definition oph a"
+      ],
+      "pronunciation": "/æ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "in": {
+      "definitions": [
+        "Definition oph in"
+      ],
+      "pronunciation": "/ɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "that": {
+      "definitions": [
+        "Definition oph that"
+      ],
+      "pronunciation": "/thæt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "have": {
+      "definitions": [
+        "Definition oph have"
+      ],
+      "pronunciation": "/hævɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "i": {
+      "definitions": [
+        "Definition oph i"
+      ],
+      "pronunciation": "/ɪ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "it": {
+      "definitions": [
+        "Definition oph it"
+      ],
+      "pronunciation": "/ɪt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "phor": {
+      "definitions": [
+        "Definition oph phor"
+      ],
+      "pronunciation": "/phɔr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "not": {
+      "definitions": [
+        "Definition oph not"
+      ],
+      "pronunciation": "/nɔt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "on": {
+      "definitions": [
+        "Definition oph on"
+      ],
+      "pronunciation": "/ɔn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "with": {
+      "definitions": [
+        "Definition oph with"
+      ],
+      "pronunciation": "/wɪth/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "he": {
+      "definitions": [
+        "Definition oph he"
+      ],
+      "pronunciation": "/hɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "as": {
+      "definitions": [
+        "Definition oph as"
+      ],
+      "pronunciation": "/æs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "you": {
+      "definitions": [
+        "Definition oph you"
+      ],
+      "pronunciation": "/jɔʌ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "do": {
+      "definitions": [
+        "Definition oph do"
+      ],
+      "pronunciation": "/dɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "at": {
+      "definitions": [
+        "Definition oph at"
+      ],
+      "pronunciation": "/æt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "this": {
+      "definitions": [
+        "Definition oph this"
+      ],
+      "pronunciation": "/thɪs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "but": {
+      "definitions": [
+        "Definition oph but"
+      ],
+      "pronunciation": "/bʌt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "his": {
+      "definitions": [
+        "Definition oph his"
+      ],
+      "pronunciation": "/hɪs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "by": {
+      "definitions": [
+        "Definition oph by"
+      ],
+      "pronunciation": "/bj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "phrom": {
+      "definitions": [
+        "Definition oph phrom"
+      ],
+      "pronunciation": "/phrɔm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "they": {
+      "definitions": [
+        "Definition oph they"
+      ],
+      "pronunciation": "/thɛj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "we": {
+      "definitions": [
+        "Definition oph we"
+      ],
+      "pronunciation": "/wɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "say": {
+      "definitions": [
+        "Definition oph say"
+      ],
+      "pronunciation": "/sæj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "her": {
+      "definitions": [
+        "Definition oph her"
+      ],
+      "pronunciation": "/hɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "she": {
+      "definitions": [
+        "Definition oph she"
+      ],
+      "pronunciation": "/shɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "or": {
+      "definitions": [
+        "Definition oph or"
+      ],
+      "pronunciation": "/ɔr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "an": {
+      "definitions": [
+        "Definition oph an"
+      ],
+      "pronunciation": "/æn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "wil": {
+      "definitions": [
+        "Definition oph wil"
+      ],
+      "pronunciation": "/wɪl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "my": {
+      "definitions": [
+        "Definition oph my"
+      ],
+      "pronunciation": "/mj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "one": {
+      "definitions": [
+        "Definition oph one"
+      ],
+      "pronunciation": "/ɔnɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "al": {
+      "definitions": [
+        "Definition oph al"
+      ],
+      "pronunciation": "/æl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "would": {
+      "definitions": [
+        "Definition oph would"
+      ],
+      "pronunciation": "/wɔʌld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "there": {
+      "definitions": [
+        "Definition oph there"
+      ],
+      "pronunciation": "/thɛrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "their": {
+      "definitions": [
+        "Definition oph their"
+      ],
+      "pronunciation": "/thɛɪr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "what": {
+      "definitions": [
+        "Definition oph what"
+      ],
+      "pronunciation": "/whæt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "so": {
+      "definitions": [
+        "Definition oph so"
+      ],
+      "pronunciation": "/sɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "up": {
+      "definitions": [
+        "Definition oph up"
+      ],
+      "pronunciation": "/ʌp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "out": {
+      "definitions": [
+        "Definition oph out"
+      ],
+      "pronunciation": "/ɔʌt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "iph": {
+      "definitions": [
+        "Definition oph iph"
+      ],
+      "pronunciation": "/ɪph/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "about": {
+      "definitions": [
+        "Definition oph about"
+      ],
+      "pronunciation": "/æbɔʌt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "who": {
+      "definitions": [
+        "Definition oph who"
+      ],
+      "pronunciation": "/whɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "get": {
+      "definitions": [
+        "Definition oph get"
+      ],
+      "pronunciation": "/gɛt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "whikh": {
+      "definitions": [
+        "Definition oph whikh"
+      ],
+      "pronunciation": "/whɪkh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "go": {
+      "definitions": [
+        "Definition oph go"
+      ],
+      "pronunciation": "/gɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "me": {
+      "definitions": [
+        "Definition oph me"
+      ],
+      "pronunciation": "/mɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "when": {
+      "definitions": [
+        "Definition oph when"
+      ],
+      "pronunciation": "/whɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "mace": {
+      "definitions": [
+        "Definition oph mace"
+      ],
+      "pronunciation": "/mækɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "kan": {
+      "definitions": [
+        "Definition oph kan"
+      ],
+      "pronunciation": "/kæn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "lice": {
+      "definitions": [
+        "Definition oph lice"
+      ],
+      "pronunciation": "/lɪkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "time": {
+      "definitions": [
+        "Definition oph time"
+      ],
+      "pronunciation": "/tɪmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "no": {
+      "definitions": [
+        "Definition oph no"
+      ],
+      "pronunciation": "/nɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "just": {
+      "definitions": [
+        "Definition oph just"
+      ],
+      "pronunciation": "/ʤʌst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "him": {
+      "definitions": [
+        "Definition oph him"
+      ],
+      "pronunciation": "/hɪm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "cnow": {
+      "definitions": [
+        "Definition oph cnow"
+      ],
+      "pronunciation": "/knɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "tace": {
+      "definitions": [
+        "Definition oph tace"
+      ],
+      "pronunciation": "/tækɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "people": {
+      "definitions": [
+        "Definition oph people"
+      ],
+      "pronunciation": "/pɛɔplɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "into": {
+      "definitions": [
+        "Definition oph into"
+      ],
+      "pronunciation": "/ɪntɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "year": {
+      "definitions": [
+        "Definition oph year"
+      ],
+      "pronunciation": "/jɛær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "your": {
+      "definitions": [
+        "Definition oph your"
+      ],
+      "pronunciation": "/jɔʌr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "good": {
+      "definitions": [
+        "Definition oph good"
+      ],
+      "pronunciation": "/gɔɔd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "some": {
+      "definitions": [
+        "Definition oph some"
+      ],
+      "pronunciation": "/sɔmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "kould": {
+      "definitions": [
+        "Definition oph kould"
+      ],
+      "pronunciation": "/kɔʌld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "them": {
+      "definitions": [
+        "Definition oph them"
+      ],
+      "pronunciation": "/thɛm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "se": {
+      "definitions": [
+        "Definition oph se"
+      ],
+      "pronunciation": "/sɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "other": {
+      "definitions": [
+        "Definition oph other"
+      ],
+      "pronunciation": "/ɔthɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "than": {
+      "definitions": [
+        "Definition oph than"
+      ],
+      "pronunciation": "/thæn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "then": {
+      "definitions": [
+        "Definition oph then"
+      ],
+      "pronunciation": "/thɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "now": {
+      "definitions": [
+        "Definition oph now"
+      ],
+      "pronunciation": "/nɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "looc": {
+      "definitions": [
+        "Definition oph looc"
+      ],
+      "pronunciation": "/lɔɔk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "only": {
+      "definitions": [
+        "Definition oph only"
+      ],
+      "pronunciation": "/ɔnlj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "kome": {
+      "definitions": [
+        "Definition oph kome"
+      ],
+      "pronunciation": "/kɔmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "its": {
+      "definitions": [
+        "Definition oph its"
+      ],
+      "pronunciation": "/ɪts/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "over": {
+      "definitions": [
+        "Definition oph over"
+      ],
+      "pronunciation": "/ɔvɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "thinc": {
+      "definitions": [
+        "Definition oph thinc"
+      ],
+      "pronunciation": "/thɪnk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "also": {
+      "definitions": [
+        "Definition oph also"
+      ],
+      "pronunciation": "/ælsɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "bakc": {
+      "definitions": [
+        "Definition oph bakc"
+      ],
+      "pronunciation": "/bækk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "aphter": {
+      "definitions": [
+        "Definition oph aphter"
+      ],
+      "pronunciation": "/æphtɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "use": {
+      "definitions": [
+        "Definition oph use"
+      ],
+      "pronunciation": "/ʌsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "two": {
+      "definitions": [
+        "Definition oph two"
+      ],
+      "pronunciation": "/twɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "how": {
+      "definitions": [
+        "Definition oph how"
+      ],
+      "pronunciation": "/hɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "our": {
+      "definitions": [
+        "Definition oph our"
+      ],
+      "pronunciation": "/ɔʌr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "worc": {
+      "definitions": [
+        "Definition oph worc"
+      ],
+      "pronunciation": "/wɔrk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "phirst": {
+      "definitions": [
+        "Definition oph phirst"
+      ],
+      "pronunciation": "/phɪrst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "wel": {
+      "definitions": [
+        "Definition oph wel"
+      ],
+      "pronunciation": "/wɛl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "way": {
+      "definitions": [
+        "Definition oph way"
+      ],
+      "pronunciation": "/wæj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "even": {
+      "definitions": [
+        "Definition oph even"
+      ],
+      "pronunciation": "/ɛvɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "new": {
+      "definitions": [
+        "Definition oph new"
+      ],
+      "pronunciation": "/nɛw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "want": {
+      "definitions": [
+        "Definition oph want"
+      ],
+      "pronunciation": "/wænt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "bekause": {
+      "definitions": [
+        "Definition oph bekause"
+      ],
+      "pronunciation": "/bɛkæʌsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "any": {
+      "definitions": [
+        "Definition oph any"
+      ],
+      "pronunciation": "/ænj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "these": {
+      "definitions": [
+        "Definition oph these"
+      ],
+      "pronunciation": "/thɛsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "give": {
+      "definitions": [
+        "Definition oph give"
+      ],
+      "pronunciation": "/gɪvɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "day": {
+      "definitions": [
+        "Definition oph day"
+      ],
+      "pronunciation": "/dæj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "most": {
+      "definitions": [
+        "Definition oph most"
+      ],
+      "pronunciation": "/mɔst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "us": {
+      "definitions": [
+        "Definition oph us"
+      ],
+      "pronunciation": "/ʌs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "is": {
+      "definitions": [
+        "Definition oph is"
+      ],
+      "pronunciation": "/ɪs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "water": {
+      "definitions": [
+        "Definition oph water"
+      ],
+      "pronunciation": "/wætɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "long": {
+      "definitions": [
+        "Definition oph long"
+      ],
+      "pronunciation": "/lɔng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "very": {
+      "definitions": [
+        "Definition oph very"
+      ],
+      "pronunciation": "/vɛrj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "word": {
+      "definitions": [
+        "Definition oph word"
+      ],
+      "pronunciation": "/wɔrd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "great": {
+      "definitions": [
+        "Definition oph great"
+      ],
+      "pronunciation": "/grɛæt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "where": {
+      "definitions": [
+        "Definition oph where"
+      ],
+      "pronunciation": "/whɛrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "through": {
+      "definitions": [
+        "Definition oph through"
+      ],
+      "pronunciation": "/thrɔʌgh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "mukh": {
+      "definitions": [
+        "Definition oph mukh"
+      ],
+      "pronunciation": "/mʌkh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "bephore": {
+      "definitions": [
+        "Definition oph bephore"
+      ],
+      "pronunciation": "/bɛphɔrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "line": {
+      "definitions": [
+        "Definition oph line"
+      ],
+      "pronunciation": "/lɪnɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "right": {
+      "definitions": [
+        "Definition oph right"
+      ],
+      "pronunciation": "/rɪght/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "means": {
+      "definitions": [
+        "Definition oph means"
+      ],
+      "pronunciation": "/mɛæns/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "old": {
+      "definitions": [
+        "Definition oph old"
+      ],
+      "pronunciation": "/ɔld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "same": {
+      "definitions": [
+        "Definition oph same"
+      ],
+      "pronunciation": "/sæmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "tel": {
+      "definitions": [
+        "Definition oph tel"
+      ],
+      "pronunciation": "/tɛl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "boy": {
+      "definitions": [
+        "Definition oph boy"
+      ],
+      "pronunciation": "/bɔj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "phollow": {
+      "definitions": [
+        "Definition oph phollow"
+      ],
+      "pronunciation": "/phɔllɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "kame": {
+      "definitions": [
+        "Definition oph kame"
+      ],
+      "pronunciation": "/kæmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "show": {
+      "definitions": [
+        "Definition oph show"
+      ],
+      "pronunciation": "/shɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "around": {
+      "definitions": [
+        "Definition oph around"
+      ],
+      "pronunciation": "/ærɔʌnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "phorm": {
+      "definitions": [
+        "Definition oph phorm"
+      ],
+      "pronunciation": "/phɔrm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "thre": {
+      "definitions": [
+        "Definition oph thre"
+      ],
+      "pronunciation": "/thrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "smal": {
+      "definitions": [
+        "Definition oph smal"
+      ],
+      "pronunciation": "/smæl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "set": {
+      "definitions": [
+        "Definition oph set"
+      ],
+      "pronunciation": "/sɛt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "put": {
+      "definitions": [
+        "Definition oph put"
+      ],
+      "pronunciation": "/pʌt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "end": {
+      "definitions": [
+        "Definition oph end"
+      ],
+      "pronunciation": "/ɛnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "why": {
+      "definitions": [
+        "Definition oph why"
+      ],
+      "pronunciation": "/whj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "again": {
+      "definitions": [
+        "Definition oph again"
+      ],
+      "pronunciation": "/ægæɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "turn": {
+      "definitions": [
+        "Definition oph turn"
+      ],
+      "pronunciation": "/tʌrn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "here": {
+      "definitions": [
+        "Definition oph here"
+      ],
+      "pronunciation": "/hɛrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "ophph": {
+      "definitions": [
+        "Definition oph ophph"
+      ],
+      "pronunciation": "/ɔphph/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "went": {
+      "definitions": [
+        "Definition oph went"
+      ],
+      "pronunciation": "/wɛnt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "number": {
+      "definitions": [
+        "Definition oph number"
+      ],
+      "pronunciation": "/nʌmbɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "men": {
+      "definitions": [
+        "Definition oph men"
+      ],
+      "pronunciation": "/mɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "every": {
+      "definitions": [
+        "Definition oph every"
+      ],
+      "pronunciation": "/ɛvɛrj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "phound": {
+      "definitions": [
+        "Definition oph phound"
+      ],
+      "pronunciation": "/phɔʌnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "stil": {
+      "definitions": [
+        "Definition oph stil"
+      ],
+      "pronunciation": "/stɪl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "between": {
+      "definitions": [
+        "Definition oph between"
+      ],
+      "pronunciation": "/bɛtwɛɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "name": {
+      "definitions": [
+        "Definition oph name"
+      ],
+      "pronunciation": "/næmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "should": {
+      "definitions": [
+        "Definition oph should"
+      ],
+      "pronunciation": "/shɔʌld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "home": {
+      "definitions": [
+        "Definition oph home"
+      ],
+      "pronunciation": "/hɔmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "big": {
+      "definitions": [
+        "Definition oph big"
+      ],
+      "pronunciation": "/bɪg/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "air": {
+      "definitions": [
+        "Definition oph air"
+      ],
+      "pronunciation": "/æɪr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    },
+    "own": {
+      "definitions": [
+        "Definition oph own"
+      ],
+      "pronunciation": "/ɔwn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "oph",
+        "and"
+      ]
+    }
+  }
+}
