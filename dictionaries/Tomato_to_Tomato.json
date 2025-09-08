@@ -2,140 +2,5648 @@
   "metadata": {
     "type": "Sigment to Sigment Dictionary",
     "language": "Tomato",
-    "entries": 10,
-    "created": "2025-09-07T22:09:26.817Z"
+    "entries": 470,
+    "created": "2025-09-08T18:16:25.577Z"
   },
   "dictionary": {
-    "phone": {
-      "definitions": [
-        "Definition of phone"
-      ],
-      "pronunciation": "fone",
+    "the": {
+      "definitions": [],
+      "pronunciation": "/thɛ/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "khair",
-        "shoes",
-        "alone",
-        "together",
-        "bright"
+        "be",
+        "to",
+        "of",
+        "and",
+        "a"
       ]
     },
-    "khair": {
-      "definitions": [
-        "Definition of khair"
-      ],
-      "pronunciation": "khair",
+    "be": {
+      "definitions": [],
+      "pronunciation": "/bɛ/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "phone",
-        "shoes",
-        "alone",
-        "together",
-        "bright"
+        "the",
+        "to",
+        "of",
+        "and",
+        "a"
       ]
     },
-    "shoes": {
-      "definitions": [
-        "Definition of shoes"
-      ],
-      "pronunciation": "shoes",
+    "to": {
+      "definitions": [],
+      "pronunciation": "/tɔ/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "phone",
-        "khair",
-        "alone",
-        "together",
-        "bright"
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
       ]
     },
-    "alone": {
-      "definitions": [
-        "Definition of alone"
-      ],
-      "pronunciation": "/ælɔnɛ/",
+    "of": {
+      "definitions": [],
+      "pronunciation": "/ɔf/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "phone",
-        "khair",
-        "shoes",
-        "together",
-        "bright"
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
       ]
     },
-    "together": {
-      "definitions": [
-        "Definition of together"
-      ],
-      "pronunciation": "/tɔgɛthɛr/",
+    "and": {
+      "definitions": [],
+      "pronunciation": "/ænd/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "phone",
-        "khair",
-        "shoes",
-        "alone",
-        "bright"
+        "the",
+        "be",
+        "to",
+        "of",
+        "a"
       ]
     },
-    "bright": {
-      "definitions": [
-        "Definition of bright"
-      ],
-      "pronunciation": "/brɪght/",
+    "a": {
+      "definitions": [],
+      "pronunciation": "/æ/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "phone",
-        "khair",
-        "shoes",
-        "alone",
-        "together"
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
       ]
     },
-    "phantastik": {
-      "definitions": [
-        "Definition of phantastik"
-      ],
-      "pronunciation": "/phæntæstɪk/",
+    "in": {
+      "definitions": [],
+      "pronunciation": "/ɪn/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "inkredible",
-        "amazing",
-        "wonderphul"
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
       ]
     },
-    "inkredible": {
-      "definitions": [
-        "Definition of inkredible"
-      ],
-      "pronunciation": "/ɪnkrɛdɪblɛ/",
+    "thaat": {
+      "definitions": [],
+      "pronunciation": "/thææt/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "phantastik",
-        "amazing",
-        "wonderphul"
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
       ]
     },
-    "amazing": {
-      "definitions": [
-        "Definition of amazing"
-      ],
-      "pronunciation": "/æmæzɪng/",
+    "havve": {
+      "definitions": [],
+      "pronunciation": "/hævvɛ/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "phantastik",
-        "inkredible",
-        "wonderphul"
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
       ]
     },
-    "wonderphul": {
-      "definitions": [
-        "Definition of wonderphul"
-      ],
-      "pronunciation": "/wɔndɛrphʌl/",
+    "i": {
+      "definitions": [],
+      "pronunciation": "/ɪ/",
       "partOfSpeech": "unknown",
       "relatedWords": [
-        "phantastik",
-        "inkredible",
-        "amazing"
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "it": {
+      "definitions": [],
+      "pronunciation": "/ɪt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "for": {
+      "definitions": [],
+      "pronunciation": "/fɔr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "not": {
+      "definitions": [],
+      "pronunciation": "/nɔt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "on": {
+      "definitions": [],
+      "pronunciation": "/ɔn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "witth": {
+      "definitions": [],
+      "pronunciation": "/wɪtth/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "he": {
+      "definitions": [],
+      "pronunciation": "/hɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "as": {
+      "definitions": [],
+      "pronunciation": "/æs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "you": {
+      "definitions": [],
+      "pronunciation": "/jɔʌ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "do": {
+      "definitions": [],
+      "pronunciation": "/dɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "at": {
+      "definitions": [],
+      "pronunciation": "/æt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "thiis": {
+      "definitions": [],
+      "pronunciation": "/thɪɪs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "but": {
+      "definitions": [],
+      "pronunciation": "/bʌt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "his": {
+      "definitions": [],
+      "pronunciation": "/hɪs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "by": {
+      "definitions": [],
+      "pronunciation": "/bj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "froom": {
+      "definitions": [],
+      "pronunciation": "/frɔɔm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "theey": {
+      "definitions": [],
+      "pronunciation": "/thɛɛj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "we": {
+      "definitions": [],
+      "pronunciation": "/wɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "say": {
+      "definitions": [],
+      "pronunciation": "/sæj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "her": {
+      "definitions": [],
+      "pronunciation": "/hɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "she": {
+      "definitions": [],
+      "pronunciation": "/shɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "or": {
+      "definitions": [],
+      "pronunciation": "/ɔr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "an": {
+      "definitions": [],
+      "pronunciation": "/æn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "wil": {
+      "definitions": [],
+      "pronunciation": "/wɪl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "my": {
+      "definitions": [],
+      "pronunciation": "/mj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "one": {
+      "definitions": [],
+      "pronunciation": "/ɔnɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "al": {
+      "definitions": [],
+      "pronunciation": "/æl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "wouuld": {
+      "definitions": [],
+      "pronunciation": "/wɔʌʌld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "theere": {
+      "definitions": [],
+      "pronunciation": "/thɛɛrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "theeir": {
+      "definitions": [],
+      "pronunciation": "/thɛɛɪr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "whaat": {
+      "definitions": [],
+      "pronunciation": "/whææt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "so": {
+      "definitions": [],
+      "pronunciation": "/sɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "up": {
+      "definitions": [],
+      "pronunciation": "/ʌp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "out": {
+      "definitions": [],
+      "pronunciation": "/ɔʌt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "if": {
+      "definitions": [],
+      "pronunciation": "/ɪf/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "aboout": {
+      "definitions": [],
+      "pronunciation": "/æbɔɔʌt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "who": {
+      "definitions": [],
+      "pronunciation": "/whɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "get": {
+      "definitions": [],
+      "pronunciation": "/gɛt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "whiich": {
+      "definitions": [],
+      "pronunciation": "/whɪɪkh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "go": {
+      "definitions": [],
+      "pronunciation": "/gɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "me": {
+      "definitions": [],
+      "pronunciation": "/mɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "wheen": {
+      "definitions": [],
+      "pronunciation": "/whɛɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "makke": {
+      "definitions": [],
+      "pronunciation": "/mækkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "can": {
+      "definitions": [],
+      "pronunciation": "/kæn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "likke": {
+      "definitions": [],
+      "pronunciation": "/lɪkkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "timme": {
+      "definitions": [],
+      "pronunciation": "/tɪmmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "no": {
+      "definitions": [],
+      "pronunciation": "/nɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "jusst": {
+      "definitions": [],
+      "pronunciation": "/ʤʌsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "him": {
+      "definitions": [],
+      "pronunciation": "/hɪm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "knoow": {
+      "definitions": [],
+      "pronunciation": "/knɔɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "takke": {
+      "definitions": [],
+      "pronunciation": "/tækkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "peopple": {
+      "definitions": [],
+      "pronunciation": "/pɛɔpplɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "intto": {
+      "definitions": [],
+      "pronunciation": "/ɪnttɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "yeaar": {
+      "definitions": [],
+      "pronunciation": "/jɛæær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "youur": {
+      "definitions": [],
+      "pronunciation": "/jɔʌʌr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "goood": {
+      "definitions": [],
+      "pronunciation": "/gɔɔɔd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "somme": {
+      "definitions": [],
+      "pronunciation": "/sɔmmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "couuld": {
+      "definitions": [],
+      "pronunciation": "/kɔʌʌld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "theem": {
+      "definitions": [],
+      "pronunciation": "/thɛɛm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "se": {
+      "definitions": [],
+      "pronunciation": "/sɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "othher": {
+      "definitions": [],
+      "pronunciation": "/ɔthhɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "thaan": {
+      "definitions": [],
+      "pronunciation": "/thææn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "theen": {
+      "definitions": [],
+      "pronunciation": "/thɛɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "now": {
+      "definitions": [],
+      "pronunciation": "/nɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "loook": {
+      "definitions": [],
+      "pronunciation": "/lɔɔɔk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "onlly": {
+      "definitions": [],
+      "pronunciation": "/ɔnllj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "comme": {
+      "definitions": [],
+      "pronunciation": "/kɔmmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "its": {
+      "definitions": [],
+      "pronunciation": "/ɪts/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "oveer": {
+      "definitions": [],
+      "pronunciation": "/ɔvɛɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "thiink": {
+      "definitions": [],
+      "pronunciation": "/thɪɪnk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "alsso": {
+      "definitions": [],
+      "pronunciation": "/ælssɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "bacck": {
+      "definitions": [],
+      "pronunciation": "/bækkk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "aftter": {
+      "definitions": [],
+      "pronunciation": "/æfttɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "use": {
+      "definitions": [],
+      "pronunciation": "/ʌsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "two": {
+      "definitions": [],
+      "pronunciation": "/twɔ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "how": {
+      "definitions": [],
+      "pronunciation": "/hɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "our": {
+      "definitions": [],
+      "pronunciation": "/ɔʌr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "worrk": {
+      "definitions": [],
+      "pronunciation": "/wɔrrk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "firrst": {
+      "definitions": [],
+      "pronunciation": "/fɪrrst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "wel": {
+      "definitions": [],
+      "pronunciation": "/wɛl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "way": {
+      "definitions": [],
+      "pronunciation": "/wæj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "eveen": {
+      "definitions": [],
+      "pronunciation": "/ɛvɛɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "new": {
+      "definitions": [],
+      "pronunciation": "/nɛw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "wannt": {
+      "definitions": [],
+      "pronunciation": "/wænnt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "becaause": {
+      "definitions": [],
+      "pronunciation": "/bɛkææʌsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "any": {
+      "definitions": [],
+      "pronunciation": "/ænj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "theese": {
+      "definitions": [],
+      "pronunciation": "/thɛɛsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "givve": {
+      "definitions": [],
+      "pronunciation": "/gɪvvɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "day": {
+      "definitions": [],
+      "pronunciation": "/dæj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "mosst": {
+      "definitions": [],
+      "pronunciation": "/mɔsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "us": {
+      "definitions": [],
+      "pronunciation": "/ʌs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "is": {
+      "definitions": [],
+      "pronunciation": "/ɪs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "watter": {
+      "definitions": [],
+      "pronunciation": "/wættɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "lonng": {
+      "definitions": [],
+      "pronunciation": "/lɔnng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "verry": {
+      "definitions": [],
+      "pronunciation": "/vɛrrj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "worrd": {
+      "definitions": [],
+      "pronunciation": "/wɔrrd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "greeat": {
+      "definitions": [],
+      "pronunciation": "/grɛɛæt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "wheere": {
+      "definitions": [],
+      "pronunciation": "/whɛɛrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "throough": {
+      "definitions": [],
+      "pronunciation": "/thrɔɔʌgh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "mucch": {
+      "definitions": [],
+      "pronunciation": "/mʌkkh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "befoore": {
+      "definitions": [],
+      "pronunciation": "/bɛfɔɔrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "linne": {
+      "definitions": [],
+      "pronunciation": "/lɪnnɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "rigght": {
+      "definitions": [],
+      "pronunciation": "/rɪgght/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "meaans": {
+      "definitions": [],
+      "pronunciation": "/mɛææns/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "old": {
+      "definitions": [],
+      "pronunciation": "/ɔld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "samme": {
+      "definitions": [],
+      "pronunciation": "/sæmmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "tel": {
+      "definitions": [],
+      "pronunciation": "/tɛl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "boy": {
+      "definitions": [],
+      "pronunciation": "/bɔj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "folllow": {
+      "definitions": [],
+      "pronunciation": "/fɔlllɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "camme": {
+      "definitions": [],
+      "pronunciation": "/kæmmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "shoow": {
+      "definitions": [],
+      "pronunciation": "/shɔɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "arouund": {
+      "definitions": [],
+      "pronunciation": "/ærɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "forrm": {
+      "definitions": [],
+      "pronunciation": "/fɔrrm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "thrre": {
+      "definitions": [],
+      "pronunciation": "/thrrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "smaal": {
+      "definitions": [],
+      "pronunciation": "/smææl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "set": {
+      "definitions": [],
+      "pronunciation": "/sɛt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "put": {
+      "definitions": [],
+      "pronunciation": "/pʌt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "end": {
+      "definitions": [],
+      "pronunciation": "/ɛnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "why": {
+      "definitions": [],
+      "pronunciation": "/whj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "agaain": {
+      "definitions": [],
+      "pronunciation": "/ægææɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "turrn": {
+      "definitions": [],
+      "pronunciation": "/tʌrrn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "herre": {
+      "definitions": [],
+      "pronunciation": "/hɛrrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "wennt": {
+      "definitions": [],
+      "pronunciation": "/wɛnnt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "numbber": {
+      "definitions": [],
+      "pronunciation": "/nʌmbbɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "men": {
+      "definitions": [],
+      "pronunciation": "/mɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "eveery": {
+      "definitions": [],
+      "pronunciation": "/ɛvɛɛrj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "fouund": {
+      "definitions": [],
+      "pronunciation": "/fɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "stiil": {
+      "definitions": [],
+      "pronunciation": "/stɪɪl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "betwween": {
+      "definitions": [],
+      "pronunciation": "/bɛtwwɛɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "namme": {
+      "definitions": [],
+      "pronunciation": "/næmmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "shouuld": {
+      "definitions": [],
+      "pronunciation": "/shɔʌʌld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "homme": {
+      "definitions": [],
+      "pronunciation": "/hɔmmɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "big": {
+      "definitions": [],
+      "pronunciation": "/bɪg/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "air": {
+      "definitions": [],
+      "pronunciation": "/æɪr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "own": {
+      "definitions": [],
+      "pronunciation": "/ɔwn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "was": {
+      "definitions": [],
+      "pronunciation": "/wæs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "are": {
+      "definitions": [],
+      "pronunciation": "/ærɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "had": {
+      "definitions": [],
+      "pronunciation": "/hæd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "werre": {
+      "definitions": [],
+      "pronunciation": "/wɛrrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "saiid": {
+      "definitions": [],
+      "pronunciation": "/sæɪɪd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "eacch": {
+      "definitions": [],
+      "pronunciation": "/ɛækkh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "manny": {
+      "definitions": [],
+      "pronunciation": "/mænnj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "wriite": {
+      "definitions": [],
+      "pronunciation": "/wrɪɪtɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "thiing": {
+      "definitions": [],
+      "pronunciation": "/thɪɪng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "has": {
+      "definitions": [],
+      "pronunciation": "/hæs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "morre": {
+      "definitions": [],
+      "pronunciation": "/mɔrrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "did": {
+      "definitions": [],
+      "pronunciation": "/dɪd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "souund": {
+      "definitions": [],
+      "pronunciation": "/sɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "cal": {
+      "definitions": [],
+      "pronunciation": "/kæl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "may": {
+      "definitions": [],
+      "pronunciation": "/mæj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "dowwn": {
+      "definitions": [],
+      "pronunciation": "/dɔwwn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "sidde": {
+      "definitions": [],
+      "pronunciation": "/sɪddɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "beeen": {
+      "definitions": [],
+      "pronunciation": "/bɛɛɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "finnd": {
+      "definitions": [],
+      "pronunciation": "/fɪnnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "parrt": {
+      "definitions": [],
+      "pronunciation": "/pærrt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "plaace": {
+      "definitions": [],
+      "pronunciation": "/plæækɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "madde": {
+      "definitions": [],
+      "pronunciation": "/mæddɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "livve": {
+      "definitions": [],
+      "pronunciation": "/lɪvvɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "litttle": {
+      "definitions": [],
+      "pronunciation": "/lɪtttlɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "rouund": {
+      "definitions": [],
+      "pronunciation": "/rɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "man": {
+      "definitions": [],
+      "pronunciation": "/mæn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "the",
+        "be",
+        "to",
+        "of",
+        "and"
+      ]
+    },
+    "doees": {
+      "definitions": [],
+      "pronunciation": "/dɔɛɛs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt",
+        "larrge"
+      ]
+    },
+    "plaay": {
+      "definitions": [],
+      "pronunciation": "/plææj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "reaad",
+        "hannd",
+        "porrt",
+        "larrge"
+      ]
+    },
+    "reaad": {
+      "definitions": [],
+      "pronunciation": "/rɛææd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "hannd",
+        "porrt",
+        "larrge"
+      ]
+    },
+    "hannd": {
+      "definitions": [],
+      "pronunciation": "/hænnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "porrt",
+        "larrge"
+      ]
+    },
+    "porrt": {
+      "definitions": [],
+      "pronunciation": "/pɔrrt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "larrge"
+      ]
+    },
+    "larrge": {
+      "definitions": [],
+      "pronunciation": "/lærrgɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "speel": {
+      "definitions": [],
+      "pronunciation": "/spɛɛl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "ad": {
+      "definitions": [],
+      "pronunciation": "/æd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "lannd": {
+      "definitions": [],
+      "pronunciation": "/lænnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "musst": {
+      "definitions": [],
+      "pronunciation": "/mʌsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "higgh": {
+      "definitions": [],
+      "pronunciation": "/hɪggh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "succh": {
+      "definitions": [],
+      "pronunciation": "/sʌkkh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "act": {
+      "definitions": [],
+      "pronunciation": "/ækt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "ask": {
+      "definitions": [],
+      "pronunciation": "/æsk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "channge": {
+      "definitions": [],
+      "pronunciation": "/khænngɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "ligght": {
+      "definitions": [],
+      "pronunciation": "/lɪgght/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "kinnd": {
+      "definitions": [],
+      "pronunciation": "/kɪnnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "neeed": {
+      "definitions": [],
+      "pronunciation": "/nɛɛɛd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "houuse": {
+      "definitions": [],
+      "pronunciation": "/hɔʌʌsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "pictture": {
+      "definitions": [],
+      "pronunciation": "/pɪkttʌrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "try": {
+      "definitions": [],
+      "pronunciation": "/trj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "animmal": {
+      "definitions": [],
+      "pronunciation": "/ænɪmmæl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "poiint": {
+      "definitions": [],
+      "pronunciation": "/pɔɪɪnt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "mothher": {
+      "definitions": [],
+      "pronunciation": "/mɔthhɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "worrld": {
+      "definitions": [],
+      "pronunciation": "/wɔrrld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "neaar": {
+      "definitions": [],
+      "pronunciation": "/nɛæær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "buiild": {
+      "definitions": [],
+      "pronunciation": "/bʌɪɪld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "sellf": {
+      "definitions": [],
+      "pronunciation": "/sɛllf/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "earrth": {
+      "definitions": [],
+      "pronunciation": "/ɛærrth/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fathher": {
+      "definitions": [],
+      "pronunciation": "/fæthhɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "heaad": {
+      "definitions": [],
+      "pronunciation": "/hɛææd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "staand": {
+      "definitions": [],
+      "pronunciation": "/stæænd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "pagge": {
+      "definitions": [],
+      "pronunciation": "/pæggɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "counntry": {
+      "definitions": [],
+      "pronunciation": "/kɔʌnntrj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "answwer": {
+      "definitions": [],
+      "pronunciation": "/ænswwɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "schoool": {
+      "definitions": [],
+      "pronunciation": "/skhɔɔɔl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "groow": {
+      "definitions": [],
+      "pronunciation": "/grɔɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "stuudy": {
+      "definitions": [],
+      "pronunciation": "/stʌʌdj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "leaarn": {
+      "definitions": [],
+      "pronunciation": "/lɛæærn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "plaant": {
+      "definitions": [],
+      "pronunciation": "/plæænt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "covver": {
+      "definitions": [],
+      "pronunciation": "/kɔvvɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "foood": {
+      "definitions": [],
+      "pronunciation": "/fɔɔɔd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "sun": {
+      "definitions": [],
+      "pronunciation": "/sʌn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fouur": {
+      "definitions": [],
+      "pronunciation": "/fɔʌʌr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "staate": {
+      "definitions": [],
+      "pronunciation": "/stæætɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "keeep": {
+      "definitions": [],
+      "pronunciation": "/kɛɛɛp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "eye": {
+      "definitions": [],
+      "pronunciation": "/ɛjɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "nevver": {
+      "definitions": [],
+      "pronunciation": "/nɛvvɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "lasst": {
+      "definitions": [],
+      "pronunciation": "/læsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "let": {
+      "definitions": [],
+      "pronunciation": "/lɛt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "thouught": {
+      "definitions": [],
+      "pronunciation": "/thɔʌʌght/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "citty": {
+      "definitions": [],
+      "pronunciation": "/kɪttj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "tre": {
+      "definitions": [],
+      "pronunciation": "/trɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "croos": {
+      "definitions": [],
+      "pronunciation": "/krɔɔs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "farrm": {
+      "definitions": [],
+      "pronunciation": "/færrm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "harrd": {
+      "definitions": [],
+      "pronunciation": "/hærrd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "staart": {
+      "definitions": [],
+      "pronunciation": "/stæært/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "migght": {
+      "definitions": [],
+      "pronunciation": "/mɪgght/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "stoory": {
+      "definitions": [],
+      "pronunciation": "/stɔɔrj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "saw": {
+      "definitions": [],
+      "pronunciation": "/sæw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "far": {
+      "definitions": [],
+      "pronunciation": "/fær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "sea": {
+      "definitions": [],
+      "pronunciation": "/sɛæ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "draaw": {
+      "definitions": [],
+      "pronunciation": "/drææw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "lefft": {
+      "definitions": [],
+      "pronunciation": "/lɛfft/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "latte": {
+      "definitions": [],
+      "pronunciation": "/lættɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "run": {
+      "definitions": [],
+      "pronunciation": "/rʌn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "donn't": {
+      "definitions": [],
+      "pronunciation": "/dɔnn't/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "whiile": {
+      "definitions": [],
+      "pronunciation": "/whɪɪlɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "prees": {
+      "definitions": [],
+      "pronunciation": "/prɛɛs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "cloose": {
+      "definitions": [],
+      "pronunciation": "/klɔɔsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "nigght": {
+      "definitions": [],
+      "pronunciation": "/nɪgght/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "reaal": {
+      "definitions": [],
+      "pronunciation": "/rɛææl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "liffe": {
+      "definitions": [],
+      "pronunciation": "/lɪffɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "few": {
+      "definitions": [],
+      "pronunciation": "/fɛw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "norrth": {
+      "definitions": [],
+      "pronunciation": "/nɔrrth/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "opeen": {
+      "definitions": [],
+      "pronunciation": "/ɔpɛɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "seeem": {
+      "definitions": [],
+      "pronunciation": "/sɛɛɛm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "togetther": {
+      "definitions": [],
+      "pronunciation": "/tɔgɛtthɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "nexxt": {
+      "definitions": [],
+      "pronunciation": "/nɛkskst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "whiite": {
+      "definitions": [],
+      "pronunciation": "/whɪɪtɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "childdren": {
+      "definitions": [],
+      "pronunciation": "/khɪlddrɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "beggin": {
+      "definitions": [],
+      "pronunciation": "/bɛggɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "got": {
+      "definitions": [],
+      "pronunciation": "/gɔt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "wallk": {
+      "definitions": [],
+      "pronunciation": "/wællk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "exammple": {
+      "definitions": [],
+      "pronunciation": "/ɛksæmmplɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "easse": {
+      "definitions": [],
+      "pronunciation": "/ɛæssɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "papper": {
+      "definitions": [],
+      "pronunciation": "/pæppɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "grooup": {
+      "definitions": [],
+      "pronunciation": "/grɔɔʌp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "alwaays": {
+      "definitions": [],
+      "pronunciation": "/ælwææjs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "mussic": {
+      "definitions": [],
+      "pronunciation": "/mʌssɪk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "thoose": {
+      "definitions": [],
+      "pronunciation": "/thɔɔsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "botth": {
+      "definitions": [],
+      "pronunciation": "/bɔtth/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "marrk": {
+      "definitions": [],
+      "pronunciation": "/mærrk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "oftten": {
+      "definitions": [],
+      "pronunciation": "/ɔfttɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "lettter": {
+      "definitions": [],
+      "pronunciation": "/lɛtttɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "unttil": {
+      "definitions": [],
+      "pronunciation": "/ʌnttɪl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "mille": {
+      "definitions": [],
+      "pronunciation": "/mɪllɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "rivver": {
+      "definitions": [],
+      "pronunciation": "/rɪvvɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "car": {
+      "definitions": [],
+      "pronunciation": "/kær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "feeet": {
+      "definitions": [],
+      "pronunciation": "/fɛɛɛt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "carre": {
+      "definitions": [],
+      "pronunciation": "/kærrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "secoond": {
+      "definitions": [],
+      "pronunciation": "/sɛkɔɔnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "boook": {
+      "definitions": [],
+      "pronunciation": "/bɔɔɔk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "carrry": {
+      "definitions": [],
+      "pronunciation": "/kærrrj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "toook": {
+      "definitions": [],
+      "pronunciation": "/tɔɔɔk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "scieence": {
+      "definitions": [],
+      "pronunciation": "/skɪɛɛnkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "eat": {
+      "definitions": [],
+      "pronunciation": "/ɛæt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "rooom": {
+      "definitions": [],
+      "pronunciation": "/rɔɔɔm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "frieend": {
+      "definitions": [],
+      "pronunciation": "/frɪɛɛnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "beggan": {
+      "definitions": [],
+      "pronunciation": "/bɛggæn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "ideea": {
+      "definitions": [],
+      "pronunciation": "/ɪdɛɛæ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fissh": {
+      "definitions": [],
+      "pronunciation": "/fɪssh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "mounttain": {
+      "definitions": [],
+      "pronunciation": "/mɔʌnttæɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "stoop": {
+      "definitions": [],
+      "pronunciation": "/stɔɔp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "oncce": {
+      "definitions": [],
+      "pronunciation": "/ɔnkkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "basse": {
+      "definitions": [],
+      "pronunciation": "/bæssɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "heaar": {
+      "definitions": [],
+      "pronunciation": "/hɛæær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "horrse": {
+      "definitions": [],
+      "pronunciation": "/hɔrrsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "cut": {
+      "definitions": [],
+      "pronunciation": "/kʌt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "surre": {
+      "definitions": [],
+      "pronunciation": "/sʌrrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "wattch": {
+      "definitions": [],
+      "pronunciation": "/wættkh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "collor": {
+      "definitions": [],
+      "pronunciation": "/kɔllɔr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "facce": {
+      "definitions": [],
+      "pronunciation": "/fækkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "woood": {
+      "definitions": [],
+      "pronunciation": "/wɔɔɔd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "maiin": {
+      "definitions": [],
+      "pronunciation": "/mæɪɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "enouugh": {
+      "definitions": [],
+      "pronunciation": "/ɛnɔʌʌgh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "plaain": {
+      "definitions": [],
+      "pronunciation": "/plææɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "girrl": {
+      "definitions": [],
+      "pronunciation": "/gɪrrl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "usuual": {
+      "definitions": [],
+      "pronunciation": "/ʌsʌʌæl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "youung": {
+      "definitions": [],
+      "pronunciation": "/jɔʌʌng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "reaady": {
+      "definitions": [],
+      "pronunciation": "/rɛæædj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "aboove": {
+      "definitions": [],
+      "pronunciation": "/æbɔɔvɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "eveer": {
+      "definitions": [],
+      "pronunciation": "/ɛvɛɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "red": {
+      "definitions": [],
+      "pronunciation": "/rɛd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "lisst": {
+      "definitions": [],
+      "pronunciation": "/lɪsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "thouugh": {
+      "definitions": [],
+      "pronunciation": "/thɔʌʌgh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "feeel": {
+      "definitions": [],
+      "pronunciation": "/fɛɛɛl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "tallk": {
+      "definitions": [],
+      "pronunciation": "/tællk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "birrd": {
+      "definitions": [],
+      "pronunciation": "/bɪrrd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "sooon": {
+      "definitions": [],
+      "pronunciation": "/sɔɔɔn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "boddy": {
+      "definitions": [],
+      "pronunciation": "/bɔddj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "dog": {
+      "definitions": [],
+      "pronunciation": "/dɔg/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "famiily": {
+      "definitions": [],
+      "pronunciation": "/fæmɪɪlj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "direect": {
+      "definitions": [],
+      "pronunciation": "/dɪrɛɛkt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "posse": {
+      "definitions": [],
+      "pronunciation": "/pɔssɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "leaave": {
+      "definitions": [],
+      "pronunciation": "/lɛæævɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "sonng": {
+      "definitions": [],
+      "pronunciation": "/sɔnng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "meassure": {
+      "definitions": [],
+      "pronunciation": "/mɛæssʌrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "dooor": {
+      "definitions": [],
+      "pronunciation": "/dɔɔɔr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "prodduct": {
+      "definitions": [],
+      "pronunciation": "/prɔddʌkt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "blaack": {
+      "definitions": [],
+      "pronunciation": "/blæækk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "shoort": {
+      "definitions": [],
+      "pronunciation": "/shɔɔrt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "numeeral": {
+      "definitions": [],
+      "pronunciation": "/nʌmɛɛræl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "claas": {
+      "definitions": [],
+      "pronunciation": "/klææs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "winnd": {
+      "definitions": [],
+      "pronunciation": "/wɪnnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "questtion": {
+      "definitions": [],
+      "pronunciation": "/kwʌɛsttɪɔn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "happpen": {
+      "definitions": [],
+      "pronunciation": "/hæpppɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "compllete": {
+      "definitions": [],
+      "pronunciation": "/kɔmpllɛtɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "shiip": {
+      "definitions": [],
+      "pronunciation": "/shɪɪp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "areea": {
+      "definitions": [],
+      "pronunciation": "/ærɛɛæ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "hallf": {
+      "definitions": [],
+      "pronunciation": "/hællf/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "rocck": {
+      "definitions": [],
+      "pronunciation": "/rɔkkk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "ordder": {
+      "definitions": [],
+      "pronunciation": "/ɔrddɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "firre": {
+      "definitions": [],
+      "pronunciation": "/fɪrrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "souuth": {
+      "definitions": [],
+      "pronunciation": "/sɔʌʌth/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "probblem": {
+      "definitions": [],
+      "pronunciation": "/prɔbblɛm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "pieece": {
+      "definitions": [],
+      "pronunciation": "/pɪɛɛkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "tolld": {
+      "definitions": [],
+      "pronunciation": "/tɔlld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "kneew": {
+      "definitions": [],
+      "pronunciation": "/knɛɛw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "pas": {
+      "definitions": [],
+      "pronunciation": "/pæs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "sinnce": {
+      "definitions": [],
+      "pronunciation": "/sɪnnkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "top": {
+      "definitions": [],
+      "pronunciation": "/tɔp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "whoole": {
+      "definitions": [],
+      "pronunciation": "/whɔɔlɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "kinng": {
+      "definitions": [],
+      "pronunciation": "/kɪnng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "spaace": {
+      "definitions": [],
+      "pronunciation": "/spæækɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "heaard": {
+      "definitions": [],
+      "pronunciation": "/hɛæærd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "besst": {
+      "definitions": [],
+      "pronunciation": "/bɛsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "houur": {
+      "definitions": [],
+      "pronunciation": "/hɔʌʌr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "bettter": {
+      "definitions": [],
+      "pronunciation": "/bɛtttɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "truue": {
+      "definitions": [],
+      "pronunciation": "/trʌʌɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "duriing": {
+      "definitions": [],
+      "pronunciation": "/dʌrɪɪng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "hunddred": {
+      "definitions": [],
+      "pronunciation": "/hʌnddrɛd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fivve": {
+      "definitions": [],
+      "pronunciation": "/fɪvvɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "rememmber": {
+      "definitions": [],
+      "pronunciation": "/rɛmɛmmbɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "steep": {
+      "definitions": [],
+      "pronunciation": "/stɛɛp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "earrly": {
+      "definitions": [],
+      "pronunciation": "/ɛærrlj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "holld": {
+      "definitions": [],
+      "pronunciation": "/hɔlld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "wesst": {
+      "definitions": [],
+      "pronunciation": "/wɛsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "grouund": {
+      "definitions": [],
+      "pronunciation": "/grɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "interrest": {
+      "definitions": [],
+      "pronunciation": "/ɪntɛrrɛst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "reaach": {
+      "definitions": [],
+      "pronunciation": "/rɛæækh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fasst": {
+      "definitions": [],
+      "pronunciation": "/fæsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "verrb": {
+      "definitions": [],
+      "pronunciation": "/vɛrrb/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "sinng": {
+      "definitions": [],
+      "pronunciation": "/sɪnng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "listten": {
+      "definitions": [],
+      "pronunciation": "/lɪsttɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "six": {
+      "definitions": [],
+      "pronunciation": "/sɪks/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "tabble": {
+      "definitions": [],
+      "pronunciation": "/tæbblɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "travvel": {
+      "definitions": [],
+      "pronunciation": "/trævvɛl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "les": {
+      "definitions": [],
+      "pronunciation": "/lɛs/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "mornning": {
+      "definitions": [],
+      "pronunciation": "/mɔrnnɪng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "ten": {
+      "definitions": [],
+      "pronunciation": "/tɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "simpple": {
+      "definitions": [],
+      "pronunciation": "/sɪmpplɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "seveeral": {
+      "definitions": [],
+      "pronunciation": "/sɛvɛɛræl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "vowwel": {
+      "definitions": [],
+      "pronunciation": "/vɔwwɛl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "towaard": {
+      "definitions": [],
+      "pronunciation": "/tɔwæærd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "war": {
+      "definitions": [],
+      "pronunciation": "/wær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "lay": {
+      "definitions": [],
+      "pronunciation": "/læj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "agaiinst": {
+      "definitions": [],
+      "pronunciation": "/ægæɪɪnst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "patttern": {
+      "definitions": [],
+      "pronunciation": "/pætttɛrn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "sloow": {
+      "definitions": [],
+      "pronunciation": "/slɔɔw/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "centter": {
+      "definitions": [],
+      "pronunciation": "/kɛnttɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "lovve": {
+      "definitions": [],
+      "pronunciation": "/lɔvvɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "persson": {
+      "definitions": [],
+      "pronunciation": "/pɛrssɔn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "monney": {
+      "definitions": [],
+      "pronunciation": "/mɔnnɛj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "serrve": {
+      "definitions": [],
+      "pronunciation": "/sɛrrvɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "appeear": {
+      "definitions": [],
+      "pronunciation": "/æppɛɛær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "roaad": {
+      "definitions": [],
+      "pronunciation": "/rɔææd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "map": {
+      "definitions": [],
+      "pronunciation": "/mæp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "raiin": {
+      "definitions": [],
+      "pronunciation": "/ræɪɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "rulle": {
+      "definitions": [],
+      "pronunciation": "/rʌllɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "goveern": {
+      "definitions": [],
+      "pronunciation": "/gɔvɛɛrn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "pul": {
+      "definitions": [],
+      "pronunciation": "/pʌl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "colld": {
+      "definitions": [],
+      "pronunciation": "/kɔlld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "notiice": {
+      "definitions": [],
+      "pronunciation": "/nɔtɪɪkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "voiice": {
+      "definitions": [],
+      "pronunciation": "/vɔɪɪkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "uniit": {
+      "definitions": [],
+      "pronunciation": "/ʌnɪɪt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "powwer": {
+      "definitions": [],
+      "pronunciation": "/pɔwwɛr/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "towwn": {
+      "definitions": [],
+      "pronunciation": "/tɔwwn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "finne": {
+      "definitions": [],
+      "pronunciation": "/fɪnnɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "certtain": {
+      "definitions": [],
+      "pronunciation": "/kɛrttæɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fly": {
+      "definitions": [],
+      "pronunciation": "/flj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fal": {
+      "definitions": [],
+      "pronunciation": "/fæl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "leaad": {
+      "definitions": [],
+      "pronunciation": "/lɛææd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "cry": {
+      "definitions": [],
+      "pronunciation": "/krj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "darrk": {
+      "definitions": [],
+      "pronunciation": "/dærrk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "machhine": {
+      "definitions": [],
+      "pronunciation": "/mækhhɪnɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "notte": {
+      "definitions": [],
+      "pronunciation": "/nɔttɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "waiit": {
+      "definitions": [],
+      "pronunciation": "/wæɪɪt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "plaan": {
+      "definitions": [],
+      "pronunciation": "/plææn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "figuure": {
+      "definitions": [],
+      "pronunciation": "/fɪgʌʌrɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "staar": {
+      "definitions": [],
+      "pronunciation": "/stæær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "box": {
+      "definitions": [],
+      "pronunciation": "/bɔks/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "nouun": {
+      "definitions": [],
+      "pronunciation": "/nɔʌʌn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fieeld": {
+      "definitions": [],
+      "pronunciation": "/fɪɛɛld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "resst": {
+      "definitions": [],
+      "pronunciation": "/rɛsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "corrrect": {
+      "definitions": [],
+      "pronunciation": "/kɔrrrɛkt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "ablle": {
+      "definitions": [],
+      "pronunciation": "/æbllɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "pouund": {
+      "definitions": [],
+      "pronunciation": "/pɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "donne": {
+      "definitions": [],
+      "pronunciation": "/dɔnnɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "beauuty": {
+      "definitions": [],
+      "pronunciation": "/bɛæʌʌtj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "driive": {
+      "definitions": [],
+      "pronunciation": "/drɪɪvɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "stoood": {
+      "definitions": [],
+      "pronunciation": "/stɔɔɔd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "conttain": {
+      "definitions": [],
+      "pronunciation": "/kɔnttæɪn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "froont": {
+      "definitions": [],
+      "pronunciation": "/frɔɔnt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "teaach": {
+      "definitions": [],
+      "pronunciation": "/tɛæækh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "weeek": {
+      "definitions": [],
+      "pronunciation": "/wɛɛɛk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "finnal": {
+      "definitions": [],
+      "pronunciation": "/fɪnnæl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "gavve": {
+      "definitions": [],
+      "pronunciation": "/gævvɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "greeen": {
+      "definitions": [],
+      "pronunciation": "/grɛɛɛn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "oh": {
+      "definitions": [],
+      "pronunciation": "/ɔh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "quiick": {
+      "definitions": [],
+      "pronunciation": "/kwʌɪɪkk/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "deveelop": {
+      "definitions": [],
+      "pronunciation": "/dɛvɛɛlɔp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "oceean": {
+      "definitions": [],
+      "pronunciation": "/ɔkɛɛæn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "warrm": {
+      "definitions": [],
+      "pronunciation": "/wærrm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fre": {
+      "definitions": [],
+      "pronunciation": "/frɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "minuute": {
+      "definitions": [],
+      "pronunciation": "/mɪnʌʌtɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "stroong": {
+      "definitions": [],
+      "pronunciation": "/strɔɔng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "speccial": {
+      "definitions": [],
+      "pronunciation": "/spɛkkɪæl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "minnd": {
+      "definitions": [],
+      "pronunciation": "/mɪnnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "behiind": {
+      "definitions": [],
+      "pronunciation": "/bɛhɪɪnd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "cleear": {
+      "definitions": [],
+      "pronunciation": "/klɛɛær/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "taiil": {
+      "definitions": [],
+      "pronunciation": "/tæɪɪl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "prodduce": {
+      "definitions": [],
+      "pronunciation": "/prɔddʌkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "facct": {
+      "definitions": [],
+      "pronunciation": "/fækkt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "streeet": {
+      "definitions": [],
+      "pronunciation": "/strɛɛɛt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "incch": {
+      "definitions": [],
+      "pronunciation": "/ɪnkkh/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "multiiply": {
+      "definitions": [],
+      "pronunciation": "/mʌltɪɪplj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "nothhing": {
+      "definitions": [],
+      "pronunciation": "/nɔthhɪng/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "courrse": {
+      "definitions": [],
+      "pronunciation": "/kɔʌrrsɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "staay": {
+      "definitions": [],
+      "pronunciation": "/stææj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "wheeel": {
+      "definitions": [],
+      "pronunciation": "/whɛɛɛl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "ful": {
+      "definitions": [],
+      "pronunciation": "/fʌl/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "forrce": {
+      "definitions": [],
+      "pronunciation": "/fɔrrkɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "bluue": {
+      "definitions": [],
+      "pronunciation": "/blʌʌɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "objeect": {
+      "definitions": [],
+      "pronunciation": "/ɔbʤɛɛkt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "deciide": {
+      "definitions": [],
+      "pronunciation": "/dɛkɪɪdɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "surfface": {
+      "definitions": [],
+      "pronunciation": "/sʌrffækɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "deeep": {
+      "definitions": [],
+      "pronunciation": "/dɛɛɛp/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "mooon": {
+      "definitions": [],
+      "pronunciation": "/mɔɔɔn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "islaand": {
+      "definitions": [],
+      "pronunciation": "/ɪslæænd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "fooot": {
+      "definitions": [],
+      "pronunciation": "/fɔɔɔt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "systtem": {
+      "definitions": [],
+      "pronunciation": "/sjsttɛm/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "bussy": {
+      "definitions": [],
+      "pronunciation": "/bʌssj/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "tesst": {
+      "definitions": [],
+      "pronunciation": "/tɛsst/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "recoord": {
+      "definitions": [],
+      "pronunciation": "/rɛkɔɔrd/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "boaat": {
+      "definitions": [],
+      "pronunciation": "/bɔææt/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "commmon": {
+      "definitions": [],
+      "pronunciation": "/kɔmmmɔn/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "golld": {
+      "definitions": [],
+      "pronunciation": "/gɔlld/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "possiible": {
+      "definitions": [],
+      "pronunciation": "/pɔssɪɪblɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
+      ]
+    },
+    "plaane": {
+      "definitions": [],
+      "pronunciation": "/plæænɛ/",
+      "partOfSpeech": "unknown",
+      "relatedWords": [
+        "doees",
+        "plaay",
+        "reaad",
+        "hannd",
+        "porrt"
       ]
     }
   }

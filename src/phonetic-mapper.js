@@ -147,13 +147,15 @@ export class PhoneticMapper {
     }
 
     applyMorphemeEmphasis(word, etymology) {
-        if (!etymology.morphemes) return word;
+        if (!etymology || !etymology.morphemes || !Array.isArray(etymology.morphemes)) {
+            return word;
+        }
         
         let result = word;
         let offset = 0;
         
         for (const morpheme of etymology.morphemes) {
-            if (morpheme.type === 'root') {
+            if (morpheme && morpheme.type === 'root' && morpheme.value) {
                 const start = result.indexOf(morpheme.value, offset);
                 if (start !== -1) {
                     const morphemeText = result.substring(start, start + morpheme.value.length);
@@ -415,10 +417,12 @@ export class PhoneticMapper {
     }
 
     isInRootMorpheme(position, word, etymology) {
-        if (!etymology.morphemes) return true;
+        if (!etymology || !etymology.morphemes || !Array.isArray(etymology.morphemes)) {
+            return true;
+        }
         
         for (const morpheme of etymology.morphemes) {
-            if (morpheme.type === 'root') {
+            if (morpheme && morpheme.type === 'root' && morpheme.value) {
                 const start = word.indexOf(morpheme.value);
                 const end = start + morpheme.value.length;
                 if (position >= start && position < end) {
@@ -430,11 +434,17 @@ export class PhoneticMapper {
     }
 
     calculateOverallSemanticWeight(etymology) {
-        if (!etymology.semanticComponents) return 0.5;
+        if (!etymology || !etymology.semanticComponents || !Array.isArray(etymology.semanticComponents)) {
+            return 0.5;
+        }
         
         let totalWeight = 0;
         for (const component of etymology.semanticComponents) {
-            totalWeight += component.semanticWeight || 0.5;
+            if (component && typeof component.semanticWeight === 'number') {
+                totalWeight += component.semanticWeight;
+            } else {
+                totalWeight += 0.5;
+            }
         }
         
         return totalWeight / etymology.semanticComponents.length;

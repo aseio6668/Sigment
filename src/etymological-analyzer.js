@@ -15,16 +15,37 @@ export class EtymologicalAnalyzer {
             return this.etymologyCache.get(word);
         }
 
-        const analysis = {
-            word,
-            morphemes: this.decomposeMorphemes(word),
-            phoneticStructure: this.analyzePhoneticStructure(word),
-            etymology: await this.getEtymology(word),
-            semanticComponents: this.extractSemanticComponents(word)
-        };
+        try {
+            const morphemes = this.decomposeMorphemes(word) || [];
+            const phoneticStructure = this.analyzePhoneticStructure(word) || {};
+            const etymology = await this.getEtymology(word) || {};
+            const semanticComponents = this.extractSemanticComponents(word) || [];
 
-        this.etymologyCache.set(word, analysis);
-        return analysis;
+            const analysis = {
+                word,
+                morphemes,
+                phoneticStructure,
+                etymology,
+                semanticComponents
+            };
+
+            this.etymologyCache.set(word, analysis);
+            return analysis;
+        } catch (error) {
+            console.warn(`Etymology analysis failed for "${word}": ${error.message}`);
+            
+            // Return a safe fallback structure
+            const fallbackAnalysis = {
+                word,
+                morphemes: [{ type: 'root', value: word, meaning: 'core meaning' }],
+                phoneticStructure: { pattern: 'CVCV', syllableCount: 1, stressPattern: ['primary'] },
+                etymology: { origin: 'unknown', historicalForms: [], relatedWords: [], meanings: ['definition unavailable'] },
+                semanticComponents: [{ component: word, semanticWeight: 1.0, conceptualCategory: 'conceptual' }]
+            };
+            
+            this.etymologyCache.set(word, fallbackAnalysis);
+            return fallbackAnalysis;
+        }
     }
 
     decomposeMorphemes(word) {
@@ -95,18 +116,34 @@ export class EtymologicalAnalyzer {
     }
 
     extractSemanticComponents(word) {
-        const components = [];
-        const morphemes = this.decomposeMorphemes(word);
-        
-        for (const morpheme of morphemes) {
-            components.push({
-                component: morpheme.value,
-                semanticWeight: this.calculateSemanticWeight(morpheme),
-                conceptualCategory: this.categorizeSemantics(morpheme)
-            });
-        }
+        try {
+            const components = [];
+            const morphemes = this.decomposeMorphemes(word) || [];
+            
+            if (morphemes.length === 0) {
+                // Fallback if no morphemes detected
+                components.push({
+                    component: word,
+                    semanticWeight: 1.0,
+                    conceptualCategory: 'conceptual'
+                });
+            } else {
+                for (const morpheme of morphemes) {
+                    if (morpheme && morpheme.value) {
+                        components.push({
+                            component: morpheme.value,
+                            semanticWeight: this.calculateSemanticWeight(morpheme),
+                            conceptualCategory: this.categorizeSemantics(morpheme)
+                        });
+                    }
+                }
+            }
 
-        return components;
+            return components;
+        } catch (error) {
+            console.warn(`Failed to extract semantic components for "${word}": ${error.message}`);
+            return [{ component: word, semanticWeight: 1.0, conceptualCategory: 'conceptual' }];
+        }
     }
 
     getPrefixMeaning(prefix) {

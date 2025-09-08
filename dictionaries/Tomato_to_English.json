@@ -2,124 +2,4704 @@
   "metadata": {
     "type": "Sigment to English Dictionary",
     "language": "Tomato",
-    "entries": 10,
-    "created": "2025-09-07T22:09:26.816Z"
+    "entries": 470,
+    "created": "2025-09-08T18:16:25.574Z"
   },
   "dictionary": {
-    "phone": {
-      "english": "phone",
-      "definitions": [
-        "Definition of phone"
-      ],
-      "pronunciation": "fone",
+    "the": {
+      "english": "the",
+      "definitions": [],
+      "pronunciation": "/thɛ/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "reconstructed",
         "development": ""
       }
     },
-    "khair": {
-      "english": "chair",
-      "definitions": [
-        "Definition of chair"
-      ],
-      "pronunciation": "khair",
+    "be": {
+      "english": "be",
+      "definitions": [],
+      "pronunciation": "/bɛ/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "reconstructed",
         "development": ""
       }
     },
-    "shoes": {
-      "english": "shoes",
-      "definitions": [
-        "Definition of shoes"
-      ],
-      "pronunciation": "shoes",
+    "to": {
+      "english": "too",
+      "definitions": [],
+      "pronunciation": "/tɔ/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "reconstructed",
         "development": ""
       }
     },
-    "alone": {
-      "english": "alone",
-      "definitions": [
-        "Definition of alone"
-      ],
-      "pronunciation": "/ælɔnɛ/",
+    "of": {
+      "english": "off",
+      "definitions": [],
+      "pronunciation": "/ɔf/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "reconstructed",
         "development": ""
       }
     },
-    "together": {
+    "and": {
+      "english": "and",
+      "definitions": [],
+      "pronunciation": "/ænd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "a": {
+      "english": "a",
+      "definitions": [],
+      "pronunciation": "/æ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "in": {
+      "english": "in",
+      "definitions": [],
+      "pronunciation": "/ɪn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "thaat": {
+      "english": "that",
+      "definitions": [],
+      "pronunciation": "/thææt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "havve": {
+      "english": "have",
+      "definitions": [],
+      "pronunciation": "/hævvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "i": {
+      "english": "I",
+      "definitions": [],
+      "pronunciation": "/ɪ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "it": {
+      "english": "it",
+      "definitions": [],
+      "pronunciation": "/ɪt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "for": {
+      "english": "for",
+      "definitions": [],
+      "pronunciation": "/fɔr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "not": {
+      "english": "not",
+      "definitions": [],
+      "pronunciation": "/nɔt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "on": {
+      "english": "on",
+      "definitions": [],
+      "pronunciation": "/ɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "witth": {
+      "english": "with",
+      "definitions": [],
+      "pronunciation": "/wɪtth/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "he": {
+      "english": "he",
+      "definitions": [],
+      "pronunciation": "/hɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "as": {
+      "english": "as",
+      "definitions": [],
+      "pronunciation": "/æs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "you": {
+      "english": "you",
+      "definitions": [],
+      "pronunciation": "/jɔʌ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "do": {
+      "english": "do",
+      "definitions": [],
+      "pronunciation": "/dɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "at": {
+      "english": "at",
+      "definitions": [],
+      "pronunciation": "/æt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "thiis": {
+      "english": "this",
+      "definitions": [],
+      "pronunciation": "/thɪɪs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "but": {
+      "english": "but",
+      "definitions": [],
+      "pronunciation": "/bʌt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "his": {
+      "english": "his",
+      "definitions": [],
+      "pronunciation": "/hɪs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "by": {
+      "english": "by",
+      "definitions": [],
+      "pronunciation": "/bj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "froom": {
+      "english": "from",
+      "definitions": [],
+      "pronunciation": "/frɔɔm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "theey": {
+      "english": "they",
+      "definitions": [],
+      "pronunciation": "/thɛɛj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "we": {
+      "english": "we",
+      "definitions": [],
+      "pronunciation": "/wɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "say": {
+      "english": "say",
+      "definitions": [],
+      "pronunciation": "/sæj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "her": {
+      "english": "her",
+      "definitions": [],
+      "pronunciation": "/hɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "she": {
+      "english": "she",
+      "definitions": [],
+      "pronunciation": "/shɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "or": {
+      "english": "or",
+      "definitions": [],
+      "pronunciation": "/ɔr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "an": {
+      "english": "an",
+      "definitions": [],
+      "pronunciation": "/æn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "wil": {
+      "english": "will",
+      "definitions": [],
+      "pronunciation": "/wɪl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "my": {
+      "english": "my",
+      "definitions": [],
+      "pronunciation": "/mj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "one": {
+      "english": "one",
+      "definitions": [],
+      "pronunciation": "/ɔnɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "al": {
+      "english": "all",
+      "definitions": [],
+      "pronunciation": "/æl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "wouuld": {
+      "english": "would",
+      "definitions": [],
+      "pronunciation": "/wɔʌʌld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "theere": {
+      "english": "there",
+      "definitions": [],
+      "pronunciation": "/thɛɛrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "theeir": {
+      "english": "their",
+      "definitions": [],
+      "pronunciation": "/thɛɛɪr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "whaat": {
+      "english": "what",
+      "definitions": [],
+      "pronunciation": "/whææt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "so": {
+      "english": "so",
+      "definitions": [],
+      "pronunciation": "/sɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "up": {
+      "english": "up",
+      "definitions": [],
+      "pronunciation": "/ʌp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "out": {
+      "english": "out",
+      "definitions": [],
+      "pronunciation": "/ɔʌt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "if": {
+      "english": "if",
+      "definitions": [],
+      "pronunciation": "/ɪf/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "aboout": {
+      "english": "about",
+      "definitions": [],
+      "pronunciation": "/æbɔɔʌt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "who": {
+      "english": "who",
+      "definitions": [],
+      "pronunciation": "/whɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "get": {
+      "english": "get",
+      "definitions": [],
+      "pronunciation": "/gɛt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "whiich": {
+      "english": "which",
+      "definitions": [],
+      "pronunciation": "/whɪɪkh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "go": {
+      "english": "go",
+      "definitions": [],
+      "pronunciation": "/gɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "me": {
+      "english": "me",
+      "definitions": [],
+      "pronunciation": "/mɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "wheen": {
+      "english": "when",
+      "definitions": [],
+      "pronunciation": "/whɛɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "makke": {
+      "english": "make",
+      "definitions": [],
+      "pronunciation": "/mækkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "can": {
+      "english": "can",
+      "definitions": [],
+      "pronunciation": "/kæn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "likke": {
+      "english": "like",
+      "definitions": [],
+      "pronunciation": "/lɪkkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "timme": {
+      "english": "time",
+      "definitions": [],
+      "pronunciation": "/tɪmmɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "no": {
+      "english": "no",
+      "definitions": [],
+      "pronunciation": "/nɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "jusst": {
+      "english": "just",
+      "definitions": [],
+      "pronunciation": "/ʤʌsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "him": {
+      "english": "him",
+      "definitions": [],
+      "pronunciation": "/hɪm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "knoow": {
+      "english": "know",
+      "definitions": [],
+      "pronunciation": "/knɔɔw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "takke": {
+      "english": "take",
+      "definitions": [],
+      "pronunciation": "/tækkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "peopple": {
+      "english": "people",
+      "definitions": [],
+      "pronunciation": "/pɛɔpplɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "intto": {
+      "english": "into",
+      "definitions": [],
+      "pronunciation": "/ɪnttɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "yeaar": {
+      "english": "year",
+      "definitions": [],
+      "pronunciation": "/jɛæær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "youur": {
+      "english": "your",
+      "definitions": [],
+      "pronunciation": "/jɔʌʌr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "goood": {
+      "english": "good",
+      "definitions": [],
+      "pronunciation": "/gɔɔɔd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "somme": {
+      "english": "some",
+      "definitions": [],
+      "pronunciation": "/sɔmmɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "couuld": {
+      "english": "could",
+      "definitions": [],
+      "pronunciation": "/kɔʌʌld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "theem": {
+      "english": "them",
+      "definitions": [],
+      "pronunciation": "/thɛɛm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "se": {
+      "english": "see",
+      "definitions": [],
+      "pronunciation": "/sɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "othher": {
+      "english": "other",
+      "definitions": [],
+      "pronunciation": "/ɔthhɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "thaan": {
+      "english": "than",
+      "definitions": [],
+      "pronunciation": "/thææn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "theen": {
+      "english": "then",
+      "definitions": [],
+      "pronunciation": "/thɛɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "now": {
+      "english": "now",
+      "definitions": [],
+      "pronunciation": "/nɔw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "loook": {
+      "english": "look",
+      "definitions": [],
+      "pronunciation": "/lɔɔɔk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "onlly": {
+      "english": "only",
+      "definitions": [],
+      "pronunciation": "/ɔnllj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "comme": {
+      "english": "come",
+      "definitions": [],
+      "pronunciation": "/kɔmmɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "its": {
+      "english": "its",
+      "definitions": [],
+      "pronunciation": "/ɪts/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "oveer": {
+      "english": "over",
+      "definitions": [],
+      "pronunciation": "/ɔvɛɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "thiink": {
+      "english": "think",
+      "definitions": [],
+      "pronunciation": "/thɪɪnk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "alsso": {
+      "english": "also",
+      "definitions": [],
+      "pronunciation": "/ælssɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "bacck": {
+      "english": "back",
+      "definitions": [],
+      "pronunciation": "/bækkk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "aftter": {
+      "english": "after",
+      "definitions": [],
+      "pronunciation": "/æfttɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "use": {
+      "english": "use",
+      "definitions": [],
+      "pronunciation": "/ʌsɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "two": {
+      "english": "two",
+      "definitions": [],
+      "pronunciation": "/twɔ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "how": {
+      "english": "how",
+      "definitions": [],
+      "pronunciation": "/hɔw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "our": {
+      "english": "our",
+      "definitions": [],
+      "pronunciation": "/ɔʌr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "worrk": {
+      "english": "work",
+      "definitions": [],
+      "pronunciation": "/wɔrrk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "firrst": {
+      "english": "first",
+      "definitions": [],
+      "pronunciation": "/fɪrrst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "wel": {
+      "english": "well",
+      "definitions": [],
+      "pronunciation": "/wɛl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "way": {
+      "english": "way",
+      "definitions": [],
+      "pronunciation": "/wæj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "eveen": {
+      "english": "even",
+      "definitions": [],
+      "pronunciation": "/ɛvɛɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "new": {
+      "english": "new",
+      "definitions": [],
+      "pronunciation": "/nɛw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "wannt": {
+      "english": "want",
+      "definitions": [],
+      "pronunciation": "/wænnt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "becaause": {
+      "english": "because",
+      "definitions": [],
+      "pronunciation": "/bɛkææʌsɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "any": {
+      "english": "any",
+      "definitions": [],
+      "pronunciation": "/ænj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "theese": {
+      "english": "these",
+      "definitions": [],
+      "pronunciation": "/thɛɛsɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "givve": {
+      "english": "give",
+      "definitions": [],
+      "pronunciation": "/gɪvvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "day": {
+      "english": "day",
+      "definitions": [],
+      "pronunciation": "/dæj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "mosst": {
+      "english": "most",
+      "definitions": [],
+      "pronunciation": "/mɔsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "us": {
+      "english": "us",
+      "definitions": [],
+      "pronunciation": "/ʌs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "is": {
+      "english": "is",
+      "definitions": [],
+      "pronunciation": "/ɪs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "watter": {
+      "english": "water",
+      "definitions": [],
+      "pronunciation": "/wættɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "lonng": {
+      "english": "long",
+      "definitions": [],
+      "pronunciation": "/lɔnng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "verry": {
+      "english": "very",
+      "definitions": [],
+      "pronunciation": "/vɛrrj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "worrd": {
+      "english": "word",
+      "definitions": [],
+      "pronunciation": "/wɔrrd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "greeat": {
+      "english": "great",
+      "definitions": [],
+      "pronunciation": "/grɛɛæt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "wheere": {
+      "english": "where",
+      "definitions": [],
+      "pronunciation": "/whɛɛrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "throough": {
+      "english": "through",
+      "definitions": [],
+      "pronunciation": "/thrɔɔʌgh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "mucch": {
+      "english": "much",
+      "definitions": [],
+      "pronunciation": "/mʌkkh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "befoore": {
+      "english": "before",
+      "definitions": [],
+      "pronunciation": "/bɛfɔɔrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "linne": {
+      "english": "line",
+      "definitions": [],
+      "pronunciation": "/lɪnnɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "rigght": {
+      "english": "right",
+      "definitions": [],
+      "pronunciation": "/rɪgght/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "meaans": {
+      "english": "means",
+      "definitions": [],
+      "pronunciation": "/mɛææns/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "old": {
+      "english": "old",
+      "definitions": [],
+      "pronunciation": "/ɔld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "samme": {
+      "english": "same",
+      "definitions": [],
+      "pronunciation": "/sæmmɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "tel": {
+      "english": "tell",
+      "definitions": [],
+      "pronunciation": "/tɛl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "boy": {
+      "english": "boy",
+      "definitions": [],
+      "pronunciation": "/bɔj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "folllow": {
+      "english": "follow",
+      "definitions": [],
+      "pronunciation": "/fɔlllɔw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "camme": {
+      "english": "came",
+      "definitions": [],
+      "pronunciation": "/kæmmɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "shoow": {
+      "english": "show",
+      "definitions": [],
+      "pronunciation": "/shɔɔw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "arouund": {
+      "english": "around",
+      "definitions": [],
+      "pronunciation": "/ærɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "forrm": {
+      "english": "form",
+      "definitions": [],
+      "pronunciation": "/fɔrrm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "thrre": {
+      "english": "three",
+      "definitions": [],
+      "pronunciation": "/thrrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "smaal": {
+      "english": "small",
+      "definitions": [],
+      "pronunciation": "/smææl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "set": {
+      "english": "set",
+      "definitions": [],
+      "pronunciation": "/sɛt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "put": {
+      "english": "put",
+      "definitions": [],
+      "pronunciation": "/pʌt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "end": {
+      "english": "end",
+      "definitions": [],
+      "pronunciation": "/ɛnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "why": {
+      "english": "why",
+      "definitions": [],
+      "pronunciation": "/whj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "agaain": {
+      "english": "again",
+      "definitions": [],
+      "pronunciation": "/ægææɪn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "turrn": {
+      "english": "turn",
+      "definitions": [],
+      "pronunciation": "/tʌrrn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "herre": {
+      "english": "here",
+      "definitions": [],
+      "pronunciation": "/hɛrrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "wennt": {
+      "english": "went",
+      "definitions": [],
+      "pronunciation": "/wɛnnt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "numbber": {
+      "english": "number",
+      "definitions": [],
+      "pronunciation": "/nʌmbbɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "men": {
+      "english": "men",
+      "definitions": [],
+      "pronunciation": "/mɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "eveery": {
+      "english": "every",
+      "definitions": [],
+      "pronunciation": "/ɛvɛɛrj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "fouund": {
+      "english": "found",
+      "definitions": [],
+      "pronunciation": "/fɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "stiil": {
+      "english": "still",
+      "definitions": [],
+      "pronunciation": "/stɪɪl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "betwween": {
+      "english": "between",
+      "definitions": [],
+      "pronunciation": "/bɛtwwɛɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "namme": {
+      "english": "name",
+      "definitions": [],
+      "pronunciation": "/næmmɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "shouuld": {
+      "english": "should",
+      "definitions": [],
+      "pronunciation": "/shɔʌʌld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "homme": {
+      "english": "home",
+      "definitions": [],
+      "pronunciation": "/hɔmmɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "big": {
+      "english": "big",
+      "definitions": [],
+      "pronunciation": "/bɪg/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "air": {
+      "english": "air",
+      "definitions": [],
+      "pronunciation": "/æɪr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "own": {
+      "english": "own",
+      "definitions": [],
+      "pronunciation": "/ɔwn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "was": {
+      "english": "was",
+      "definitions": [],
+      "pronunciation": "/wæs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "are": {
+      "english": "are",
+      "definitions": [],
+      "pronunciation": "/ærɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "had": {
+      "english": "had",
+      "definitions": [],
+      "pronunciation": "/hæd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "werre": {
+      "english": "were",
+      "definitions": [],
+      "pronunciation": "/wɛrrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "saiid": {
+      "english": "said",
+      "definitions": [],
+      "pronunciation": "/sæɪɪd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "eacch": {
+      "english": "each",
+      "definitions": [],
+      "pronunciation": "/ɛækkh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "manny": {
+      "english": "many",
+      "definitions": [],
+      "pronunciation": "/mænnj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "wriite": {
+      "english": "write",
+      "definitions": [],
+      "pronunciation": "/wrɪɪtɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "thiing": {
+      "english": "thing",
+      "definitions": [],
+      "pronunciation": "/thɪɪng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "has": {
+      "english": "has",
+      "definitions": [],
+      "pronunciation": "/hæs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "morre": {
+      "english": "more",
+      "definitions": [],
+      "pronunciation": "/mɔrrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "did": {
+      "english": "did",
+      "definitions": [],
+      "pronunciation": "/dɪd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "souund": {
+      "english": "sound",
+      "definitions": [],
+      "pronunciation": "/sɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "cal": {
+      "english": "call",
+      "definitions": [],
+      "pronunciation": "/kæl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "may": {
+      "english": "may",
+      "definitions": [],
+      "pronunciation": "/mæj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "dowwn": {
+      "english": "down",
+      "definitions": [],
+      "pronunciation": "/dɔwwn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "sidde": {
+      "english": "side",
+      "definitions": [],
+      "pronunciation": "/sɪddɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "beeen": {
+      "english": "been",
+      "definitions": [],
+      "pronunciation": "/bɛɛɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "finnd": {
+      "english": "find",
+      "definitions": [],
+      "pronunciation": "/fɪnnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "parrt": {
+      "english": "part",
+      "definitions": [],
+      "pronunciation": "/pærrt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "plaace": {
+      "english": "place",
+      "definitions": [],
+      "pronunciation": "/plæækɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "madde": {
+      "english": "made",
+      "definitions": [],
+      "pronunciation": "/mæddɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "livve": {
+      "english": "live",
+      "definitions": [],
+      "pronunciation": "/lɪvvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "litttle": {
+      "english": "little",
+      "definitions": [],
+      "pronunciation": "/lɪtttlɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "rouund": {
+      "english": "round",
+      "definitions": [],
+      "pronunciation": "/rɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "man": {
+      "english": "man",
+      "definitions": [],
+      "pronunciation": "/mæn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "reconstructed",
+        "development": ""
+      }
+    },
+    "doees": {
+      "english": "does",
+      "definitions": [],
+      "pronunciation": "/dɔɛɛs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "plaay": {
+      "english": "play",
+      "definitions": [],
+      "pronunciation": "/plææj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "reaad": {
+      "english": "read",
+      "definitions": [],
+      "pronunciation": "/rɛææd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "hannd": {
+      "english": "hand",
+      "definitions": [],
+      "pronunciation": "/hænnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "porrt": {
+      "english": "port",
+      "definitions": [],
+      "pronunciation": "/pɔrrt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "larrge": {
+      "english": "large",
+      "definitions": [],
+      "pronunciation": "/lærrgɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "speel": {
+      "english": "spell",
+      "definitions": [],
+      "pronunciation": "/spɛɛl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "ad": {
+      "english": "add",
+      "definitions": [],
+      "pronunciation": "/æd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "lannd": {
+      "english": "land",
+      "definitions": [],
+      "pronunciation": "/lænnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "musst": {
+      "english": "must",
+      "definitions": [],
+      "pronunciation": "/mʌsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "higgh": {
+      "english": "high",
+      "definitions": [],
+      "pronunciation": "/hɪggh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "succh": {
+      "english": "such",
+      "definitions": [],
+      "pronunciation": "/sʌkkh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "act": {
+      "english": "act",
+      "definitions": [],
+      "pronunciation": "/ækt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "ask": {
+      "english": "ask",
+      "definitions": [],
+      "pronunciation": "/æsk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "channge": {
+      "english": "change",
+      "definitions": [],
+      "pronunciation": "/khænngɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "ligght": {
+      "english": "light",
+      "definitions": [],
+      "pronunciation": "/lɪgght/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "kinnd": {
+      "english": "kind",
+      "definitions": [],
+      "pronunciation": "/kɪnnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "neeed": {
+      "english": "need",
+      "definitions": [],
+      "pronunciation": "/nɛɛɛd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "houuse": {
+      "english": "house",
+      "definitions": [],
+      "pronunciation": "/hɔʌʌsɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "pictture": {
+      "english": "picture",
+      "definitions": [],
+      "pronunciation": "/pɪkttʌrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "try": {
+      "english": "try",
+      "definitions": [],
+      "pronunciation": "/trj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "animmal": {
+      "english": "animal",
+      "definitions": [],
+      "pronunciation": "/ænɪmmæl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "poiint": {
+      "english": "point",
+      "definitions": [],
+      "pronunciation": "/pɔɪɪnt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "mothher": {
+      "english": "mother",
+      "definitions": [],
+      "pronunciation": "/mɔthhɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "worrld": {
+      "english": "world",
+      "definitions": [],
+      "pronunciation": "/wɔrrld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "neaar": {
+      "english": "near",
+      "definitions": [],
+      "pronunciation": "/nɛæær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "buiild": {
+      "english": "build",
+      "definitions": [],
+      "pronunciation": "/bʌɪɪld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "sellf": {
+      "english": "self",
+      "definitions": [],
+      "pronunciation": "/sɛllf/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "earrth": {
+      "english": "earth",
+      "definitions": [],
+      "pronunciation": "/ɛærrth/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fathher": {
+      "english": "father",
+      "definitions": [],
+      "pronunciation": "/fæthhɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "heaad": {
+      "english": "head",
+      "definitions": [],
+      "pronunciation": "/hɛææd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "staand": {
+      "english": "stand",
+      "definitions": [],
+      "pronunciation": "/stæænd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "pagge": {
+      "english": "page",
+      "definitions": [],
+      "pronunciation": "/pæggɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "counntry": {
+      "english": "country",
+      "definitions": [],
+      "pronunciation": "/kɔʌnntrj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "answwer": {
+      "english": "answer",
+      "definitions": [],
+      "pronunciation": "/ænswwɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "schoool": {
+      "english": "school",
+      "definitions": [],
+      "pronunciation": "/skhɔɔɔl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "groow": {
+      "english": "grow",
+      "definitions": [],
+      "pronunciation": "/grɔɔw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "stuudy": {
+      "english": "study",
+      "definitions": [],
+      "pronunciation": "/stʌʌdj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "leaarn": {
+      "english": "learn",
+      "definitions": [],
+      "pronunciation": "/lɛæærn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "plaant": {
+      "english": "plant",
+      "definitions": [],
+      "pronunciation": "/plæænt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "covver": {
+      "english": "cover",
+      "definitions": [],
+      "pronunciation": "/kɔvvɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "foood": {
+      "english": "food",
+      "definitions": [],
+      "pronunciation": "/fɔɔɔd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "sun": {
+      "english": "sun",
+      "definitions": [],
+      "pronunciation": "/sʌn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fouur": {
+      "english": "four",
+      "definitions": [],
+      "pronunciation": "/fɔʌʌr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "staate": {
+      "english": "state",
+      "definitions": [],
+      "pronunciation": "/stæætɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "keeep": {
+      "english": "keep",
+      "definitions": [],
+      "pronunciation": "/kɛɛɛp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "eye": {
+      "english": "eye",
+      "definitions": [],
+      "pronunciation": "/ɛjɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "nevver": {
+      "english": "never",
+      "definitions": [],
+      "pronunciation": "/nɛvvɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "lasst": {
+      "english": "last",
+      "definitions": [],
+      "pronunciation": "/læsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "let": {
+      "english": "let",
+      "definitions": [],
+      "pronunciation": "/lɛt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "thouught": {
+      "english": "thought",
+      "definitions": [],
+      "pronunciation": "/thɔʌʌght/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "citty": {
+      "english": "city",
+      "definitions": [],
+      "pronunciation": "/kɪttj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "tre": {
+      "english": "tree",
+      "definitions": [],
+      "pronunciation": "/trɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "croos": {
+      "english": "cross",
+      "definitions": [],
+      "pronunciation": "/krɔɔs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "farrm": {
+      "english": "farm",
+      "definitions": [],
+      "pronunciation": "/færrm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "harrd": {
+      "english": "hard",
+      "definitions": [],
+      "pronunciation": "/hærrd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "staart": {
+      "english": "start",
+      "definitions": [],
+      "pronunciation": "/stæært/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "migght": {
+      "english": "might",
+      "definitions": [],
+      "pronunciation": "/mɪgght/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "stoory": {
+      "english": "story",
+      "definitions": [],
+      "pronunciation": "/stɔɔrj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "saw": {
+      "english": "saw",
+      "definitions": [],
+      "pronunciation": "/sæw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "far": {
+      "english": "far",
+      "definitions": [],
+      "pronunciation": "/fær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "sea": {
+      "english": "sea",
+      "definitions": [],
+      "pronunciation": "/sɛæ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "draaw": {
+      "english": "draw",
+      "definitions": [],
+      "pronunciation": "/drææw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "lefft": {
+      "english": "left",
+      "definitions": [],
+      "pronunciation": "/lɛfft/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "latte": {
+      "english": "late",
+      "definitions": [],
+      "pronunciation": "/lættɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "run": {
+      "english": "run",
+      "definitions": [],
+      "pronunciation": "/rʌn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "donn't": {
+      "english": "don't",
+      "definitions": [],
+      "pronunciation": "/dɔnn't/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "whiile": {
+      "english": "while",
+      "definitions": [],
+      "pronunciation": "/whɪɪlɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "prees": {
+      "english": "press",
+      "definitions": [],
+      "pronunciation": "/prɛɛs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "cloose": {
+      "english": "close",
+      "definitions": [],
+      "pronunciation": "/klɔɔsɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "nigght": {
+      "english": "night",
+      "definitions": [],
+      "pronunciation": "/nɪgght/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "reaal": {
+      "english": "real",
+      "definitions": [],
+      "pronunciation": "/rɛææl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "liffe": {
+      "english": "life",
+      "definitions": [],
+      "pronunciation": "/lɪffɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "few": {
+      "english": "few",
+      "definitions": [],
+      "pronunciation": "/fɛw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "norrth": {
+      "english": "north",
+      "definitions": [],
+      "pronunciation": "/nɔrrth/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "opeen": {
+      "english": "open",
+      "definitions": [],
+      "pronunciation": "/ɔpɛɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "seeem": {
+      "english": "seem",
+      "definitions": [],
+      "pronunciation": "/sɛɛɛm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "togetther": {
       "english": "together",
-      "definitions": [
-        "Definition of together"
-      ],
-      "pronunciation": "/tɔgɛthɛr/",
-      "partOfSpeech": "unknown",
-      "etymology": {
-        "origin": "reconstructed",
-        "development": ""
-      }
-    },
-    "bright": {
-      "english": "bright",
-      "definitions": [
-        "Definition of bright"
-      ],
-      "pronunciation": "/brɪght/",
-      "partOfSpeech": "unknown",
-      "etymology": {
-        "origin": "reconstructed",
-        "development": ""
-      }
-    },
-    "phantastik": {
-      "english": "fantastic",
-      "definitions": [
-        "Definition of fantastic"
-      ],
-      "pronunciation": "/phæntæstɪk/",
+      "definitions": [],
+      "pronunciation": "/tɔgɛtthɛr/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",
         "development": ""
       }
     },
-    "inkredible": {
-      "english": "incredible",
-      "definitions": [
-        "Definition of incredible"
-      ],
-      "pronunciation": "/ɪnkrɛdɪblɛ/",
+    "nexxt": {
+      "english": "next",
+      "definitions": [],
+      "pronunciation": "/nɛkskst/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",
         "development": ""
       }
     },
-    "amazing": {
-      "english": "amazing",
-      "definitions": [
-        "Definition of amazing"
-      ],
-      "pronunciation": "/æmæzɪng/",
+    "whiite": {
+      "english": "white",
+      "definitions": [],
+      "pronunciation": "/whɪɪtɛ/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",
         "development": ""
       }
     },
-    "wonderphul": {
-      "english": "wonderful",
-      "definitions": [
-        "Definition of wonderful"
-      ],
-      "pronunciation": "/wɔndɛrphʌl/",
+    "childdren": {
+      "english": "children",
+      "definitions": [],
+      "pronunciation": "/khɪlddrɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "beggin": {
+      "english": "begin",
+      "definitions": [],
+      "pronunciation": "/bɛggɪn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "got": {
+      "english": "got",
+      "definitions": [],
+      "pronunciation": "/gɔt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "wallk": {
+      "english": "walk",
+      "definitions": [],
+      "pronunciation": "/wællk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "exammple": {
+      "english": "example",
+      "definitions": [],
+      "pronunciation": "/ɛksæmmplɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "easse": {
+      "english": "ease",
+      "definitions": [],
+      "pronunciation": "/ɛæssɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "papper": {
+      "english": "paper",
+      "definitions": [],
+      "pronunciation": "/pæppɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "grooup": {
+      "english": "group",
+      "definitions": [],
+      "pronunciation": "/grɔɔʌp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "alwaays": {
+      "english": "always",
+      "definitions": [],
+      "pronunciation": "/ælwææjs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "mussic": {
+      "english": "music",
+      "definitions": [],
+      "pronunciation": "/mʌssɪk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "thoose": {
+      "english": "those",
+      "definitions": [],
+      "pronunciation": "/thɔɔsɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "botth": {
+      "english": "both",
+      "definitions": [],
+      "pronunciation": "/bɔtth/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "marrk": {
+      "english": "mark",
+      "definitions": [],
+      "pronunciation": "/mærrk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "oftten": {
+      "english": "often",
+      "definitions": [],
+      "pronunciation": "/ɔfttɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "lettter": {
+      "english": "letter",
+      "definitions": [],
+      "pronunciation": "/lɛtttɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "unttil": {
+      "english": "until",
+      "definitions": [],
+      "pronunciation": "/ʌnttɪl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "mille": {
+      "english": "mile",
+      "definitions": [],
+      "pronunciation": "/mɪllɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "rivver": {
+      "english": "river",
+      "definitions": [],
+      "pronunciation": "/rɪvvɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "car": {
+      "english": "car",
+      "definitions": [],
+      "pronunciation": "/kær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "feeet": {
+      "english": "feet",
+      "definitions": [],
+      "pronunciation": "/fɛɛɛt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "carre": {
+      "english": "care",
+      "definitions": [],
+      "pronunciation": "/kærrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "secoond": {
+      "english": "second",
+      "definitions": [],
+      "pronunciation": "/sɛkɔɔnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "boook": {
+      "english": "book",
+      "definitions": [],
+      "pronunciation": "/bɔɔɔk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "carrry": {
+      "english": "carry",
+      "definitions": [],
+      "pronunciation": "/kærrrj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "toook": {
+      "english": "took",
+      "definitions": [],
+      "pronunciation": "/tɔɔɔk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "scieence": {
+      "english": "science",
+      "definitions": [],
+      "pronunciation": "/skɪɛɛnkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "eat": {
+      "english": "eat",
+      "definitions": [],
+      "pronunciation": "/ɛæt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "rooom": {
+      "english": "room",
+      "definitions": [],
+      "pronunciation": "/rɔɔɔm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "frieend": {
+      "english": "friend",
+      "definitions": [],
+      "pronunciation": "/frɪɛɛnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "beggan": {
+      "english": "began",
+      "definitions": [],
+      "pronunciation": "/bɛggæn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "ideea": {
+      "english": "idea",
+      "definitions": [],
+      "pronunciation": "/ɪdɛɛæ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fissh": {
+      "english": "fish",
+      "definitions": [],
+      "pronunciation": "/fɪssh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "mounttain": {
+      "english": "mountain",
+      "definitions": [],
+      "pronunciation": "/mɔʌnttæɪn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "stoop": {
+      "english": "stop",
+      "definitions": [],
+      "pronunciation": "/stɔɔp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "oncce": {
+      "english": "once",
+      "definitions": [],
+      "pronunciation": "/ɔnkkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "basse": {
+      "english": "base",
+      "definitions": [],
+      "pronunciation": "/bæssɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "heaar": {
+      "english": "hear",
+      "definitions": [],
+      "pronunciation": "/hɛæær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "horrse": {
+      "english": "horse",
+      "definitions": [],
+      "pronunciation": "/hɔrrsɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "cut": {
+      "english": "cut",
+      "definitions": [],
+      "pronunciation": "/kʌt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "surre": {
+      "english": "sure",
+      "definitions": [],
+      "pronunciation": "/sʌrrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "wattch": {
+      "english": "watch",
+      "definitions": [],
+      "pronunciation": "/wættkh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "collor": {
+      "english": "color",
+      "definitions": [],
+      "pronunciation": "/kɔllɔr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "facce": {
+      "english": "face",
+      "definitions": [],
+      "pronunciation": "/fækkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "woood": {
+      "english": "wood",
+      "definitions": [],
+      "pronunciation": "/wɔɔɔd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "maiin": {
+      "english": "main",
+      "definitions": [],
+      "pronunciation": "/mæɪɪn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "enouugh": {
+      "english": "enough",
+      "definitions": [],
+      "pronunciation": "/ɛnɔʌʌgh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "plaain": {
+      "english": "plain",
+      "definitions": [],
+      "pronunciation": "/plææɪn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "girrl": {
+      "english": "girl",
+      "definitions": [],
+      "pronunciation": "/gɪrrl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "usuual": {
+      "english": "usual",
+      "definitions": [],
+      "pronunciation": "/ʌsʌʌæl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "youung": {
+      "english": "young",
+      "definitions": [],
+      "pronunciation": "/jɔʌʌng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "reaady": {
+      "english": "ready",
+      "definitions": [],
+      "pronunciation": "/rɛæædj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "aboove": {
+      "english": "above",
+      "definitions": [],
+      "pronunciation": "/æbɔɔvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "eveer": {
+      "english": "ever",
+      "definitions": [],
+      "pronunciation": "/ɛvɛɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "red": {
+      "english": "red",
+      "definitions": [],
+      "pronunciation": "/rɛd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "lisst": {
+      "english": "list",
+      "definitions": [],
+      "pronunciation": "/lɪsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "thouugh": {
+      "english": "though",
+      "definitions": [],
+      "pronunciation": "/thɔʌʌgh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "feeel": {
+      "english": "feel",
+      "definitions": [],
+      "pronunciation": "/fɛɛɛl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "tallk": {
+      "english": "talk",
+      "definitions": [],
+      "pronunciation": "/tællk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "birrd": {
+      "english": "bird",
+      "definitions": [],
+      "pronunciation": "/bɪrrd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "sooon": {
+      "english": "soon",
+      "definitions": [],
+      "pronunciation": "/sɔɔɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "boddy": {
+      "english": "body",
+      "definitions": [],
+      "pronunciation": "/bɔddj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "dog": {
+      "english": "dog",
+      "definitions": [],
+      "pronunciation": "/dɔg/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "famiily": {
+      "english": "family",
+      "definitions": [],
+      "pronunciation": "/fæmɪɪlj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "direect": {
+      "english": "direct",
+      "definitions": [],
+      "pronunciation": "/dɪrɛɛkt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "posse": {
+      "english": "pose",
+      "definitions": [],
+      "pronunciation": "/pɔssɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "leaave": {
+      "english": "leave",
+      "definitions": [],
+      "pronunciation": "/lɛæævɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "sonng": {
+      "english": "song",
+      "definitions": [],
+      "pronunciation": "/sɔnng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "meassure": {
+      "english": "measure",
+      "definitions": [],
+      "pronunciation": "/mɛæssʌrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "dooor": {
+      "english": "door",
+      "definitions": [],
+      "pronunciation": "/dɔɔɔr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "prodduct": {
+      "english": "product",
+      "definitions": [],
+      "pronunciation": "/prɔddʌkt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "blaack": {
+      "english": "black",
+      "definitions": [],
+      "pronunciation": "/blæækk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "shoort": {
+      "english": "short",
+      "definitions": [],
+      "pronunciation": "/shɔɔrt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "numeeral": {
+      "english": "numeral",
+      "definitions": [],
+      "pronunciation": "/nʌmɛɛræl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "claas": {
+      "english": "class",
+      "definitions": [],
+      "pronunciation": "/klææs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "winnd": {
+      "english": "wind",
+      "definitions": [],
+      "pronunciation": "/wɪnnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "questtion": {
+      "english": "question",
+      "definitions": [],
+      "pronunciation": "/kwʌɛsttɪɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "happpen": {
+      "english": "happen",
+      "definitions": [],
+      "pronunciation": "/hæpppɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "compllete": {
+      "english": "complete",
+      "definitions": [],
+      "pronunciation": "/kɔmpllɛtɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "shiip": {
+      "english": "ship",
+      "definitions": [],
+      "pronunciation": "/shɪɪp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "areea": {
+      "english": "area",
+      "definitions": [],
+      "pronunciation": "/ærɛɛæ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "hallf": {
+      "english": "half",
+      "definitions": [],
+      "pronunciation": "/hællf/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "rocck": {
+      "english": "rock",
+      "definitions": [],
+      "pronunciation": "/rɔkkk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "ordder": {
+      "english": "order",
+      "definitions": [],
+      "pronunciation": "/ɔrddɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "firre": {
+      "english": "fire",
+      "definitions": [],
+      "pronunciation": "/fɪrrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "souuth": {
+      "english": "south",
+      "definitions": [],
+      "pronunciation": "/sɔʌʌth/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "probblem": {
+      "english": "problem",
+      "definitions": [],
+      "pronunciation": "/prɔbblɛm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "pieece": {
+      "english": "piece",
+      "definitions": [],
+      "pronunciation": "/pɪɛɛkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "tolld": {
+      "english": "told",
+      "definitions": [],
+      "pronunciation": "/tɔlld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "kneew": {
+      "english": "knew",
+      "definitions": [],
+      "pronunciation": "/knɛɛw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "pas": {
+      "english": "pass",
+      "definitions": [],
+      "pronunciation": "/pæs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "sinnce": {
+      "english": "since",
+      "definitions": [],
+      "pronunciation": "/sɪnnkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "top": {
+      "english": "top",
+      "definitions": [],
+      "pronunciation": "/tɔp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "whoole": {
+      "english": "whole",
+      "definitions": [],
+      "pronunciation": "/whɔɔlɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "kinng": {
+      "english": "king",
+      "definitions": [],
+      "pronunciation": "/kɪnng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "spaace": {
+      "english": "space",
+      "definitions": [],
+      "pronunciation": "/spæækɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "heaard": {
+      "english": "heard",
+      "definitions": [],
+      "pronunciation": "/hɛæærd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "besst": {
+      "english": "best",
+      "definitions": [],
+      "pronunciation": "/bɛsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "houur": {
+      "english": "hour",
+      "definitions": [],
+      "pronunciation": "/hɔʌʌr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "bettter": {
+      "english": "better",
+      "definitions": [],
+      "pronunciation": "/bɛtttɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "truue": {
+      "english": "true",
+      "definitions": [],
+      "pronunciation": "/trʌʌɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "duriing": {
+      "english": "during",
+      "definitions": [],
+      "pronunciation": "/dʌrɪɪng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "hunddred": {
+      "english": "hundred",
+      "definitions": [],
+      "pronunciation": "/hʌnddrɛd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fivve": {
+      "english": "five",
+      "definitions": [],
+      "pronunciation": "/fɪvvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "rememmber": {
+      "english": "remember",
+      "definitions": [],
+      "pronunciation": "/rɛmɛmmbɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "steep": {
+      "english": "step",
+      "definitions": [],
+      "pronunciation": "/stɛɛp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "earrly": {
+      "english": "early",
+      "definitions": [],
+      "pronunciation": "/ɛærrlj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "holld": {
+      "english": "hold",
+      "definitions": [],
+      "pronunciation": "/hɔlld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "wesst": {
+      "english": "west",
+      "definitions": [],
+      "pronunciation": "/wɛsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "grouund": {
+      "english": "ground",
+      "definitions": [],
+      "pronunciation": "/grɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "interrest": {
+      "english": "interest",
+      "definitions": [],
+      "pronunciation": "/ɪntɛrrɛst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "reaach": {
+      "english": "reach",
+      "definitions": [],
+      "pronunciation": "/rɛæækh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fasst": {
+      "english": "fast",
+      "definitions": [],
+      "pronunciation": "/fæsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "verrb": {
+      "english": "verb",
+      "definitions": [],
+      "pronunciation": "/vɛrrb/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "sinng": {
+      "english": "sing",
+      "definitions": [],
+      "pronunciation": "/sɪnng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "listten": {
+      "english": "listen",
+      "definitions": [],
+      "pronunciation": "/lɪsttɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "six": {
+      "english": "six",
+      "definitions": [],
+      "pronunciation": "/sɪks/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "tabble": {
+      "english": "table",
+      "definitions": [],
+      "pronunciation": "/tæbblɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "travvel": {
+      "english": "travel",
+      "definitions": [],
+      "pronunciation": "/trævvɛl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "les": {
+      "english": "less",
+      "definitions": [],
+      "pronunciation": "/lɛs/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "mornning": {
+      "english": "morning",
+      "definitions": [],
+      "pronunciation": "/mɔrnnɪng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "ten": {
+      "english": "ten",
+      "definitions": [],
+      "pronunciation": "/tɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "simpple": {
+      "english": "simple",
+      "definitions": [],
+      "pronunciation": "/sɪmpplɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "seveeral": {
+      "english": "several",
+      "definitions": [],
+      "pronunciation": "/sɛvɛɛræl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "vowwel": {
+      "english": "vowel",
+      "definitions": [],
+      "pronunciation": "/vɔwwɛl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "towaard": {
+      "english": "toward",
+      "definitions": [],
+      "pronunciation": "/tɔwæærd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "war": {
+      "english": "war",
+      "definitions": [],
+      "pronunciation": "/wær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "lay": {
+      "english": "lay",
+      "definitions": [],
+      "pronunciation": "/læj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "agaiinst": {
+      "english": "against",
+      "definitions": [],
+      "pronunciation": "/ægæɪɪnst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "patttern": {
+      "english": "pattern",
+      "definitions": [],
+      "pronunciation": "/pætttɛrn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "sloow": {
+      "english": "slow",
+      "definitions": [],
+      "pronunciation": "/slɔɔw/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "centter": {
+      "english": "center",
+      "definitions": [],
+      "pronunciation": "/kɛnttɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "lovve": {
+      "english": "love",
+      "definitions": [],
+      "pronunciation": "/lɔvvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "persson": {
+      "english": "person",
+      "definitions": [],
+      "pronunciation": "/pɛrssɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "monney": {
+      "english": "money",
+      "definitions": [],
+      "pronunciation": "/mɔnnɛj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "serrve": {
+      "english": "serve",
+      "definitions": [],
+      "pronunciation": "/sɛrrvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "appeear": {
+      "english": "appear",
+      "definitions": [],
+      "pronunciation": "/æppɛɛær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "roaad": {
+      "english": "road",
+      "definitions": [],
+      "pronunciation": "/rɔææd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "map": {
+      "english": "map",
+      "definitions": [],
+      "pronunciation": "/mæp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "raiin": {
+      "english": "rain",
+      "definitions": [],
+      "pronunciation": "/ræɪɪn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "rulle": {
+      "english": "rule",
+      "definitions": [],
+      "pronunciation": "/rʌllɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "goveern": {
+      "english": "govern",
+      "definitions": [],
+      "pronunciation": "/gɔvɛɛrn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "pul": {
+      "english": "pull",
+      "definitions": [],
+      "pronunciation": "/pʌl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "colld": {
+      "english": "cold",
+      "definitions": [],
+      "pronunciation": "/kɔlld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "notiice": {
+      "english": "notice",
+      "definitions": [],
+      "pronunciation": "/nɔtɪɪkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "voiice": {
+      "english": "voice",
+      "definitions": [],
+      "pronunciation": "/vɔɪɪkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "uniit": {
+      "english": "unit",
+      "definitions": [],
+      "pronunciation": "/ʌnɪɪt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "powwer": {
+      "english": "power",
+      "definitions": [],
+      "pronunciation": "/pɔwwɛr/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "towwn": {
+      "english": "town",
+      "definitions": [],
+      "pronunciation": "/tɔwwn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "finne": {
+      "english": "fine",
+      "definitions": [],
+      "pronunciation": "/fɪnnɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "certtain": {
+      "english": "certain",
+      "definitions": [],
+      "pronunciation": "/kɛrttæɪn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fly": {
+      "english": "fly",
+      "definitions": [],
+      "pronunciation": "/flj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fal": {
+      "english": "fall",
+      "definitions": [],
+      "pronunciation": "/fæl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "leaad": {
+      "english": "lead",
+      "definitions": [],
+      "pronunciation": "/lɛææd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "cry": {
+      "english": "cry",
+      "definitions": [],
+      "pronunciation": "/krj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "darrk": {
+      "english": "dark",
+      "definitions": [],
+      "pronunciation": "/dærrk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "machhine": {
+      "english": "machine",
+      "definitions": [],
+      "pronunciation": "/mækhhɪnɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "notte": {
+      "english": "note",
+      "definitions": [],
+      "pronunciation": "/nɔttɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "waiit": {
+      "english": "wait",
+      "definitions": [],
+      "pronunciation": "/wæɪɪt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "plaan": {
+      "english": "plan",
+      "definitions": [],
+      "pronunciation": "/plææn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "figuure": {
+      "english": "figure",
+      "definitions": [],
+      "pronunciation": "/fɪgʌʌrɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "staar": {
+      "english": "star",
+      "definitions": [],
+      "pronunciation": "/stæær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "box": {
+      "english": "box",
+      "definitions": [],
+      "pronunciation": "/bɔks/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "nouun": {
+      "english": "noun",
+      "definitions": [],
+      "pronunciation": "/nɔʌʌn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fieeld": {
+      "english": "field",
+      "definitions": [],
+      "pronunciation": "/fɪɛɛld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "resst": {
+      "english": "rest",
+      "definitions": [],
+      "pronunciation": "/rɛsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "corrrect": {
+      "english": "correct",
+      "definitions": [],
+      "pronunciation": "/kɔrrrɛkt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "ablle": {
+      "english": "able",
+      "definitions": [],
+      "pronunciation": "/æbllɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "pouund": {
+      "english": "pound",
+      "definitions": [],
+      "pronunciation": "/pɔʌʌnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "donne": {
+      "english": "done",
+      "definitions": [],
+      "pronunciation": "/dɔnnɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "beauuty": {
+      "english": "beauty",
+      "definitions": [],
+      "pronunciation": "/bɛæʌʌtj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "driive": {
+      "english": "drive",
+      "definitions": [],
+      "pronunciation": "/drɪɪvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "stoood": {
+      "english": "stood",
+      "definitions": [],
+      "pronunciation": "/stɔɔɔd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "conttain": {
+      "english": "contain",
+      "definitions": [],
+      "pronunciation": "/kɔnttæɪn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "froont": {
+      "english": "front",
+      "definitions": [],
+      "pronunciation": "/frɔɔnt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "teaach": {
+      "english": "teach",
+      "definitions": [],
+      "pronunciation": "/tɛæækh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "weeek": {
+      "english": "week",
+      "definitions": [],
+      "pronunciation": "/wɛɛɛk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "finnal": {
+      "english": "final",
+      "definitions": [],
+      "pronunciation": "/fɪnnæl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "gavve": {
+      "english": "gave",
+      "definitions": [],
+      "pronunciation": "/gævvɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "greeen": {
+      "english": "green",
+      "definitions": [],
+      "pronunciation": "/grɛɛɛn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "oh": {
+      "english": "oh",
+      "definitions": [],
+      "pronunciation": "/ɔh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "quiick": {
+      "english": "quick",
+      "definitions": [],
+      "pronunciation": "/kwʌɪɪkk/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "deveelop": {
+      "english": "develop",
+      "definitions": [],
+      "pronunciation": "/dɛvɛɛlɔp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "oceean": {
+      "english": "ocean",
+      "definitions": [],
+      "pronunciation": "/ɔkɛɛæn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "warrm": {
+      "english": "warm",
+      "definitions": [],
+      "pronunciation": "/wærrm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fre": {
+      "english": "free",
+      "definitions": [],
+      "pronunciation": "/frɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "minuute": {
+      "english": "minute",
+      "definitions": [],
+      "pronunciation": "/mɪnʌʌtɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "stroong": {
+      "english": "strong",
+      "definitions": [],
+      "pronunciation": "/strɔɔng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "speccial": {
+      "english": "special",
+      "definitions": [],
+      "pronunciation": "/spɛkkɪæl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "minnd": {
+      "english": "mind",
+      "definitions": [],
+      "pronunciation": "/mɪnnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "behiind": {
+      "english": "behind",
+      "definitions": [],
+      "pronunciation": "/bɛhɪɪnd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "cleear": {
+      "english": "clear",
+      "definitions": [],
+      "pronunciation": "/klɛɛær/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "taiil": {
+      "english": "tail",
+      "definitions": [],
+      "pronunciation": "/tæɪɪl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "prodduce": {
+      "english": "produce",
+      "definitions": [],
+      "pronunciation": "/prɔddʌkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "facct": {
+      "english": "fact",
+      "definitions": [],
+      "pronunciation": "/fækkt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "streeet": {
+      "english": "street",
+      "definitions": [],
+      "pronunciation": "/strɛɛɛt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "incch": {
+      "english": "inch",
+      "definitions": [],
+      "pronunciation": "/ɪnkkh/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "multiiply": {
+      "english": "multiply",
+      "definitions": [],
+      "pronunciation": "/mʌltɪɪplj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "nothhing": {
+      "english": "nothing",
+      "definitions": [],
+      "pronunciation": "/nɔthhɪng/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "courrse": {
+      "english": "course",
+      "definitions": [],
+      "pronunciation": "/kɔʌrrsɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "staay": {
+      "english": "stay",
+      "definitions": [],
+      "pronunciation": "/stææj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "wheeel": {
+      "english": "wheel",
+      "definitions": [],
+      "pronunciation": "/whɛɛɛl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "ful": {
+      "english": "full",
+      "definitions": [],
+      "pronunciation": "/fʌl/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "forrce": {
+      "english": "force",
+      "definitions": [],
+      "pronunciation": "/fɔrrkɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "bluue": {
+      "english": "blue",
+      "definitions": [],
+      "pronunciation": "/blʌʌɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "objeect": {
+      "english": "object",
+      "definitions": [],
+      "pronunciation": "/ɔbʤɛɛkt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "deciide": {
+      "english": "decide",
+      "definitions": [],
+      "pronunciation": "/dɛkɪɪdɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "surfface": {
+      "english": "surface",
+      "definitions": [],
+      "pronunciation": "/sʌrffækɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "deeep": {
+      "english": "deep",
+      "definitions": [],
+      "pronunciation": "/dɛɛɛp/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "mooon": {
+      "english": "moon",
+      "definitions": [],
+      "pronunciation": "/mɔɔɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "islaand": {
+      "english": "island",
+      "definitions": [],
+      "pronunciation": "/ɪslæænd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "fooot": {
+      "english": "foot",
+      "definitions": [],
+      "pronunciation": "/fɔɔɔt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "systtem": {
+      "english": "system",
+      "definitions": [],
+      "pronunciation": "/sjsttɛm/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "bussy": {
+      "english": "busy",
+      "definitions": [],
+      "pronunciation": "/bʌssj/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "tesst": {
+      "english": "test",
+      "definitions": [],
+      "pronunciation": "/tɛsst/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "recoord": {
+      "english": "record",
+      "definitions": [],
+      "pronunciation": "/rɛkɔɔrd/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "boaat": {
+      "english": "boat",
+      "definitions": [],
+      "pronunciation": "/bɔææt/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "commmon": {
+      "english": "common",
+      "definitions": [],
+      "pronunciation": "/kɔmmmɔn/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "golld": {
+      "english": "gold",
+      "definitions": [],
+      "pronunciation": "/gɔlld/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "possiible": {
+      "english": "possible",
+      "definitions": [],
+      "pronunciation": "/pɔssɪɪblɛ/",
+      "partOfSpeech": "unknown",
+      "etymology": {
+        "origin": "unknown",
+        "development": ""
+      }
+    },
+    "plaane": {
+      "english": "plane",
+      "definitions": [],
+      "pronunciation": "/plæænɛ/",
       "partOfSpeech": "unknown",
       "etymology": {
         "origin": "unknown",

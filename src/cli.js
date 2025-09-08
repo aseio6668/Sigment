@@ -8,10 +8,10 @@ import path from 'path';
 
 // Navigation helper for menus
 class InteractiveMenu {
-    static async listPrompt(options) {
-        // Add 'Back' option to choices if not already present
+    static async listPrompt(options, includeBack = true) {
+        // Add 'Back' option to choices if not already present and requested
         const choices = [...options.choices];
-        if (!choices.includes('Back') && !choices.some(c => c.value === 'back')) {
+        if (includeBack && !choices.includes('Back') && !choices.some(c => c.value === 'back')) {
             choices.push(new inquirer.Separator());
             choices.push({ name: '← Back', value: 'back' });
         }
@@ -22,6 +22,54 @@ class InteractiveMenu {
         }]);
 
         return result;
+    }
+
+    static async confirmPrompt(options, includeBack = true) {
+        if (includeBack) {
+            // For confirm prompts, we'll convert to a list with Yes/No/Back options
+            const result = await inquirer.prompt([{
+                type: 'list',
+                name: options.name,
+                message: options.message,
+                choices: [
+                    { name: 'Yes', value: true },
+                    { name: 'No', value: false },
+                    new inquirer.Separator(),
+                    { name: '← Back', value: 'back' }
+                ]
+            }]);
+            return result;
+        } else {
+            return await inquirer.prompt([options]);
+        }
+    }
+
+    static async inputPrompt(options, includeBack = true) {
+        if (includeBack) {
+            const actionResult = await inquirer.prompt([{
+                type: 'list',
+                name: 'action',
+                message: `${options.message} or go back?`,
+                choices: [
+                    { name: `Enter ${options.message.toLowerCase()}`, value: 'input' },
+                    { name: '← Back', value: 'back' }
+                ]
+            }]);
+
+            if (actionResult.action === 'back') {
+                return { [options.name]: 'back' };
+            }
+
+            // Proceed with input
+            const inputResult = await inquirer.prompt([{
+                ...options,
+                validate: options.validate || (input => input.trim() ? true : 'Input is required')
+            }]);
+            
+            return inputResult;
+        } else {
+            return await inquirer.prompt([options]);
+        }
     }
 }
 
@@ -44,6 +92,9 @@ program
     .option('--no-ollama', 'Disable Ollama integration')
     .option('--ollama-url <url>', 'Ollama server URL', 'http://localhost:11434')
     .option('--ollama-model <model>', 'Ollama model to use', 'llama3.2')
+    .option('--batch-size <size>', 'Number of words to process in each batch', '10')
+    .option('--save-interval <interval>', 'Save progress every N words', '25')
+    .option('--no-pause', 'Disable pause/resume functionality')
     .option('-i, --interactive', 'Run in interactive mode')
     .action(async (options) => {
         if (options.interactive) {
@@ -111,6 +162,10 @@ program
     .option('--no-ollama', 'Disable Ollama integration')
     .option('--ollama-url <url>', 'Ollama server URL', 'http://localhost:11434')
     .option('--ollama-model <model>', 'Ollama model to use', 'llama3.2')
+    .option('--batch-size <size>', 'Number of words to process in each batch', '10')
+    .option('--save-interval <interval>', 'Save progress every N words', '25')
+    .option('--resume', 'Resume from previous interrupted batch')
+    .option('--no-pause', 'Disable pause/resume functionality')
     .action(async (options) => {
         await addWordsToLanguage(options);
     });
@@ -139,6 +194,17 @@ program
     .option('--analyze-only', 'Only analyze patterns, don\'t reconstruct')
     .action(async (options) => {
         await reconstructLanguage(options);
+    });
+
+program
+    .command('batch')
+    .description('Batch processing utilities')
+    .option('--pause', 'Create pause file to pause current batch operation')
+    .option('--resume', 'Resume paused batch operation')
+    .option('--status', 'Show status of current batch operations')
+    .option('--clean', 'Clean up batch progress files')
+    .action(async (options) => {
+        await handleBatchUtils(options);
     });
 
 async function runInteractiveMode() {
@@ -199,43 +265,62 @@ async function runInteractiveMode() {
 async function interactiveGeneration() {
     console.log('\n📚 Language Generation Setup\n');
 
-    const config = await inquirer.prompt([
-        {
-            type: 'input',
-            name: 'name',
-            message: 'Language name:',
-            validate: input => input.trim() ? true : 'Language name is required'
-        },
-        {
-            type: 'list',
-            name: 'style',
-            message: 'Transformation style:',
-            choices: [
-                { name: 'Default (balanced approach)', value: 'default' },
-                { name: 'Consonant Shift (systematic consonant changes)', value: 'consonant_shift' },
-                { name: 'Vowel Harmony (vowel consistency)', value: 'vowel_harmony' },
-                { name: 'Morpheme Emphasis (emphasize word roots)', value: 'morpheme_emphasis' },
-                { name: 'Phonetic Logic (maintain phonetic integrity)', value: 'phonetic_logic' }
-            ],
-            default: 'default'
-        },
-        {
-            type: 'confirm',
-            name: 'asciiPronunciation',
-            message: 'Use simple ASCII pronunciation (easier to read)?',
-            default: false
-        },
-        {
-            type: 'list',
-            name: 'vocabularySource',
-            message: 'Vocabulary source:',
-            choices: [
-                { name: 'Common English words (automatic)', value: 'common' },
-                { name: 'Custom word list (manual entry)', value: 'manual' },
-                { name: 'Load from file', value: 'file' }
-            ]
-        }
-    ]);
+    // Language name
+    const nameResult = await InteractiveMenu.inputPrompt({
+        type: 'input',
+        name: 'name',
+        message: 'Language name:',
+        validate: input => input.trim() ? true : 'Language name is required'
+    });
+
+    if (nameResult.name === 'back') return;
+
+    // Transformation style
+    const styleResult = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'style',
+        message: 'Transformation style:',
+        choices: [
+            { name: 'Default (balanced approach)', value: 'default' },
+            { name: 'Consonant Shift (systematic consonant changes)', value: 'consonant_shift' },
+            { name: 'Vowel Harmony (vowel consistency)', value: 'vowel_harmony' },
+            { name: 'Morpheme Emphasis (emphasize word roots)', value: 'morpheme_emphasis' },
+            { name: 'Phonetic Logic (maintain phonetic integrity)', value: 'phonetic_logic' }
+        ],
+        default: 'default'
+    });
+
+    if (styleResult.style === 'back') return;
+
+    // ASCII pronunciation
+    const asciiResult = await InteractiveMenu.confirmPrompt({
+        name: 'asciiPronunciation',
+        message: 'Use simple ASCII pronunciation (easier to read)?',
+        default: false
+    });
+
+    if (asciiResult.asciiPronunciation === 'back') return;
+
+    // Vocabulary source
+    const vocabularySourceResult = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'vocabularySource',
+        message: 'Vocabulary source:',
+        choices: [
+            { name: 'Common English words (automatic)', value: 'common' },
+            { name: 'Custom word list (manual entry)', value: 'manual' },
+            { name: 'Load from file', value: 'file' }
+        ]
+    });
+
+    if (vocabularySourceResult.vocabularySource === 'back') return;
+
+    const config = {
+        name: nameResult.name,
+        style: styleResult.style,
+        asciiPronunciation: asciiResult.asciiPronunciation,
+        vocabularySource: vocabularySourceResult.vocabularySource
+    };
 
     let vocabulary = [];
     
@@ -249,30 +334,38 @@ async function interactiveGeneration() {
         ]);
         vocabulary = wordsInput.words.split(/[,\n]/).map(w => w.trim()).filter(w => w);
     } else if (config.vocabularySource === 'file') {
-        const fileInput = await inquirer.prompt([
-            {
-                type: 'input',
-                name: 'filePath',
-                message: 'Path to word list file:'
-            }
-        ]);
-        vocabulary = `file:${fileInput.filePath}`;
+        const fileResult = await InteractiveMenu.inputPrompt({
+            type: 'input',
+            name: 'filePath',
+            message: 'Path to word list file:'
+        });
+        
+        if (fileResult.filePath === 'back') return;
+        vocabulary = `file:${fileResult.filePath}`;
     }
 
-    const advancedOptions = await inquirer.prompt([
-        {
-            type: 'confirm',
-            name: 'useCustomPrompt',
-            message: 'Use custom generation prompt?',
-            default: false
-        },
-        {
-            type: 'confirm',
-            name: 'useOllama',
-            message: 'Use Ollama for enhanced etymological analysis?',
-            default: true
-        }
-    ]);
+    // Custom prompt option
+    const customPromptResult = await InteractiveMenu.confirmPrompt({
+        name: 'useCustomPrompt',
+        message: 'Use custom generation prompt?',
+        default: false
+    });
+
+    if (customPromptResult.useCustomPrompt === 'back') return;
+
+    // Ollama option
+    const ollamaResult = await InteractiveMenu.confirmPrompt({
+        name: 'useOllama',
+        message: 'Use Ollama for enhanced etymological analysis?',
+        default: true
+    });
+
+    if (ollamaResult.useOllama === 'back') return;
+
+    const advancedOptions = {
+        useCustomPrompt: customPromptResult.useCustomPrompt,
+        useOllama: ollamaResult.useOllama
+    };
 
     let customPrompt = '';
     if (advancedOptions.useCustomPrompt) {
@@ -288,22 +381,26 @@ async function interactiveGeneration() {
 
     const ollamaConfig = {};
     if (advancedOptions.useOllama) {
-        const ollamaDetails = await inquirer.prompt([
-            {
-                type: 'input',
-                name: 'url',
-                message: 'Ollama server URL:',
-                default: 'http://localhost:11434'
-            },
-            {
-                type: 'input',
-                name: 'model',
-                message: 'Ollama model:',
-                default: 'llama3.2'
-            }
-        ]);
-        ollamaConfig.ollamaUrl = ollamaDetails.url;
-        ollamaConfig.ollamaModel = ollamaDetails.model;
+        const urlResult = await InteractiveMenu.inputPrompt({
+            type: 'input',
+            name: 'url',
+            message: 'Ollama server URL:',
+            default: 'http://localhost:11434'
+        });
+
+        if (urlResult.url === 'back') return;
+
+        const modelResult = await InteractiveMenu.inputPrompt({
+            type: 'input',
+            name: 'model',
+            message: 'Ollama model:',
+            default: 'llama3.2'
+        });
+
+        if (modelResult.model === 'back') return;
+
+        ollamaConfig.ollamaUrl = urlResult.url;
+        ollamaConfig.ollamaModel = modelResult.model;
     }
 
     console.log('\n🔄 Generating language...\n');
@@ -338,14 +435,11 @@ async function interactiveGeneration() {
             console.log(`  ${type}: ${path}`);
         }
 
-        const viewSample = await inquirer.prompt([
-            {
-                type: 'confirm',
-                name: 'view',
-                message: 'View a sample of generated words?',
-                default: true
-            }
-        ]);
+        const viewSample = await InteractiveMenu.confirmPrompt({
+            name: 'view',
+            message: 'View a sample of generated words?',
+            default: true
+        }, false); // Don't include back option for final confirmation
 
         if (viewSample.view) {
             displaySampleWords(result.language);
@@ -365,30 +459,45 @@ async function interactiveTranslation() {
         return;
     }
 
-    const translationConfig = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'language',
-            message: 'Select language:',
-            choices: languages
-        },
-        {
-            type: 'list',
-            name: 'direction',
-            message: 'Translation direction:',
-            choices: (answers) => [
-                { name: `English → ${answers.language}`, value: 'to-sigment' },
-                { name: `${answers.language} → English`, value: 'to-english' },
-                { name: `${answers.language} definition`, value: 'sigment-def' }
-            ]
-        },
-        {
-            type: 'input',
-            name: 'word',
-            message: 'Word to translate:',
-            validate: input => input.trim() ? true : 'Word is required'
-        }
-    ]);
+    // Select language
+    const languageResult = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'language',
+        message: 'Select language:',
+        choices: languages
+    });
+
+    if (languageResult.language === 'back') return;
+
+    // Select translation direction
+    const directionResult = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'direction',
+        message: 'Translation direction:',
+        choices: [
+            { name: `English → ${languageResult.language}`, value: 'to-sigment' },
+            { name: `${languageResult.language} → English`, value: 'to-english' },
+            { name: `${languageResult.language} definition`, value: 'sigment-def' }
+        ]
+    });
+
+    if (directionResult.direction === 'back') return;
+
+    // Enter word to translate
+    const wordResult = await InteractiveMenu.inputPrompt({
+        type: 'input',
+        name: 'word',
+        message: 'Word to translate:',
+        validate: input => input.trim() ? true : 'Word is required'
+    });
+
+    if (wordResult.word === 'back') return;
+
+    const translationConfig = {
+        language: languageResult.language,
+        direction: directionResult.direction,
+        word: wordResult.word
+    };
 
     try {
         await translateWord({
@@ -410,14 +519,14 @@ async function interactiveLanguageViewer() {
         return;
     }
 
-    const selection = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'language',
-            message: 'Select language to view:',
-            choices: languages
-        }
-    ]);
+    const selection = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'language',
+        message: 'Select language to view:',
+        choices: languages
+    });
+
+    if (selection.language === 'back') return;
 
     await showLanguageInfo({ language: selection.language });
 }
@@ -444,33 +553,42 @@ async function interactiveImportExport() {
             return;
         }
 
-        const exportConfig = await inquirer.prompt([
-            {
-                type: 'list',
-                name: 'language',
-                message: 'Select language to export:',
-                choices: languages
-            },
-            {
-                type: 'input',
-                name: 'output',
-                message: 'Output file path:',
-                default: (answers) => `./${answers.language}_export.json`
-            }
-        ]);
+        // Select language to export
+        const languageResult = await InteractiveMenu.listPrompt({
+            type: 'list',
+            name: 'language',
+            message: 'Select language to export:',
+            choices: languages
+        });
 
-        await exportLanguage(exportConfig);
+        if (languageResult.language === 'back') return;
+
+        // Enter output file path
+        const outputResult = await InteractiveMenu.inputPrompt({
+            type: 'input',
+            name: 'output',
+            message: 'Output file path:',
+            default: `./${languageResult.language}_export.json`
+        });
+
+        if (outputResult.output === 'back') return;
+
+        await exportLanguage({
+            language: languageResult.language,
+            output: outputResult.output
+        });
     } else {
-        const importConfig = await inquirer.prompt([
-            {
-                type: 'input',
-                name: 'file',
-                message: 'Path to language file:',
-                validate: input => input.trim() ? true : 'File path is required'
-            }
-        ]);
+        // Enter file path to import
+        const fileResult = await InteractiveMenu.inputPrompt({
+            type: 'input',
+            name: 'file',
+            message: 'Path to language file:',
+            validate: input => input.trim() ? true : 'File path is required'
+        });
 
-        await importLanguage(importConfig);
+        if (fileResult.file === 'back') return;
+
+        await importLanguage({ file: fileResult.file });
     }
 }
 
@@ -684,37 +802,61 @@ async function addWordsToLanguage(options) {
             outputPath: './dictionaries'
         });
 
-        const result = await generator.addWordsToLanguage(options.language, words, {
-            asciiPronunciation: options.asciiPronunciation || false
-        });
+        const batchOptions = {
+            asciiPronunciation: options.asciiPronunciation || false,
+            batchSize: parseInt(options.batchSize) || 10,
+            saveInterval: parseInt(options.saveInterval) || 25,
+            allowPause: !options.noPause
+        };
 
-        console.log(`\n✅ Word addition complete!`);
-        console.log(`Added: ${result.addedCount} new words`);
-        if (result.skippedCount > 0) {
-            console.log(`Skipped: ${result.skippedCount} words (already exist)`);
+        console.log(`\n🔧 Batch processing options:`);
+        console.log(`   Batch size: ${batchOptions.batchSize} words`);
+        console.log(`   Save interval: every ${batchOptions.saveInterval} words`);
+        console.log(`   Pause/resume: ${batchOptions.allowPause ? 'enabled' : 'disabled'}`);
+        
+        if (batchOptions.allowPause) {
+            console.log(`\n💡 Batch processing tips:`);
+            console.log(`   • Press Ctrl+C to gracefully exit and save progress`);
+            console.log(`   • Create a file named '.pause' in dictionaries folder to pause`);
+            console.log(`   • Use --resume flag to continue interrupted operations`);
         }
 
-        // Show some of the new words
-        if (result.addedCount > 0) {
-            console.log('\n📝 New words added:');
-            const newWords = Array.from(result.language.vocabulary.entries())
-                .filter(([english]) => words.includes(english))
-                .slice(0, 5);
-            
-            for (const [english, entry] of newWords) {
-                console.log(`  ${english} → ${entry.sigment} ${entry.pronunciation}`);
-            }
-        }
+        const result = await generator.addWordsToLanguage(options.language, words, batchOptions);
 
-        // Check for reconstruction recommendation
-        if (result.reconstructionRecommendation && result.reconstructionRecommendation.shouldReconstruct) {
-            console.log('\n🔍 Dictionary Reconstruction Analysis:');
-            console.log(`Current phonetic consistency: ${result.reconstructionRecommendation.currentConsistency.toFixed(1)}%`);
-            console.log('Reconstruction recommended because:');
-            for (const reason of result.reconstructionRecommendation.reasons) {
-                console.log(`  • ${reason}`);
+        if (result.wasStopped) {
+            console.log(`\n⏸️  Operation was paused/stopped`);
+            console.log(`Added: ${result.addedCount} words before stopping`);
+            console.log(`Remaining: ${result.skippedCount} words`);
+            console.log(`\n💡 Resume with: sigment add-words -l ${options.language} -w "${options.words}" --resume`);
+        } else {
+            console.log(`\n✅ Word addition complete!`);
+            console.log(`Added: ${result.addedCount} new words`);
+            if (result.skippedCount > 0) {
+                console.log(`Skipped: ${result.skippedCount} words (already exist)`);
             }
-            console.log('\n💡 Run "sigment reconstruct --language ' + options.language + '" to improve dictionary consistency.');
+
+            // Show some of the new words
+            if (result.addedCount > 0) {
+                console.log('\n📝 New words added:');
+                const newWords = Array.from(result.language.vocabulary.entries())
+                    .filter(([english]) => words.includes(english))
+                    .slice(0, 5);
+                
+                for (const [english, entry] of newWords) {
+                    console.log(`  ${english} → ${entry.sigment} ${entry.pronunciation}`);
+                }
+            }
+
+            // Check for reconstruction recommendation
+            if (result.reconstructionRecommendation && result.reconstructionRecommendation.shouldReconstruct) {
+                console.log('\n🔍 Dictionary Reconstruction Analysis:');
+                console.log(`Current phonetic consistency: ${result.reconstructionRecommendation.currentConsistency.toFixed(1)}%`);
+                console.log('Reconstruction recommended because:');
+                for (const reason of result.reconstructionRecommendation.reasons) {
+                    console.log(`  • ${reason}`);
+                }
+                console.log('\n💡 Run "sigment reconstruct --language ' + options.language + '" to improve dictionary consistency.');
+            }
         }
 
     } catch (error) {
@@ -734,29 +876,43 @@ async function interactiveAddWords() {
         return;
     }
 
-    const config = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'language',
-            message: 'Select language to add words to:',
-            choices: languages
-        },
-        {
-            type: 'list',
-            name: 'inputMethod',
-            message: 'How would you like to add words?',
-            choices: [
-                { name: 'Type words manually', value: 'manual' },
-                { name: 'Load from file', value: 'file' }
-            ]
-        },
-        {
-            type: 'confirm',
-            name: 'asciiPronunciation',
-            message: 'Override pronunciation format to use simple ASCII (easier to read)?',
-            default: false
-        }
-    ]);
+    // Select language
+    const languageResult = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'language',
+        message: 'Select language to add words to:',
+        choices: languages
+    });
+
+    if (languageResult.language === 'back') return;
+
+    // Select input method
+    const inputMethodResult = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'inputMethod',
+        message: 'How would you like to add words?',
+        choices: [
+            { name: 'Type words manually', value: 'manual' },
+            { name: 'Load from file', value: 'file' }
+        ]
+    });
+
+    if (inputMethodResult.inputMethod === 'back') return;
+
+    // ASCII pronunciation option
+    const asciiResult = await InteractiveMenu.confirmPrompt({
+        name: 'asciiPronunciation',
+        message: 'Override pronunciation format to use simple ASCII (easier to read)?',
+        default: false
+    });
+
+    if (asciiResult.asciiPronunciation === 'back') return;
+
+    const config = {
+        language: languageResult.language,
+        inputMethod: inputMethodResult.inputMethod,
+        asciiPronunciation: asciiResult.asciiPronunciation
+    };
 
     let words = [];
     
@@ -770,17 +926,17 @@ async function interactiveAddWords() {
         ]);
         words = wordsInput.words.split(/[,\n]/).map(w => w.trim()).filter(w => w);
     } else {
-        const fileInput = await inquirer.prompt([
-            {
-                type: 'input',
-                name: 'filePath',
-                message: 'Path to word list file:'
-            }
-        ]);
+        const fileResult = await InteractiveMenu.inputPrompt({
+            type: 'input',
+            name: 'filePath',
+            message: 'Path to word list file:'
+        });
+        
+        if (fileResult.filePath === 'back') return;
         
         try {
             const fs = await import('fs/promises');
-            const content = await fs.readFile(fileInput.filePath, 'utf-8');
+            const content = await fs.readFile(fileResult.filePath, 'utf-8');
             words = content.split(/\n/).map(line => line.trim()).filter(line => line && !line.startsWith('#'));
         } catch (error) {
             console.error(`❌ Failed to read file: ${error.message}`);
@@ -793,14 +949,17 @@ async function interactiveAddWords() {
         return;
     }
 
-    const advancedOptions = await inquirer.prompt([
-        {
-            type: 'confirm',
-            name: 'useOllama',
-            message: 'Use Ollama for enhanced etymological analysis?',
-            default: true
-        }
-    ]);
+    const ollamaResult = await InteractiveMenu.confirmPrompt({
+        name: 'useOllama',
+        message: 'Use Ollama for enhanced etymological analysis?',
+        default: true
+    });
+
+    if (ollamaResult.useOllama === 'back') return;
+
+    const advancedOptions = {
+        useOllama: ollamaResult.useOllama
+    };
 
     console.log(`\n🔄 Adding ${words.length} words to ${config.language}...\n`);
 
@@ -821,14 +980,11 @@ async function interactiveAddWords() {
         }
 
         if (result.addedCount > 0) {
-            const viewSample = await inquirer.prompt([
-                {
-                    type: 'confirm',
-                    name: 'view',
-                    message: 'View a sample of the newly added words?',
-                    default: true
-                }
-            ]);
+            const viewSample = await InteractiveMenu.confirmPrompt({
+                name: 'view',
+                message: 'View a sample of the newly added words?',
+                default: true
+            }, false); // No back option for final confirmation
 
             if (viewSample.view) {
                 console.log('\n📝 Sample of newly added words:\n');
@@ -855,14 +1011,11 @@ async function interactiveAddWords() {
                 console.log(`  • ${reason}`);
             }
 
-            const reconstructPrompt = await inquirer.prompt([
-                {
-                    type: 'confirm',
-                    name: 'reconstruct',
-                    message: 'Would you like to reconstruct the dictionary for better consistency?',
-                    default: false
-                }
-            ]);
+            const reconstructPrompt = await InteractiveMenu.confirmPrompt({
+                name: 'reconstruct',
+                message: 'Would you like to reconstruct the dictionary for better consistency?',
+                default: false
+            }, false); // No back option for final confirmation
 
             if (reconstructPrompt.reconstruct) {
                 console.log('\n🔄 Reconstructing dictionary...\n');
@@ -951,25 +1104,34 @@ async function interactiveArchiveLanguage() {
         return;
     }
 
-    const selection = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'language',
-            message: 'Select language to archive:',
-            choices: languages
-        },
-        {
-            type: 'confirm',
-            name: 'confirm',
-            message: (answers) => `Are you sure you want to archive "${answers.language}"? This will move it to the backup folder.`,
-            default: false
-        }
-    ]);
+    // Select language to archive
+    const languageResult = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'language',
+        message: 'Select language to archive:',
+        choices: languages
+    });
 
-    if (!selection.confirm) {
+    if (languageResult.language === 'back') return;
+
+    // Confirm archive action
+    const confirmResult = await InteractiveMenu.confirmPrompt({
+        name: 'confirm',
+        message: `Are you sure you want to archive "${languageResult.language}"? This will move it to the backup folder.`,
+        default: false
+    });
+
+    if (confirmResult.confirm === 'back') return;
+
+    if (!confirmResult.confirm) {
         console.log('Archive cancelled.');
         return;
     }
+
+    const selection = {
+        language: languageResult.language,
+        confirm: confirmResult.confirm
+    };
 
     try {
         console.log(`\n🗂️  Archiving language: ${selection.language}`);
@@ -1000,25 +1162,34 @@ async function interactiveRestoreLanguage() {
         value: arch.archiveName
     }));
 
-    const selection = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'archive',
-            message: 'Select archived language to restore:',
-            choices: choices
-        },
-        {
-            type: 'confirm',
-            name: 'confirm',
-            message: 'Are you sure you want to restore this language?',
-            default: true
-        }
-    ]);
+    // Select archived language
+    const archiveResult = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'archive',
+        message: 'Select archived language to restore:',
+        choices: choices
+    });
 
-    if (!selection.confirm) {
+    if (archiveResult.archive === 'back') return;
+
+    // Confirm restore action
+    const confirmResult = await InteractiveMenu.confirmPrompt({
+        name: 'confirm',
+        message: 'Are you sure you want to restore this language?',
+        default: true
+    });
+
+    if (confirmResult.confirm === 'back') return;
+
+    if (!confirmResult.confirm) {
         console.log('Restore cancelled.');
         return;
     }
+
+    const selection = {
+        archive: archiveResult.archive,
+        confirm: confirmResult.confirm
+    };
 
     try {
         console.log(`\n📥 Restoring archived language...`);
@@ -1070,14 +1241,14 @@ async function interactiveReconstruct() {
         return;
     }
 
-    const selection = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'language',
-            message: 'Select language to reconstruct:',
-            choices: languages
-        }
-    ]);
+    const selection = await InteractiveMenu.listPrompt({
+        type: 'list',
+        name: 'language',
+        message: 'Select language to reconstruct:',
+        choices: languages
+    });
+
+    if (selection.language === 'back') return;
 
     console.log(`\n🔄 Analyzing ${selection.language} for reconstruction...\n`);
 
@@ -1106,14 +1277,13 @@ async function interactiveReconstruct() {
             console.log(`  • ${reason}`);
         }
 
-        const confirmPrompt = await inquirer.prompt([
-            {
-                type: 'confirm',
-                name: 'proceed',
-                message: 'Proceed with dictionary reconstruction?',
-                default: true
-            }
-        ]);
+        const confirmPrompt = await InteractiveMenu.confirmPrompt({
+            name: 'proceed',
+            message: 'Proceed with dictionary reconstruction?',
+            default: true
+        });
+
+        if (confirmPrompt.proceed === 'back') return;
 
         if (!confirmPrompt.proceed) {
             console.log('Reconstruction cancelled.');
@@ -1273,6 +1443,94 @@ async function reconstructLanguage(options) {
         
     } catch (error) {
         console.error('❌ Failed to reconstruct language:', error.message);
+        process.exit(1);
+    }
+}
+
+async function handleBatchUtils(options) {
+    const dictPath = path.resolve('./dictionaries');
+    
+    try {
+        if (options.pause) {
+            const pauseFile = path.join(dictPath, '.pause');
+            await fs.writeFile(pauseFile, new Date().toISOString());
+            console.log('✅ Pause file created. Current batch operation will pause after finishing the current word.');
+        }
+        
+        if (options.status) {
+            console.log('\n📊 Batch Processing Status:\n');
+            
+            // Check for pause file
+            try {
+                await fs.access(path.join(dictPath, '.pause'));
+                console.log('⏸️  Pause file detected - operations will pause');
+            } catch {
+                console.log('▶️  No pause file - operations running normally');
+            }
+            
+            // Check for progress files
+            const files = await fs.readdir(dictPath);
+            const progressFiles = files.filter(f => f.endsWith('_batch_progress.json'));
+            
+            if (progressFiles.length === 0) {
+                console.log('📂 No active batch operations found\n');
+            } else {
+                console.log('📂 Active batch operations:\n');
+                for (const file of progressFiles) {
+                    try {
+                        const progressData = JSON.parse(await fs.readFile(path.join(dictPath, file), 'utf-8'));
+                        const languageName = file.replace('_batch_progress.json', '');
+                        console.log(`   ${languageName}:`);
+                        console.log(`     Progress: ${progressData.currentIndex}/${progressData.totalWords} words`);
+                        console.log(`     Processed: ${progressData.processedWords?.length || 0} words`);
+                        console.log(`     Last update: ${new Date(progressData.timestamp).toLocaleString()}`);
+                        console.log();
+                    } catch (error) {
+                        console.warn(`     Could not read ${file}: ${error.message}`);
+                    }
+                }
+            }
+        }
+        
+        if (options.clean) {
+            const files = await fs.readdir(dictPath);
+            const progressFiles = files.filter(f => f.endsWith('_batch_progress.json'));
+            const pauseFile = path.join(dictPath, '.pause');
+            
+            let cleaned = 0;
+            
+            // Remove progress files
+            for (const file of progressFiles) {
+                await fs.unlink(path.join(dictPath, file));
+                cleaned++;
+            }
+            
+            // Remove pause file if it exists
+            try {
+                await fs.unlink(pauseFile);
+                cleaned++;
+            } catch {
+                // Pause file doesn't exist
+            }
+            
+            console.log(`✅ Cleaned up ${cleaned} batch processing files.`);
+        }
+        
+        if (!options.pause && !options.status && !options.clean && !options.resume) {
+            console.log('\n🔧 Batch Processing Utilities\n');
+            console.log('Usage: sigment batch [options]\n');
+            console.log('Options:');
+            console.log('  --pause    Create pause file to pause current operations');
+            console.log('  --status   Show status of batch operations');
+            console.log('  --clean    Clean up batch progress files');
+            console.log('\nExample usage:');
+            console.log('  sigment batch --pause     # Pause current operation');
+            console.log('  sigment batch --status    # Check operation status');
+            console.log('  sigment batch --clean     # Clean up old progress files');
+        }
+        
+    } catch (error) {
+        console.error('❌ Batch utility operation failed:', error.message);
         process.exit(1);
     }
 }

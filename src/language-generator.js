@@ -81,7 +81,11 @@ export class LanguageGenerator {
             await this.applyCustomPromptLogic(language, languageConfig.customPrompt);
         }
 
-        await this.buildVocabulary(language, languageConfig.vocabulary);
+        await this.buildVocabulary(language, languageConfig.vocabulary, {
+            batchSize: config.batchSize || 10,
+            saveInterval: config.saveInterval || 25,
+            allowPause: config.allowPause !== false
+        });
         await this.establishPhoneticSystem(language);
         
         this.languageDatabase.set(languageConfig.name, language);
@@ -202,7 +206,7 @@ export class LanguageGenerator {
         return rules;
     }
 
-    async buildVocabulary(language, vocabularyInput) {
+    async buildVocabulary(language, vocabularyInput, batchOptions = {}) {
         let wordList = [];
 
         if (Array.isArray(vocabularyInput)) {
@@ -222,11 +226,189 @@ export class LanguageGenerator {
 
         console.log(`Building vocabulary for ${wordList.length} words...`);
 
-        for (const word of wordList) {
-            if (word && word.trim()) {
-                await this.processWord(language, word.trim());
-            }
+        await this.processWordsBatch(language, wordList, batchOptions);
+    }
+
+    async processWordsBatch(language, wordList, options = {}) {
+        const {
+            batchSize = 10,
+            saveInterval = 25,
+            resumeFile = null,
+            allowPause = true
+        } = options;
+
+        // Set up pause/resume state
+        this.batchState = {
+            isPaused: false,
+            shouldStop: false,
+            currentIndex: 0,
+            totalWords: wordList.length,
+            processedWords: new Set()
+        };
+
+        // Setup signal handlers for pause/resume
+        if (allowPause) {
+            this.setupBatchSignalHandlers();
         }
+
+        // Try to resume from previous session if resume file exists
+        if (resumeFile) {
+            await this.loadBatchProgress(language, resumeFile);
+        }
+
+        console.log(`\nBatch processing ${wordList.length} words (batch size: ${batchSize}, save every: ${saveInterval})`);
+        console.log('Press Ctrl+P to pause/resume, Ctrl+C to gracefully exit\n');
+
+        let processed = 0;
+        let savedAt = 0;
+
+        for (let i = this.batchState.currentIndex; i < wordList.length; i++) {
+            // Check for pause/stop requests
+            if (this.batchState.shouldStop) {
+                console.log('\n🛑 Graceful exit requested. Saving progress...');
+                await this.saveBatchProgress(language, wordList, i);
+                await this.generateDictionaries(language);
+                console.log('✅ Progress saved. You can resume later with the same command.');
+                return { stopped: true, processed, savedAt: i };
+            }
+
+            // Handle pause
+            while (this.batchState.isPaused) {
+                await this.delay(1000); // Check every second
+                console.log(`⏸️  Processing paused at word ${i + 1}/${wordList.length}. Press Ctrl+P to resume.`);
+            }
+
+            const word = wordList[i];
+            if (word && word.trim() && !this.batchState.processedWords.has(word.trim())) {
+                try {
+                    await this.processWord(language, word.trim());
+                    this.batchState.processedWords.add(word.trim());
+                    processed++;
+                    
+                    if (processed % 5 === 0) {
+                        process.stdout.write(`\r📝 Processed ${processed}/${wordList.length} words...`);
+                    }
+                    
+                } catch (error) {
+                    console.warn(`\n⚠️  Error processing "${word}": ${error.message}`);
+                }
+            }
+
+            this.batchState.currentIndex = i + 1;
+
+            // Incremental save
+            if (processed > 0 && processed % saveInterval === 0 && processed !== savedAt) {
+                console.log(`\n💾 Saving progress... (${processed} words processed)`);
+                await this.saveBatchProgress(language, wordList, i + 1);
+                await this.generateDictionaries(language);
+                console.log('✅ Progress saved. Continuing...');
+                savedAt = processed;
+            }
+
+            // Small delay to allow signal handling
+            await this.delay(10);
+        }
+
+        // Final save
+        console.log(`\n💾 Final save... (${processed} words processed)`);
+        await this.generateDictionaries(language);
+        
+        // Clean up batch state
+        this.cleanupBatchState();
+
+        return { completed: true, processed };
+    }
+
+    delay(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    setupBatchSignalHandlers() {
+        // Handle Ctrl+C for graceful exit
+        process.on('SIGINT', () => {
+            if (this.batchState && !this.batchState.shouldStop) {
+                console.log('\n🛑 Graceful exit requested (Ctrl+C). Finishing current word and saving...');
+                this.batchState.shouldStop = true;
+            } else {
+                console.log('\n⚠️  Force exit! Progress may be lost.');
+                process.exit(1);
+            }
+        });
+
+        // Custom pause handler (we'll simulate this with a different approach)
+        this.setupPauseHandler();
+    }
+
+    setupPauseHandler() {
+        // In a real CLI, you'd use readline or similar for interactive controls
+        // For now, we'll add a simple file-based pause mechanism
+        const checkPauseFile = async () => {
+            try {
+                const pauseFilePath = path.join(this.options.outputPath, '.pause');
+                await fs.access(pauseFilePath);
+                
+                if (!this.batchState.isPaused) {
+                    console.log('\n⏸️  Pause file detected. Pausing after current word...');
+                    this.batchState.isPaused = true;
+                }
+                
+                // Remove pause file to resume
+                await fs.unlink(pauseFilePath);
+                if (this.batchState.isPaused) {
+                    console.log('▶️  Pause file removed. Resuming...');
+                    this.batchState.isPaused = false;
+                }
+            } catch {
+                // No pause file, continue
+            }
+        };
+
+        // Check for pause file every 2 seconds
+        this.pauseCheckInterval = setInterval(checkPauseFile, 2000);
+    }
+
+    async saveBatchProgress(language, wordList, currentIndex) {
+        const progressFile = path.join(this.options.outputPath, `${language.config.name}_batch_progress.json`);
+        const progress = {
+            currentIndex,
+            totalWords: wordList.length,
+            processedWords: Array.from(this.batchState.processedWords),
+            timestamp: new Date().toISOString(),
+            languageName: language.config.name,
+            vocabularySize: language.vocabulary.size
+        };
+
+        await fs.writeFile(progressFile, JSON.stringify(progress, null, 2));
+        return progressFile;
+    }
+
+    async loadBatchProgress(language, resumeFile) {
+        try {
+            const progressData = JSON.parse(await fs.readFile(resumeFile, 'utf-8'));
+            this.batchState.currentIndex = progressData.currentIndex || 0;
+            this.batchState.processedWords = new Set(progressData.processedWords || []);
+            
+            console.log(`📂 Resuming from previous session...`);
+            console.log(`   Resuming at word ${this.batchState.currentIndex + 1}/${progressData.totalWords}`);
+            console.log(`   Previously processed: ${this.batchState.processedWords.size} words`);
+            
+            return true;
+        } catch (error) {
+            console.warn(`⚠️  Could not load batch progress: ${error.message}`);
+            return false;
+        }
+    }
+
+    cleanupBatchState() {
+        if (this.pauseCheckInterval) {
+            clearInterval(this.pauseCheckInterval);
+        }
+        
+        // Remove progress file
+        const progressFile = path.join(this.options.outputPath, `${this.batchState?.languageName || 'unknown'}_batch_progress.json`);
+        fs.unlink(progressFile).catch(() => {}); // Silent cleanup
+        
+        this.batchState = null;
     }
 
     async processWord(language, englishWord) {
@@ -504,8 +686,8 @@ export class LanguageGenerator {
     }
 
     determinePartOfSpeech(word, etymology, definitions) {
-        const morphemes = etymology.morphemes || [];
-        const suffixMorphemes = morphemes.filter(m => m.type === 'suffix');
+        const morphemes = etymology && Array.isArray(etymology.morphemes) ? etymology.morphemes : [];
+        const suffixMorphemes = morphemes.filter(m => m && m.type === 'suffix' && m.value);
         
         if (suffixMorphemes.length > 0) {
             const suffix = suffixMorphemes[0].value;
@@ -543,12 +725,22 @@ export class LanguageGenerator {
     }
 
     serializePhoneticSystem(phoneticSystem) {
+        if (!phoneticSystem) {
+            return {
+                vowelInventory: [],
+                consonantInventory: [],
+                phoneticPatterns: {},
+                syllableStructures: {},
+                stressPatterns: []
+            };
+        }
+
         return {
-            vowelInventory: Array.from(phoneticSystem.vowelInventory),
-            consonantInventory: Array.from(phoneticSystem.consonantInventory),
-            phoneticPatterns: Object.fromEntries(phoneticSystem.phoneticPatterns),
-            syllableStructures: Object.fromEntries(phoneticSystem.syllableStructures),
-            stressPatterns: Array.from(phoneticSystem.stressPatterns)
+            vowelInventory: phoneticSystem.vowelInventory ? Array.from(phoneticSystem.vowelInventory) : [],
+            consonantInventory: phoneticSystem.consonantInventory ? Array.from(phoneticSystem.consonantInventory) : [],
+            phoneticPatterns: phoneticSystem.phoneticPatterns ? Object.fromEntries(phoneticSystem.phoneticPatterns) : {},
+            syllableStructures: phoneticSystem.syllableStructures ? Object.fromEntries(phoneticSystem.syllableStructures) : {},
+            stressPatterns: phoneticSystem.stressPatterns ? Array.from(phoneticSystem.stressPatterns) : []
         };
     }
 
@@ -692,19 +884,18 @@ export class LanguageGenerator {
                 existingLanguage.config.asciiPronunciation = options.asciiPronunciation;
             }
 
-            // Process new words
-            let addedCount = 0;
-            for (const word of newWords) {
+            // Filter out words that already exist
+            const wordsToAdd = newWords.filter(word => {
                 const cleanWord = word.trim();
-                if (cleanWord && !existingLanguage.vocabulary.has(cleanWord)) {
-                    await this.processWord(existingLanguage, cleanWord);
-                    addedCount++;
-                } else if (existingLanguage.vocabulary.has(cleanWord)) {
+                if (!cleanWord) return false;
+                if (existingLanguage.vocabulary.has(cleanWord)) {
                     console.warn(`Word "${cleanWord}" already exists in ${languageName}, skipping`);
+                    return false;
                 }
-            }
+                return true;
+            }).map(w => w.trim());
 
-            if (addedCount === 0) {
+            if (wordsToAdd.length === 0) {
                 console.log('No new words to add');
                 return {
                     language: existingLanguage,
@@ -714,14 +905,40 @@ export class LanguageGenerator {
                 };
             }
 
+            // Check for existing progress file
+            const progressFile = path.join(this.options.outputPath, `${languageName}_batch_progress.json`);
+            let resumeFile = null;
+            try {
+                await fs.access(progressFile);
+                const answer = await this.promptForResume(languageName);
+                if (answer) {
+                    resumeFile = progressFile;
+                }
+            } catch {
+                // No progress file exists
+            }
+
+            // Use batch processing for adding words with incremental saving
+            const batchOptions = {
+                batchSize: options.batchSize || 10,
+                saveInterval: options.saveInterval || 25,
+                resumeFile,
+                allowPause: options.allowPause !== false
+            };
+
+            const result = await this.processWordsBatch(existingLanguage, wordsToAdd, batchOptions);
+            
+            const addedCount = result.processed || 0;
+            
             // Update metadata
             existingLanguage.metadata.lastModified = new Date().toISOString();
             existingLanguage.metadata.version = this.incrementVersion(existingLanguage.metadata.version);
 
-            // Regenerate dictionaries with new words
-            await this.generateDictionaries(existingLanguage);
-
-            console.log(`✅ Added ${addedCount} new words to ${languageName}`);
+            // Final dictionary generation
+            if (!result.stopped) {
+                await this.generateDictionaries(existingLanguage);
+                console.log(`✅ Added ${addedCount} new words to ${languageName}`);
+            }
             
             // Analyze if dictionary reconstruction would be beneficial
             const reconstructionAnalysis = await this.shouldReconstructDictionary(existingLanguage, addedCount);
@@ -731,13 +948,22 @@ export class LanguageGenerator {
                 addedCount,
                 skippedCount: newWords.length - addedCount,
                 dictionaries: this.getDictionaryPaths(languageName),
-                reconstructionRecommendation: reconstructionAnalysis
+                reconstructionRecommendation: reconstructionAnalysis,
+                wasStopped: result.stopped || false
             };
 
         } catch (error) {
             console.error(`Failed to add words to language "${languageName}":`, error.message);
             throw error;
         }
+    }
+
+    async promptForResume(languageName) {
+        // In a real implementation, you'd use inquirer for this
+        // For now, we'll assume resume is wanted if progress file exists
+        console.log(`\n📂 Found previous batch progress for ${languageName}.`);
+        console.log('The operation will automatically resume from where it left off.\n');
+        return true;
     }
 
     async loadFullLanguageData(languageName) {

@@ -205,13 +205,21 @@ MORPHOLOGICAL: [shared morphemes]`;
         };
 
         try {
+            if (!response || typeof response !== 'string') {
+                return etymology;
+            }
+            
             const lines = response.split('\n');
             for (const line of lines) {
+                if (!line || typeof line !== 'string') continue;
+                
                 const colonIndex = line.indexOf(':');
                 if (colonIndex === -1) continue;
 
                 const key = line.substring(0, colonIndex).trim().toUpperCase();
                 const value = line.substring(colonIndex + 1).trim();
+                
+                if (!key || !value) continue;
 
                 switch (key) {
                     case 'ORIGIN':
@@ -224,13 +232,21 @@ MORPHOLOGICAL: [shared morphemes]`;
                         etymology.development = value;
                         break;
                     case 'RELATED':
-                        etymology.relatedWords = value.split(',').map(w => w.trim()).filter(w => w);
+                        try {
+                            etymology.relatedWords = value.split(',').map(w => w.trim()).filter(w => w);
+                        } catch {
+                            etymology.relatedWords = [];
+                        }
                         break;
                     case 'MORPHEMES':
-                        etymology.morphemes = this.parseMorphemes(value);
+                        etymology.morphemes = this.parseMorphemes(value) || [];
                         break;
                     case 'PERIODS':
-                        etymology.periods = value.split(',').map(p => p.trim()).filter(p => p);
+                        try {
+                            etymology.periods = value.split(',').map(p => p.trim()).filter(p => p);
+                        } catch {
+                            etymology.periods = [];
+                        }
                         break;
                 }
             }
@@ -367,13 +383,29 @@ MORPHOLOGICAL: [shared morphemes]`;
     }
 
     parseMorphemes(value) {
-        return value.split(',').map(m => {
-            const parts = m.trim().split(':');
-            return {
-                morpheme: parts[0] || m.trim(),
-                meaning: parts[1] || 'unknown'
-            };
-        }).filter(m => m.morpheme);
+        try {
+            if (!value || typeof value !== 'string') {
+                return [];
+            }
+            
+            return value.split(',').map(m => {
+                if (!m || typeof m !== 'string') return null;
+                
+                const parts = m.trim().split(':');
+                const morphemeValue = parts[0] ? parts[0].trim() : m.trim();
+                
+                if (!morphemeValue) return null;
+                
+                return {
+                    type: 'parsed',
+                    value: morphemeValue,
+                    meaning: parts[1] ? parts[1].trim() : 'unknown'
+                };
+            }).filter(m => m && m.value);
+        } catch (error) {
+            console.warn(`Failed to parse morphemes from "${value}": ${error.message}`);
+            return [];
+        }
     }
 
     parseDefinitionList(value) {
