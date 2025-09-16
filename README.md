@@ -127,9 +127,30 @@ node src/cli.js info --language MyLanguage
 For each language, the system creates:
 
 - `{LanguageName}_to_English.json`: Sigment words with English definitions
-- `{LanguageName}_to_{LanguageName}.json`: Sigment words with Sigment definitions  
+- `{LanguageName}_to_{LanguageName}.json`: Sigment words with Sigment definitions
 - `English_to_{LanguageName}.json`: English words with Sigment translations
 - `{LanguageName}_metadata.json`: Language metadata and generation info
+
+## .sigment File Format
+
+The system now supports exporting languages as `.sigment` files for external use:
+
+```bash
+# Export language to .sigment format
+node src/cli.js export-sigment -l MyLanguage -o MyLanguage.sigment
+
+# Import .sigment file
+node src/cli.js import-sigment -f MyLanguage.sigment
+
+# Validate .sigment files
+npm run validate-sigment examples/sigment-files/
+```
+
+**.sigment files provide:**
+- Standardized format for language distribution
+- Complete language data in a single file
+- External application compatibility
+- Easy sharing and version control
 
 ## Ollama Integration
 

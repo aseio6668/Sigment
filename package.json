@@ -11,14 +11,17 @@
     "dev": "node --watch src/cli.js",
     "test": "node --test test/*.test.js",
     "build": "npm install && npm run setup",
-    "setup": "node -e \"const fs = require('fs'); ['dictionaries', 'data', 'examples'].forEach(dir => !fs.existsSync(dir) && fs.mkdirSync(dir, {recursive: true})); console.log('✅ Setup complete')\"",
+    "setup": "node -e \"const fs = require('fs'); ['dictionaries', 'data', 'examples', 'examples/sigment-files'].forEach(dir => !fs.existsSync(dir) && fs.mkdirSync(dir, {recursive: true})); console.log('✅ Setup complete')\"",
     "clean": "node -e \"const fs = require('fs'); const path = require('path'); if(fs.existsSync('dictionaries')) { fs.rmSync('dictionaries', {recursive: true, force: true}); fs.mkdirSync('dictionaries'); } console.log('✅ Clean complete')\"",
     "clean:all": "node -e \"const fs = require('fs'); ['dictionaries', 'node_modules'].forEach(dir => fs.existsSync(dir) && fs.rmSync(dir, {recursive: true, force: true})); fs.existsSync('package-lock.json') && fs.unlinkSync('package-lock.json'); console.log('✅ Deep clean complete')\"",
     "install:fresh": "npm run clean:all && npm install && npm run setup",
     "quick-start": "npm run build && node src/cli.js interactive",
     "generate": "node src/cli.js generate",
     "translate": "node src/cli.js translate",
-    "list": "node src/cli.js list"
+    "list": "node src/cli.js list",
+    "export-sigment": "node src/cli.js export-sigment",
+    "import-sigment": "node src/cli.js import-sigment",
+    "validate-sigment": "node examples/validate-sigment.js"
   },
   "bin": {
     "sigment": "./src/cli.js"

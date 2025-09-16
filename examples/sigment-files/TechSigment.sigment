@@ -1,0 +1,113 @@
+{
+  "sigment": {
+    "version": "1.0",
+    "language": {
+      "name": "TechSigment",
+      "created": "2025-09-16T14:30:00Z",
+      "style": "consonant_shift",
+      "generator_version": "1.0.0"
+    },
+    "phonetics": {
+      "rules": [
+        {"from": "p", "to": "b", "context": "any"},
+        {"from": "t", "to": "d", "context": "any"},
+        {"from": "k", "to": "g", "context": "any"},
+        {"from": "b", "to": "p", "context": "any"},
+        {"from": "d", "to": "t", "context": "any"},
+        {"from": "g", "to": "k", "context": "any"}
+      ],
+      "mappings": {
+        "consonant_shifts": {
+          "p": "b", "b": "p",
+          "t": "d", "d": "t",
+          "k": "g", "g": "k"
+        }
+      }
+    },
+    "dictionaries": {
+      "to_english": {
+        "gombuter": "computer",
+        "brodram": "program",
+        "dadabase": "database",
+        "nedworg": "network",
+        "server": "server",
+        "algoridhm": "algorithm",
+        "funksion": "function",
+        "variapul": "variable",
+        "sindax": "syntax",
+        "gompiler": "compiler",
+        "tepugger": "debugger",
+        "frameworg": "framework",
+        "liprary": "library",
+        "apbligasion": "application",
+        "inderface": "interface",
+        "developmen": "development",
+        "sofware": "software",
+        "hardware": "hardware",
+        "operading": "operating",
+        "sisdem": "system"
+      },
+      "to_sigment": {
+        "computer": "gombuter",
+        "program": "brodram",
+        "database": "dadabase",
+        "network": "nedworg",
+        "server": "server",
+        "algorithm": "algoridhm",
+        "function": "funksion",
+        "variable": "variapul",
+        "syntax": "sindax",
+        "compiler": "gompiler",
+        "debugger": "tepugger",
+        "framework": "frameworg",
+        "library": "liprary",
+        "application": "apbligasion",
+        "interface": "inderface",
+        "development": "developmen",
+        "software": "sofware",
+        "hardware": "hardware",
+        "operating": "operading",
+        "system": "sisdem"
+      },
+      "sigment_definitions": {
+        "gombuter": "elektronig devis kor brogessing dada and egsegooding brodrams",
+        "brodram": "sed ok instruksions kor gombuter do egsegoode dasg",
+        "dadabase": "organizet goleksion ok dada stored in gombuter sisdem",
+        "nedworg": "goneksion ok gombuders sharin resourges and informasion",
+        "algoridhm": "sed ok rules or instruksions kor solvin broplem",
+        "funksion": "reusar pieg ok got kor berfrom sbegifig dasg",
+        "variapul": "gondeiner kor storin value in brodram",
+        "sindax": "rules and sdrugsur ok brodramin languag",
+        "gompiler": "brodram kor gonverdin sours got indo egsegooodapul got",
+        "tepugger": "dool kor findin and figsin proplen in brodram"
+      }
+    },
+    "grammar": {
+      "rules": [
+        "Word order: Subject-Verb-Object (same as English)",
+        "Plurals: Add -s suffix",
+        "Past tense: Add -et suffix",
+        "Present continuous: Add -in suffix",
+        "Adjectives: precede nouns",
+        "Articles: 'dhe' (the), 'a/an' unchanged"
+      ],
+      "patterns": {
+        "word_order": "SVO",
+        "plural_suffix": "s",
+        "past_suffix": "et",
+        "present_continuous_suffix": "in",
+        "definite_article": "dhe",
+        "indefinite_article": "a/an"
+      }
+    },
+    "metadata": {
+      "total_words": 20,
+      "etymology_sources": ["english", "germanic", "latin"],
+      "generation_context": "Technology-focused vocabulary for software development",
+      "primary_domains": ["computing", "programming", "software engineering"],
+      "phonetic_consistency": "high",
+      "difficulty_level": "beginner",
+      "recommended_use": "Educational technology contexts, programming tutorials in constructed language"
+    }
+  }
+}

@@ -3,6 +3,7 @@
 import { Command } from 'commander';
 import inquirer from 'inquirer';
 import { LanguageGenerator } from './language-generator.js';
+import { SigmentParser, SigmentUtils } from './sigment-parser.js';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -146,11 +147,28 @@ program
     });
 
 program
+    .command('export-sigment')
+    .description('Export language as .sigment file for external use')
+    .requiredOption('-l, --language <name>', 'Language name')
+    .requiredOption('-o, --output <path>', 'Output .sigment file path')
+    .action(async (options) => {
+        await exportSigmentFile(options);
+    });
+
+program
     .command('import')
     .description('Import language data')
     .requiredOption('-f, --file <path>', 'Input file path')
     .action(async (options) => {
         await importLanguage(options);
+    });
+
+program
+    .command('import-sigment')
+    .description('Import .sigment file')
+    .requiredOption('-f, --file <path>', 'Input .sigment file path')
+    .action(async (options) => {
+        await importSigmentFile(options);
     });
 
 program
@@ -1535,7 +1553,95 @@ async function handleBatchUtils(options) {
     }
 }
 
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}` || 
+async function exportSigmentFile(options) {
+    try {
+        console.log(`\n📦 Exporting language "${options.language}" to .sigment format...\n`);
+
+        // Convert existing dictionaries to .sigment format
+        const dictDir = './dictionaries';
+        const language = SigmentUtils.convertFromDictionaries(dictDir, options.language);
+
+        // Ensure output path has .sigment extension
+        let outputPath = options.output;
+        if (!outputPath.endsWith('.sigment')) {
+            outputPath = outputPath.replace(/\.[^.]*$/, '') + '.sigment';
+        }
+
+        // Export to .sigment file
+        const parser = new SigmentParser();
+        parser.exportToFile(language, outputPath);
+
+        console.log(`✅ Language exported to .sigment format: ${outputPath}`);
+        console.log(`📊 Stats: ${language.getStats().totalWords} words, v${language.version}`);
+        console.log(`🔗 This file can now be used in external applications!`);
+
+    } catch (error) {
+        console.error('❌ .sigment export failed:', error.message);
+        console.error('💡 Make sure the language exists and dictionaries are available');
+    }
+}
+
+async function importSigmentFile(options) {
+    try {
+        console.log(`\n📥 Importing .sigment file: ${options.file}\n`);
+
+        // Parse the .sigment file
+        const parser = new SigmentParser();
+        const language = parser.parseFile(options.file);
+
+        console.log(`✅ Loaded language: ${language.name}`);
+        console.log(`📊 Stats:`, language.getStats());
+
+        // Convert to traditional dictionary format for compatibility
+        const dictDir = './dictionaries';
+        await fs.mkdir(dictDir, { recursive: true });
+
+        // Write traditional format dictionaries
+        const baseName = language.name;
+
+        await fs.writeFile(
+            path.join(dictDir, `${baseName}_to_English.json`),
+            JSON.stringify(language.toEnglish, null, 2)
+        );
+
+        await fs.writeFile(
+            path.join(dictDir, `English_to_${baseName}.json`),
+            JSON.stringify(language.toSigment, null, 2)
+        );
+
+        if (Object.keys(language.sigmentDefinitions).length > 0) {
+            await fs.writeFile(
+                path.join(dictDir, `${baseName}_to_${baseName}.json`),
+                JSON.stringify(language.sigmentDefinitions, null, 2)
+            );
+        }
+
+        // Write metadata
+        const metadata = {
+            name: language.name,
+            version: language.version,
+            style: language.style,
+            created: language.created,
+            imported: new Date().toISOString(),
+            source: options.file,
+            ...language.metadata
+        };
+
+        await fs.writeFile(
+            path.join(dictDir, `${baseName}_metadata.json`),
+            JSON.stringify(metadata, null, 2)
+        );
+
+        console.log(`✅ Language "${language.name}" imported successfully`);
+        console.log(`📁 Dictionary files created in: ${dictDir}`);
+
+    } catch (error) {
+        console.error('❌ .sigment import failed:', error.message);
+        console.error('💡 Ensure the .sigment file is valid and readable');
+    }
+}
+
+if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}` ||
     import.meta.url.endsWith(process.argv[1].replace(/\\/g, '/')) ||
     process.argv[1].endsWith('cli.js')) {
     program.parse();
